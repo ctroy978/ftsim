@@ -1,0 +1,110 @@
+items:
+  - name: "Teriyaki Chicken Bowl"
+    price: 9.00
+    health_rating: 7
+    type: food
+    category: savory
+    sub_type: savory
+    energy_boost: false
+    inventory_per_day: 50
+    calories: 650
+
+  - name: "Veggie Burrito Bowl"
+    price: 8.00
+    health_rating: 8
+    type: food
+    category: healthy
+    sub_type: savory
+    energy_boost: false
+    inventory_per_day: 40
+    calories: 520
+
+  - name: "Loaded Nachos"
+    price: 7.50
+    health_rating: 3
+    type: food
+    category: fried
+    sub_type: savory
+    energy_boost: false
+    inventory_per_day: 60
+    calories: 780
+
+  - name: "Grilled Chicken Wrap"
+    price: 8.50
+    health_rating: 7
+    type: food
+    category: healthy
+    sub_type: savory
+    energy_boost: false
+    inventory_per_day: 45
+    calories: 480
+
+  - name: "BBQ Pulled Pork Sandwich"
+    price: 9.50
+    health_rating: 4
+    type: food
+    category: savory
+    sub_type: savory
+    energy_boost: false
+    inventory_per_day: 35
+    calories: 720
+
+  - name: "Fresh Fruit Cup"
+    price: 4.00
+    health_rating: 9
+    type: food
+    category: healthy
+    sub_type: sweet
+    energy_boost: false
+    inventory_per_day: 30
+    calories: 120
+
+  - name: "Chocolate Brownie"
+    price: 3.50
+    health_rating: 2
+    type: food
+    category: sweet
+    sub_type: sweet
+    energy_boost: false
+    inventory_per_day: 50
+    calories: 380
+
+  - name: "Red Bull style energy drink"
+    price: 3.50
+    health_rating: 2
+    type: drink
+    category: energy
+    sub_type: sweet
+    energy_boost: true
+    inventory_per_day: 80
+    calories: 110
+
+  - name: "Fresh Lemonade"
+    price: 3.00
+    health_rating: 5
+    type: drink
+    category: juice
+    sub_type: sweet
+    energy_boost: false
+    inventory_per_day: 60
+    calories: 150
+
+  - name: "Bottled Water"
+    price: 1.50
+    health_rating: 10
+    type: drink
+    category: water
+    sub_type: savory
+    energy_boost: false
+    inventory_per_day: 100
+    calories: 0
+
+  - name: "Iced Coffee"
+    price: 4.00
+    health_rating: 4
+    type: drink
+    category: coffee
+    sub_type: sweet
+    energy_boost: true
+    inventory_per_day: 40
+    calories: 80

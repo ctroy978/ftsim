@@ -1,0 +1,501 @@
+StudentID,Q1_SpendOnDrink,Rank1_Drink,Rank2_Drink,Rank3_Drink
+1,About $1,Pepsi,Coca-Cola,Strawberry milk
+2,About $2,Red Bull style energy drink,Red Bull style energy drink,Regular milk (white)
+3,About $4 or more,Rockstar / Bang style energy drink,Flavored sparkling water,Regular milk (white)
+4,About $2,Monster style energy drink,Orange juice,Dr Pepper
+5,About $4 or more,Monster style energy drink,Red Bull style energy drink,Rockstar / Bang style energy drink
+6,About $3,Rockstar / Bang style energy drink,Apple juice,Flavored sparkling water
+7,About $4 or more,Rockstar / Bang style energy drink,Regular milk (white),Bottled water
+8,About $1,Dr Pepper,Flavored sparkling water,Strawberry milk
+9,About $3,Red Bull style energy drink,Red Bull style energy drink,Dr Pepper
+10,About $3,Rockstar / Bang style energy drink,Sweet tea,Pepsi
+11,About $3,Red Bull style energy drink,Red Bull style energy drink,Chocolate milk
+12,About $4 or more,Rockstar / Bang style energy drink,Monster style energy drink,Iced coffee / coffee drink
+13,About $3,Monster style energy drink,Monster style energy drink,Fruit punch / tropical juice
+14,About $1,Rockstar / Bang style energy drink,Chocolate milk,Flavored sparkling water
+15,About $1,Bottled water,Regular milk (white),Apple juice
+16,About $4 or more,Rockstar / Bang style energy drink,Flavored sparkling water,Chocolate milk
+17,About $4 or more,Sweet tea,Apple juice,Fruit punch / tropical juice
+18,About $1,Rockstar / Bang style energy drink,Sweet tea,Strawberry milk
+19,About $3,Rockstar / Bang style energy drink,Sprite / 7UP,Flavored sparkling water
+20,About $2,Monster style energy drink,Rockstar / Bang style energy drink,Dr Pepper
+21,About $1,Red Bull style energy drink,Regular milk (white),Regular milk (white)
+22,About $3,Rockstar / Bang style energy drink,Sprite / 7UP,Sweet tea
+23,About $2,Monster style energy drink,Flavored sparkling water,Fruit punch / tropical juice
+24,About $1,Monster style energy drink,Sprite / 7UP,Dr Pepper
+25,About $1,Monster style energy drink,Bottled water,Dr Pepper
+26,About $4 or more,Bottled water,Flavored sparkling water,Apple juice
+27,About $2,Monster style energy drink,Green tea / unsweetened tea,Black coffee
+28,About $4 or more,Red Bull style energy drink,Rockstar / Bang style energy drink,Bottled water
+29,About $3,Rockstar / Bang style energy drink,Rockstar / Bang style energy drink,Pepsi
+30,About $3,Bottled water,Black coffee,Strawberry milk
+31,About $4 or more,Flavored sparkling water,Strawberry milk,Coca-Cola
+32,About $3,Monster style energy drink,Monster style energy drink,Mountain Dew
+33,About $1,Rockstar / Bang style energy drink,Monster style energy drink,Coca-Cola
+34,About $3,Red Bull style energy drink,Pepsi,Fruit punch / tropical juice
+35,About $3,Red Bull style energy drink,Bottled water,Fruit punch / tropical juice
+36,About $3,Rockstar / Bang style energy drink,Strawberry milk,Mountain Dew
+37,About $2,Coca-Cola,Strawberry milk,Bottled water
+38,About $2,Rockstar / Bang style energy drink,Rockstar / Bang style energy drink,Dr Pepper
+39,About $1,Monster style energy drink,Regular milk (white),Coca-Cola
+40,About $4 or more,Monster style energy drink,Coca-Cola,Sprite / 7UP
+41,About $4 or more,Red Bull style energy drink,Strawberry milk,Strawberry milk
+42,About $2,Apple juice,Sweet tea,Black coffee
+43,About $4 or more,Monster style energy drink,Monster style energy drink,Flavored sparkling water
+44,About $4 or more,Rockstar / Bang style energy drink,Rockstar / Bang style energy drink,Sprite / 7UP
+45,About $3,Fruit punch / tropical juice,Green tea / unsweetened tea,Flavored sparkling water
+46,About $3,Regular milk (white),Mountain Dew,Bottled water
+47,About $4 or more,Rockstar / Bang style energy drink,Regular milk (white),Apple juice
+48,About $4 or more,Monster style energy drink,Iced coffee / coffee drink,Flavored sparkling water
+49,About $1,Monster style energy drink,Red Bull style energy drink,Flavored sparkling water
+50,About $3,Monster style energy drink,Red Bull style energy drink,Green tea / unsweetened tea
+51,About $2,Red Bull style energy drink,Apple juice,Pepsi
+52,About $1,Regular milk (white),Green tea / unsweetened tea,Fruit punch / tropical juice
+53,About $2,Monster style energy drink,Rockstar / Bang style energy drink,Chocolate milk
+54,About $3,Red Bull style energy drink,Monster style energy drink,Apple juice
+55,About $1,Flavored sparkling water,Mountain Dew,Iced coffee / coffee drink
+56,About $2,Red Bull style energy drink,Regular milk (white),Dr Pepper
+57,About $3,Red Bull style energy drink,Red Bull style energy drink,Fruit punch / tropical juice
+58,About $4 or more,Red Bull style energy drink,Flavored sparkling water,Sweet tea
+59,About $4 or more,Rockstar / Bang style energy drink,Green tea / unsweetened tea,Green tea / unsweetened tea
+60,About $1,Red Bull style energy drink,Pepsi,Sprite / 7UP
+61,About $1,Monster style energy drink,Dr Pepper,Mountain Dew
+62,About $1,Red Bull style energy drink,Bottled water,Chocolate milk
+63,About $1,Rockstar / Bang style energy drink,Bottled water,Green tea / unsweetened tea
+64,About $1,Bottled water,Sweet tea,Flavored sparkling water
+65,About $2,Fruit punch / tropical juice,Green tea / unsweetened tea,Strawberry milk
+66,About $2,Strawberry milk,Sweet tea,Mountain Dew
+67,About $1,Red Bull style energy drink,Flavored sparkling water,Black coffee
+68,About $1,Monster style energy drink,Coca-Cola,Apple juice
+69,About $3,Chocolate milk,Dr Pepper,Coca-Cola
+70,About $1,Sweet tea,Chocolate milk,Coca-Cola
+71,About $2,Red Bull style energy drink,Fruit punch / tropical juice,Bottled water
+72,About $2,Fruit punch / tropical juice,Sweet tea,Dr Pepper
+73,About $1,Fruit punch / tropical juice,Chocolate milk,Iced coffee / coffee drink
+74,About $3,Orange juice,Dr Pepper,Sweet tea
+75,About $2,Red Bull style energy drink,Apple juice,Dr Pepper
+76,About $1,Red Bull style energy drink,Pepsi,Iced coffee / coffee drink
+77,About $4 or more,Monster style energy drink,Flavored sparkling water,Flavored sparkling water
+78,About $4 or more,Monster style energy drink,Sprite / 7UP,Mountain Dew
+79,About $4 or more,Red Bull style energy drink,Coca-Cola,Regular milk (white)
+80,About $4 or more,Red Bull style energy drink,Bottled water,Sweet tea
+81,About $2,Monster style energy drink,Regular milk (white),Orange juice
+82,About $1,Dr Pepper,Apple juice,Regular milk (white)
+83,About $4 or more,Pepsi,Regular milk (white),Coca-Cola
+84,About $3,Monster style energy drink,Flavored sparkling water,Fruit punch / tropical juice
+85,About $3,Sweet tea,Flavored sparkling water,Flavored sparkling water
+86,About $3,Red Bull style energy drink,Flavored sparkling water,Bottled water
+87,About $2,Red Bull style energy drink,Apple juice,Fruit punch / tropical juice
+88,About $2,Monster style energy drink,Chocolate milk,Black coffee
+89,About $2,Red Bull style energy drink,Rockstar / Bang style energy drink,Green tea / unsweetened tea
+90,About $3,Red Bull style energy drink,Monster style energy drink,Coca-Cola
+91,About $3,Rockstar / Bang style energy drink,Red Bull style energy drink,Black coffee
+92,About $1,Red Bull style energy drink,Monster style energy drink,Apple juice
+93,About $1,Bottled water,Regular milk (white),Sprite / 7UP
+94,About $1,Rockstar / Bang style energy drink,Bottled water,Mountain Dew
+95,About $4 or more,Red Bull style energy drink,Rockstar / Bang style energy drink,Mountain Dew
+96,About $4 or more,Red Bull style energy drink,Chocolate milk,Flavored sparkling water
+97,About $4 or more,Rockstar / Bang style energy drink,Rockstar / Bang style energy drink,Red Bull style energy drink
+98,About $4 or more,Flavored sparkling water,Sprite / 7UP,Sprite / 7UP
+99,About $4 or more,Regular milk (white),Sweet tea,Dr Pepper
+100,About $4 or more,Coca-Cola,Mountain Dew,Regular milk (white)
+101,About $1,Rockstar / Bang style energy drink,Bottled water,Mountain Dew
+102,About $3,Red Bull style energy drink,Chocolate milk,Mountain Dew
+103,About $1,Bottled water,Dr Pepper,Apple juice
+104,About $2,Rockstar / Bang style energy drink,Sprite / 7UP,Mountain Dew
+105,About $4 or more,Coca-Cola,Sprite / 7UP,Chocolate milk
+106,About $3,Dr Pepper,Orange juice,Coca-Cola
+107,About $4 or more,Red Bull style energy drink,Red Bull style energy drink,Black coffee
+108,About $2,Monster style energy drink,Apple juice,Iced coffee / coffee drink
+109,About $4 or more,Monster style energy drink,Red Bull style energy drink,Orange juice
+110,About $1,Red Bull style energy drink,Mountain Dew,Mountain Dew
+111,About $1,Rockstar / Bang style energy drink,Sprite / 7UP,Orange juice
+112,About $2,Red Bull style energy drink,Coca-Cola,Sprite / 7UP
+113,About $1,Monster style energy drink,Bottled water,Green tea / unsweetened tea
+114,About $1,Red Bull style energy drink,Apple juice,Iced coffee / coffee drink
+115,About $1,Rockstar / Bang style energy drink,Rockstar / Bang style energy drink,Chocolate milk
+116,About $2,Monster style energy drink,Apple juice,Mountain Dew
+117,About $4 or more,Rockstar / Bang style energy drink,Monster style energy drink,Pepsi
+118,About $1,Monster style energy drink,Monster style energy drink,Chocolate milk
+119,About $1,Mountain Dew,Fruit punch / tropical juice,Orange juice
+120,About $1,Monster style energy drink,Coca-Cola,Fruit punch / tropical juice
+121,About $1,Rockstar / Bang style energy drink,Rockstar / Bang style energy drink,Fruit punch / tropical juice
+122,About $4 or more,Iced coffee / coffee drink,Sweet tea,Orange juice
+123,About $2,Pepsi,Mountain Dew,Coca-Cola
+124,About $1,Rockstar / Bang style energy drink,Orange juice,Pepsi
+125,About $3,Rockstar / Bang style energy drink,Black coffee,Sweet tea
+126,About $3,Rockstar / Bang style energy drink,Monster style energy drink,Iced coffee / coffee drink
+127,About $4 or more,Rockstar / Bang style energy drink,Red Bull style energy drink,Rockstar / Bang style energy drink
+128,About $2,Red Bull style energy drink,Apple juice,Coca-Cola
+129,About $1,Red Bull style energy drink,Red Bull style energy drink,Pepsi
+130,About $1,Monster style energy drink,Dr Pepper,Sweet tea
+131,About $3,Bottled water,Coca-Cola,Bottled water
+132,About $2,Monster style energy drink,Monster style energy drink,Dr Pepper
+133,About $1,Red Bull style energy drink,Chocolate milk,Sprite / 7UP
+134,About $1,Sweet tea,Strawberry milk,Regular milk (white)
+135,About $3,Rockstar / Bang style energy drink,Strawberry milk,Iced coffee / coffee drink
+136,About $3,Rockstar / Bang style energy drink,Mountain Dew,Sprite / 7UP
+137,About $3,Red Bull style energy drink,Monster style energy drink,Dr Pepper
+138,About $1,Bottled water,Regular milk (white),Pepsi
+139,About $2,Chocolate milk,Flavored sparkling water,Coca-Cola
+140,About $2,Rockstar / Bang style energy drink,Coca-Cola,Green tea / unsweetened tea
+141,About $4 or more,Red Bull style energy drink,Orange juice,Sprite / 7UP
+142,About $4 or more,Red Bull style energy drink,Red Bull style energy drink,Black coffee
+143,About $4 or more,Coca-Cola,Apple juice,Chocolate milk
+144,About $1,Red Bull style energy drink,Strawberry milk,Green tea / unsweetened tea
+145,About $3,Rockstar / Bang style energy drink,Mountain Dew,Black coffee
+146,About $4 or more,Red Bull style energy drink,Black coffee,Mountain Dew
+147,About $2,Rockstar / Bang style energy drink,Orange juice,Orange juice
+148,About $1,Rockstar / Bang style energy drink,Monster style energy drink,Sweet tea
+149,About $2,Rockstar / Bang style energy drink,Bottled water,Dr Pepper
+150,About $1,Rockstar / Bang style energy drink,Coca-Cola,Regular milk (white)
+151,About $2,Rockstar / Bang style energy drink,Coca-Cola,Dr Pepper
+152,About $2,Rockstar / Bang style energy drink,Dr Pepper,Regular milk (white)
+153,About $2,Monster style energy drink,Strawberry milk,Strawberry milk
+154,About $4 or more,Monster style energy drink,Dr Pepper,Dr Pepper
+155,About $4 or more,Apple juice,Green tea / unsweetened tea,Mountain Dew
+156,About $2,Rockstar / Bang style energy drink,Rockstar / Bang style energy drink,Dr Pepper
+157,About $3,Monster style energy drink,Monster style energy drink,Orange juice
+158,About $2,Rockstar / Bang style energy drink,Green tea / unsweetened tea,Regular milk (white)
+159,About $4 or more,Monster style energy drink,Rockstar / Bang style energy drink,Fruit punch / tropical juice
+160,About $4 or more,Red Bull style energy drink,Monster style energy drink,Chocolate milk
+161,About $2,Rockstar / Bang style energy drink,Regular milk (white),Strawberry milk
+162,About $2,Red Bull style energy drink,Dr Pepper,Fruit punch / tropical juice
+163,About $3,Red Bull style energy drink,Chocolate milk,Green tea / unsweetened tea
+164,About $3,Monster style energy drink,Rockstar / Bang style energy drink,Chocolate milk
+165,About $1,Bottled water,Dr Pepper,Sprite / 7UP
+166,About $3,Monster style energy drink,Rockstar / Bang style energy drink,Mountain Dew
+167,About $2,Rockstar / Bang style energy drink,Rockstar / Bang style energy drink,Green tea / unsweetened tea
+168,About $4 or more,Red Bull style energy drink,Red Bull style energy drink,Mountain Dew
+169,About $2,Strawberry milk,Coca-Cola,Sprite / 7UP
+170,About $4 or more,Red Bull style energy drink,Bottled water,Bottled water
+171,About $4 or more,Monster style energy drink,Rockstar / Bang style energy drink,Sweet tea
+172,About $4 or more,Monster style energy drink,Orange juice,Black coffee
+173,About $2,Monster style energy drink,Sweet tea,Sprite / 7UP
+174,About $4 or more,Red Bull style energy drink,Pepsi,Flavored sparkling water
+175,About $2,Monster style energy drink,Pepsi,Iced coffee / coffee drink
+176,About $3,Monster style energy drink,Rockstar / Bang style energy drink,Sweet tea
+177,About $1,Red Bull style energy drink,Sweet tea,Mountain Dew
+178,About $2,Red Bull style energy drink,Monster style energy drink,Strawberry milk
+179,About $3,Red Bull style energy drink,Monster style energy drink,Chocolate milk
+180,About $1,Bottled water,Regular milk (white),Regular milk (white)
+181,About $3,Rockstar / Bang style energy drink,Monster style energy drink,Orange juice
+182,About $2,Regular milk (white),Sweet tea,Fruit punch / tropical juice
+183,About $4 or more,Sprite / 7UP,Sweet tea,Regular milk (white)
+184,About $2,Rockstar / Bang style energy drink,Strawberry milk,Regular milk (white)
+185,About $2,Monster style energy drink,Fruit punch / tropical juice,Dr Pepper
+186,About $1,Monster style energy drink,Red Bull style energy drink,Pepsi
+187,About $3,Red Bull style energy drink,Red Bull style energy drink,Pepsi
+188,About $4 or more,Orange juice,Coca-Cola,Chocolate milk
+189,About $4 or more,Apple juice,Apple juice,Fruit punch / tropical juice
+190,About $3,Monster style energy drink,Monster style energy drink,Bottled water
+191,About $3,Dr Pepper,Mountain Dew,Chocolate milk
+192,About $4 or more,Coca-Cola,Chocolate milk,Sweet tea
+193,About $3,Rockstar / Bang style energy drink,Monster style energy drink,Fruit punch / tropical juice
+194,About $4 or more,Rockstar / Bang style energy drink,Green tea / unsweetened tea,Mountain Dew
+195,About $4 or more,Sweet tea,Iced coffee / coffee drink,Orange juice
+196,About $3,Rockstar / Bang style energy drink,Chocolate milk,Regular milk (white)
+197,About $2,Rockstar / Bang style energy drink,Dr Pepper,Green tea / unsweetened tea
+198,About $3,Monster style energy drink,Rockstar / Bang style energy drink,Iced coffee / coffee drink
+199,About $3,Rockstar / Bang style energy drink,Rockstar / Bang style energy drink,Pepsi
+200,About $3,Rockstar / Bang style energy drink,Green tea / unsweetened tea,Coca-Cola
+201,About $1,Monster style energy drink,Mountain Dew,Black coffee
+202,About $4 or more,Rockstar / Bang style energy drink,Bottled water,Strawberry milk
+203,About $3,Monster style energy drink,Red Bull style energy drink,Mountain Dew
+204,About $3,Monster style energy drink,Red Bull style energy drink,Coca-Cola
+205,About $4 or more,Rockstar / Bang style energy drink,Monster style energy drink,Iced coffee / coffee drink
+206,About $4 or more,Rockstar / Bang style energy drink,Monster style energy drink,Rockstar / Bang style energy drink
+207,About $2,Rockstar / Bang style energy drink,Apple juice,Black coffee
+208,About $2,Red Bull style energy drink,Regular milk (white),Coca-Cola
+209,About $1,Bottled water,Sprite / 7UP,Iced coffee / coffee drink
+210,About $2,Mountain Dew,Orange juice,Orange juice
+211,About $3,Apple juice,Dr Pepper,Orange juice
+212,About $1,Rockstar / Bang style energy drink,Dr Pepper,Mountain Dew
+213,About $3,Monster style energy drink,Pepsi,Mountain Dew
+214,About $2,Sweet tea,Chocolate milk,Apple juice
+215,About $1,Rockstar / Bang style energy drink,Bottled water,Pepsi
+216,About $3,Rockstar / Bang style energy drink,Sprite / 7UP,Pepsi
+217,About $2,Red Bull style energy drink,Strawberry milk,Fruit punch / tropical juice
+218,About $2,Flavored sparkling water,Dr Pepper,Coca-Cola
+219,About $2,Rockstar / Bang style energy drink,Green tea / unsweetened tea,Coca-Cola
+220,About $3,Red Bull style energy drink,Pepsi,Coca-Cola
+221,About $4 or more,Red Bull style energy drink,Iced coffee / coffee drink,Chocolate milk
+222,About $3,Monster style energy drink,Bottled water,Coca-Cola
+223,About $3,Red Bull style energy drink,Orange juice,Green tea / unsweetened tea
+224,About $3,Apple juice,Sprite / 7UP,Black coffee
+225,About $4 or more,Rockstar / Bang style energy drink,Black coffee,Orange juice
+226,About $1,Rockstar / Bang style energy drink,Bottled water,Dr Pepper
+227,About $3,Rockstar / Bang style energy drink,Apple juice,Mountain Dew
+228,About $1,Pepsi,Sprite / 7UP,Sprite / 7UP
+229,About $3,Red Bull style energy drink,Bottled water,Strawberry milk
+230,About $2,Monster style energy drink,Pepsi,Fruit punch / tropical juice
+231,About $4 or more,Monster style energy drink,Coca-Cola,Orange juice
+232,About $2,Apple juice,Regular milk (white),Fruit punch / tropical juice
+233,About $2,Apple juice,Coca-Cola,Fruit punch / tropical juice
+234,About $4 or more,Red Bull style energy drink,Sweet tea,Coca-Cola
+235,About $1,Red Bull style energy drink,Bottled water,Iced coffee / coffee drink
+236,About $1,Rockstar / Bang style energy drink,Flavored sparkling water,Apple juice
+237,About $1,Rockstar / Bang style energy drink,Dr Pepper,Black coffee
+238,About $1,Red Bull style energy drink,Bottled water,Strawberry milk
+239,About $2,Rockstar / Bang style energy drink,Regular milk (white),Dr Pepper
+240,About $1,Sprite / 7UP,Chocolate milk,Sweet tea
+241,About $1,Rockstar / Bang style energy drink,Coca-Cola,Fruit punch / tropical juice
+242,About $2,Red Bull style energy drink,Sprite / 7UP,Iced coffee / coffee drink
+243,About $3,Monster style energy drink,Rockstar / Bang style energy drink,Dr Pepper
+244,About $2,Rockstar / Bang style energy drink,Chocolate milk,Black coffee
+245,About $1,Monster style energy drink,Bottled water,Dr Pepper
+246,About $2,Rockstar / Bang style energy drink,Rockstar / Bang style energy drink,Dr Pepper
+247,About $1,Pepsi,Dr Pepper,Apple juice
+248,About $4 or more,Monster style energy drink,Monster style energy drink,Red Bull style energy drink
+249,About $1,Rockstar / Bang style energy drink,Green tea / unsweetened tea,Orange juice
+250,About $1,Monster style energy drink,Rockstar / Bang style energy drink,Coca-Cola
+251,About $4 or more,Chocolate milk,Strawberry milk,Coca-Cola
+252,About $1,Monster style energy drink,Bottled water,Sprite / 7UP
+253,About $1,Coca-Cola,Mountain Dew,Iced coffee / coffee drink
+254,About $1,Bottled water,Apple juice,Regular milk (white)
+255,About $2,Fruit punch / tropical juice,Coca-Cola,Pepsi
+256,About $2,Flavored sparkling water,Sprite / 7UP,Mountain Dew
+257,About $4 or more,Red Bull style energy drink,Mountain Dew,Mountain Dew
+258,About $3,Rockstar / Bang style energy drink,Orange juice,Bottled water
+259,About $1,Rockstar / Bang style energy drink,Sweet tea,Sweet tea
+260,About $3,Monster style energy drink,Monster style energy drink,Bottled water
+261,About $1,Red Bull style energy drink,Bottled water,Strawberry milk
+262,About $2,Apple juice,Coca-Cola,Black coffee
+263,About $4 or more,Mountain Dew,Orange juice,Fruit punch / tropical juice
+264,About $1,Red Bull style energy drink,Rockstar / Bang style energy drink,Green tea / unsweetened tea
+265,About $1,Rockstar / Bang style energy drink,Regular milk (white),Fruit punch / tropical juice
+266,About $3,Red Bull style energy drink,Rockstar / Bang style energy drink,Coca-Cola
+267,About $2,Strawberry milk,Coca-Cola,Mountain Dew
+268,About $4 or more,Bottled water,Bottled water,Black coffee
+269,About $2,Flavored sparkling water,Green tea / unsweetened tea,Dr Pepper
+270,About $2,Green tea / unsweetened tea,Regular milk (white),Chocolate milk
+271,About $1,Coca-Cola,Chocolate milk,Regular milk (white)
+272,About $1,Red Bull style energy drink,Flavored sparkling water,Orange juice
+273,About $2,Strawberry milk,Bottled water,Mountain Dew
+274,About $1,Mountain Dew,Regular milk (white),Pepsi
+275,About $2,Fruit punch / tropical juice,Coca-Cola,Flavored sparkling water
+276,About $1,Mountain Dew,Orange juice,Iced coffee / coffee drink
+277,About $2,Rockstar / Bang style energy drink,Strawberry milk,Regular milk (white)
+278,About $2,Monster style energy drink,Orange juice,Coca-Cola
+279,About $1,Red Bull style energy drink,Monster style energy drink,Apple juice
+280,About $1,Monster style energy drink,Monster style energy drink,Regular milk (white)
+281,About $4 or more,Red Bull style energy drink,Monster style energy drink,Fruit punch / tropical juice
+282,About $4 or more,Monster style energy drink,Monster style energy drink,Green tea / unsweetened tea
+283,About $3,Monster style energy drink,Red Bull style energy drink,Rockstar / Bang style energy drink
+284,About $1,Rockstar / Bang style energy drink,Red Bull style energy drink,Regular milk (white)
+285,About $2,Sprite / 7UP,Sprite / 7UP,Flavored sparkling water
+286,About $4 or more,Red Bull style energy drink,Coca-Cola,Regular milk (white)
+287,About $2,Fruit punch / tropical juice,Fruit punch / tropical juice,Bottled water
+288,About $2,Flavored sparkling water,Strawberry milk,Chocolate milk
+289,About $1,Red Bull style energy drink,Bottled water,Fruit punch / tropical juice
+290,About $3,Monster style energy drink,Black coffee,Orange juice
+291,About $1,Monster style energy drink,Mountain Dew,Green tea / unsweetened tea
+292,About $1,Chocolate milk,Sweet tea,Black coffee
+293,About $4 or more,Red Bull style energy drink,Apple juice,Orange juice
+294,About $4 or more,Monster style energy drink,Flavored sparkling water,Black coffee
+295,About $3,Red Bull style energy drink,Monster style energy drink,Coca-Cola
+296,About $2,Red Bull style energy drink,Green tea / unsweetened tea,Sweet tea
+297,About $3,Red Bull style energy drink,Sprite / 7UP,Sprite / 7UP
+298,About $1,Monster style energy drink,Bottled water,Green tea / unsweetened tea
+299,About $2,Red Bull style energy drink,Red Bull style energy drink,Red Bull style energy drink
+300,About $4 or more,Monster style energy drink,Coca-Cola,Black coffee
+301,About $4 or more,Red Bull style energy drink,Apple juice,Dr Pepper
+302,About $4 or more,Monster style energy drink,Fruit punch / tropical juice,Orange juice
+303,About $1,Red Bull style energy drink,Monster style energy drink,Green tea / unsweetened tea
+304,About $4 or more,Monster style energy drink,Coca-Cola,Chocolate milk
+305,About $2,Rockstar / Bang style energy drink,Fruit punch / tropical juice,Fruit punch / tropical juice
+306,About $1,Rockstar / Bang style energy drink,Fruit punch / tropical juice,Iced coffee / coffee drink
+307,About $2,Red Bull style energy drink,Apple juice,Chocolate milk
+308,About $3,Red Bull style energy drink,Rockstar / Bang style energy drink,Apple juice
+309,About $1,Monster style energy drink,Fruit punch / tropical juice,Apple juice
+310,About $2,Monster style energy drink,Strawberry milk,Black coffee
+311,About $3,Monster style energy drink,Monster style energy drink,Orange juice
+312,About $3,Red Bull style energy drink,Coca-Cola,Regular milk (white)
+313,About $2,Rockstar / Bang style energy drink,Orange juice,Flavored sparkling water
+314,About $2,Sweet tea,Fruit punch / tropical juice,Bottled water
+315,About $4 or more,Rockstar / Bang style energy drink,Red Bull style energy drink,Flavored sparkling water
+316,About $2,Monster style energy drink,Rockstar / Bang style energy drink,Dr Pepper
+317,About $3,Dr Pepper,Orange juice,Mountain Dew
+318,About $1,Mountain Dew,Regular milk (white),Coca-Cola
+319,About $1,Bottled water,Orange juice,Dr Pepper
+320,About $1,Bottled water,Flavored sparkling water,Fruit punch / tropical juice
+321,About $2,Red Bull style energy drink,Red Bull style energy drink,Iced coffee / coffee drink
+322,About $2,Rockstar / Bang style energy drink,Green tea / unsweetened tea,Pepsi
+323,About $3,Monster style energy drink,Sweet tea,Pepsi
+324,About $1,Monster style energy drink,Coca-Cola,Fruit punch / tropical juice
+325,About $2,Monster style energy drink,Red Bull style energy drink,Bottled water
+326,About $4 or more,Orange juice,Regular milk (white),Flavored sparkling water
+327,About $3,Monster style energy drink,Fruit punch / tropical juice,Black coffee
+328,About $1,Bottled water,Green tea / unsweetened tea,Flavored sparkling water
+329,About $4 or more,Rockstar / Bang style energy drink,Flavored sparkling water,Black coffee
+330,About $3,Sprite / 7UP,Apple juice,Orange juice
+331,About $1,Red Bull style energy drink,Bottled water,Iced coffee / coffee drink
+332,About $1,Bottled water,Sprite / 7UP,Apple juice
+333,About $1,Rockstar / Bang style energy drink,Sprite / 7UP,Flavored sparkling water
+334,About $1,Rockstar / Bang style energy drink,Red Bull style energy drink,Pepsi
+335,About $4 or more,Rockstar / Bang style energy drink,Flavored sparkling water,Bottled water
+336,About $1,Green tea / unsweetened tea,Green tea / unsweetened tea,Strawberry milk
+337,About $4 or more,Rockstar / Bang style energy drink,Iced coffee / coffee drink,Dr Pepper
+338,About $3,Rockstar / Bang style energy drink,Monster style energy drink,Dr Pepper
+339,About $2,Monster style energy drink,Red Bull style energy drink,Fruit punch / tropical juice
+340,About $3,Monster style energy drink,Black coffee,Fruit punch / tropical juice
+341,About $2,Rockstar / Bang style energy drink,Mountain Dew,Pepsi
+342,About $4 or more,Sweet tea,Pepsi,Pepsi
+343,About $2,Monster style energy drink,Rockstar / Bang style energy drink,Flavored sparkling water
+344,About $1,Monster style energy drink,Mountain Dew,Iced coffee / coffee drink
+345,About $1,Flavored sparkling water,Green tea / unsweetened tea,Black coffee
+346,About $4 or more,Pepsi,Flavored sparkling water,Green tea / unsweetened tea
+347,About $1,Red Bull style energy drink,Dr Pepper,Sweet tea
+348,About $1,Red Bull style energy drink,Orange juice,Iced coffee / coffee drink
+349,About $4 or more,Rockstar / Bang style energy drink,Dr Pepper,Orange juice
+350,About $4 or more,Dr Pepper,Sprite / 7UP,Dr Pepper
+351,About $2,Sprite / 7UP,Pepsi,Apple juice
+352,About $1,Monster style energy drink,Bottled water,Fruit punch / tropical juice
+353,About $3,Rockstar / Bang style energy drink,Iced coffee / coffee drink,Orange juice
+354,About $3,Sweet tea,Orange juice,Iced coffee / coffee drink
+355,About $1,Monster style energy drink,Strawberry milk,Iced coffee / coffee drink
+356,About $3,Red Bull style energy drink,Red Bull style energy drink,Black coffee
+357,About $1,Strawberry milk,Mountain Dew,Fruit punch / tropical juice
+358,About $3,Red Bull style energy drink,Flavored sparkling water,Coca-Cola
+359,About $1,Bottled water,Apple juice,Dr Pepper
+360,About $3,Red Bull style energy drink,Regular milk (white),Iced coffee / coffee drink
+361,About $3,Rockstar / Bang style energy drink,Rockstar / Bang style energy drink,Apple juice
+362,About $4 or more,Dr Pepper,Fruit punch / tropical juice,Orange juice
+363,About $1,Rockstar / Bang style energy drink,Mountain Dew,Regular milk (white)
+364,About $4 or more,Bottled water,Coca-Cola,Apple juice
+365,About $3,Red Bull style energy drink,Red Bull style energy drink,Mountain Dew
+366,About $1,Rockstar / Bang style energy drink,Fruit punch / tropical juice,Flavored sparkling water
+367,About $1,Bottled water,Pepsi,Apple juice
+368,About $2,Red Bull style energy drink,Red Bull style energy drink,Black coffee
+369,About $4 or more,Red Bull style energy drink,Red Bull style energy drink,Regular milk (white)
+370,About $1,Red Bull style energy drink,Flavored sparkling water,Fruit punch / tropical juice
+371,About $3,Rockstar / Bang style energy drink,Monster style energy drink,Iced coffee / coffee drink
+372,About $3,Pepsi,Sprite / 7UP,Chocolate milk
+373,About $1,Fruit punch / tropical juice,Black coffee,Black coffee
+374,About $1,Sweet tea,Chocolate milk,Orange juice
+375,About $4 or more,Monster style energy drink,Red Bull style energy drink,Monster style energy drink
+376,About $1,Bottled water,Dr Pepper,Pepsi
+377,About $1,Rockstar / Bang style energy drink,Rockstar / Bang style energy drink,Rockstar / Bang style energy drink
+378,About $1,Rockstar / Bang style energy drink,Green tea / unsweetened tea,Sprite / 7UP
+379,About $2,Mountain Dew,Regular milk (white),Black coffee
+380,About $1,Red Bull style energy drink,Sprite / 7UP,Black coffee
+381,About $3,Rockstar / Bang style energy drink,Sprite / 7UP,Mountain Dew
+382,About $4 or more,Red Bull style energy drink,Strawberry milk,Regular milk (white)
+383,About $2,Chocolate milk,Fruit punch / tropical juice,Strawberry milk
+384,About $1,Rockstar / Bang style energy drink,Red Bull style energy drink,Fruit punch / tropical juice
+385,About $3,Monster style energy drink,Bottled water,Flavored sparkling water
+386,About $3,Rockstar / Bang style energy drink,Iced coffee / coffee drink,Apple juice
+387,About $3,Monster style energy drink,Regular milk (white),Green tea / unsweetened tea
+388,About $3,Rockstar / Bang style energy drink,Green tea / unsweetened tea,Green tea / unsweetened tea
+389,About $2,Monster style energy drink,Strawberry milk,Fruit punch / tropical juice
+390,About $4 or more,Rockstar / Bang style energy drink,Black coffee,Flavored sparkling water
+391,About $2,Pepsi,Pepsi,Coca-Cola
+392,About $3,Rockstar / Bang style energy drink,Iced coffee / coffee drink,Pepsi
+393,About $3,Mountain Dew,Green tea / unsweetened tea,Sweet tea
+394,About $4 or more,Monster style energy drink,Orange juice,Chocolate milk
+395,About $2,Red Bull style energy drink,Flavored sparkling water,Dr Pepper
+396,About $2,Rockstar / Bang style energy drink,Dr Pepper,Iced coffee / coffee drink
+397,About $2,Red Bull style energy drink,Red Bull style energy drink,Apple juice
+398,About $4 or more,Sprite / 7UP,Flavored sparkling water,Coca-Cola
+399,About $4 or more,Red Bull style energy drink,Chocolate milk,Fruit punch / tropical juice
+400,About $4 or more,Monster style energy drink,Orange juice,Dr Pepper
+401,About $3,Fruit punch / tropical juice,Chocolate milk,Flavored sparkling water
+402,About $3,Red Bull style energy drink,Pepsi,Apple juice
+403,About $1,Orange juice,Strawberry milk,Black coffee
+404,About $3,Red Bull style energy drink,Coca-Cola,Sweet tea
+405,About $4 or more,Red Bull style energy drink,Green tea / unsweetened tea,Black coffee
+406,About $2,Red Bull style energy drink,Dr Pepper,Black coffee
+407,About $2,Red Bull style energy drink,Orange juice,Bottled water
+408,About $3,Rockstar / Bang style energy drink,Fruit punch / tropical juice,Pepsi
+409,About $2,Bottled water,Chocolate milk,Flavored sparkling water
+410,About $3,Green tea / unsweetened tea,Flavored sparkling water,Chocolate milk
+411,About $2,Pepsi,Strawberry milk,Strawberry milk
+412,About $2,Monster style energy drink,Fruit punch / tropical juice,Green tea / unsweetened tea
+413,About $1,Bottled water,Chocolate milk,Black coffee
+414,About $2,Red Bull style energy drink,Chocolate milk,Sprite / 7UP
+415,About $3,Monster style energy drink,Flavored sparkling water,Regular milk (white)
+416,About $2,Rockstar / Bang style energy drink,Monster style energy drink,Rockstar / Bang style energy drink
+417,About $4 or more,Red Bull style energy drink,Flavored sparkling water,Orange juice
+418,About $2,Red Bull style energy drink,Rockstar / Bang style energy drink,Pepsi
+419,About $3,Rockstar / Bang style energy drink,Regular milk (white),Apple juice
+420,About $3,Regular milk (white),Chocolate milk,Strawberry milk
+421,About $1,Red Bull style energy drink,Bottled water,Mountain Dew
+422,About $1,Red Bull style energy drink,Regular milk (white),Sprite / 7UP
+423,About $1,Red Bull style energy drink,Orange juice,Black coffee
+424,About $2,Monster style energy drink,Regular milk (white),Pepsi
+425,About $4 or more,Red Bull style energy drink,Chocolate milk,Mountain Dew
+426,About $2,Rockstar / Bang style energy drink,Green tea / unsweetened tea,Bottled water
+427,About $3,Red Bull style energy drink,Flavored sparkling water,Iced coffee / coffee drink
+428,About $3,Rockstar / Bang style energy drink,Rockstar / Bang style energy drink,Bottled water
+429,About $1,Bottled water,Fruit punch / tropical juice,Orange juice
+430,About $3,Rockstar / Bang style energy drink,Red Bull style energy drink,Black coffee
+431,About $4 or more,Red Bull style energy drink,Red Bull style energy drink,Mountain Dew
+432,About $2,Green tea / unsweetened tea,Sprite / 7UP,Black coffee
+433,About $4 or more,Rockstar / Bang style energy drink,Rockstar / Bang style energy drink,Flavored sparkling water
+434,About $2,Strawberry milk,Chocolate milk,Apple juice
+435,About $4 or more,Rockstar / Bang style energy drink,Bottled water,Pepsi
+436,About $3,Sweet tea,Green tea / unsweetened tea,Strawberry milk
+437,About $4 or more,Red Bull style energy drink,Chocolate milk,Flavored sparkling water
+438,About $1,Fruit punch / tropical juice,Pepsi,Flavored sparkling water
+439,About $4 or more,Red Bull style energy drink,Bottled water,Coca-Cola
+440,About $2,Chocolate milk,Sweet tea,Dr Pepper
+441,About $2,Red Bull style energy drink,Pepsi,Regular milk (white)
+442,About $1,Bottled water,Fruit punch / tropical juice,Black coffee
+443,About $2,Apple juice,Mountain Dew,Sweet tea
+444,About $4 or more,Coca-Cola,Strawberry milk,Black coffee
+445,About $4 or more,Rockstar / Bang style energy drink,Dr Pepper,Orange juice
+446,About $2,Red Bull style energy drink,Dr Pepper,Iced coffee / coffee drink
+447,About $1,Rockstar / Bang style energy drink,Monster style energy drink,Bottled water
+448,About $4 or more,Red Bull style energy drink,Chocolate milk,Sweet tea
+449,About $2,Bottled water,Orange juice,Green tea / unsweetened tea
+450,About $4 or more,Red Bull style energy drink,Monster style energy drink,Mountain Dew
+451,About $3,Red Bull style energy drink,Iced coffee / coffee drink,Fruit punch / tropical juice
+452,About $2,Rockstar / Bang style energy drink,Monster style energy drink,Fruit punch / tropical juice
+453,About $4 or more,Monster style energy drink,Pepsi,Sweet tea
+454,About $4 or more,Monster style energy drink,Red Bull style energy drink,Red Bull style energy drink
+455,About $3,Red Bull style energy drink,Flavored sparkling water,Orange juice
+456,About $3,Rockstar / Bang style energy drink,Monster style energy drink,Rockstar / Bang style energy drink
+457,About $2,Chocolate milk,Orange juice,Mountain Dew
+458,About $4 or more,Monster style energy drink,Fruit punch / tropical juice,Chocolate milk
+459,About $3,Regular milk (white),Chocolate milk,Mountain Dew
+460,About $2,Monster style energy drink,Pepsi,Strawberry milk
+461,About $2,Apple juice,Bottled water,Black coffee
+462,About $3,Chocolate milk,Flavored sparkling water,Bottled water
+463,About $3,Monster style energy drink,Coca-Cola,Apple juice
+464,About $4 or more,Red Bull style energy drink,Monster style energy drink,Sprite / 7UP
+465,About $3,Red Bull style energy drink,Chocolate milk,Dr Pepper
+466,About $3,Red Bull style energy drink,Fruit punch / tropical juice,Sweet tea
+467,About $3,Black coffee,Coca-Cola,Orange juice
+468,About $1,Bottled water,Chocolate milk,Green tea / unsweetened tea
+469,About $4 or more,Monster style energy drink,Apple juice,Fruit punch / tropical juice
+470,About $3,Red Bull style energy drink,Monster style energy drink,Rockstar / Bang style energy drink
+471,About $4 or more,Monster style energy drink,Monster style energy drink,Fruit punch / tropical juice
+472,About $4 or more,Rockstar / Bang style energy drink,Mountain Dew,Mountain Dew
+473,About $1,Dr Pepper,Apple juice,Pepsi
+474,About $3,Chocolate milk,Black coffee,Black coffee
+475,About $1,Bottled water,Sprite / 7UP,Chocolate milk
+476,About $4 or more,Regular milk (white),Black coffee,Chocolate milk
+477,About $3,Mountain Dew,Mountain Dew,Green tea / unsweetened tea
+478,About $3,Red Bull style energy drink,Monster style energy drink,Regular milk (white)
+479,About $2,Sweet tea,Mountain Dew,Coca-Cola
+480,About $2,Monster style energy drink,Chocolate milk,Fruit punch / tropical juice
+481,About $4 or more,Red Bull style energy drink,Monster style energy drink,Sprite / 7UP
+482,About $2,Monster style energy drink,Flavored sparkling water,Chocolate milk
+483,About $3,Monster style energy drink,Regular milk (white),Coca-Cola
+484,About $2,Monster style energy drink,Rockstar / Bang style energy drink,Regular milk (white)
+485,About $1,Orange juice,Regular milk (white),Sweet tea
+486,About $1,Rockstar / Bang style energy drink,Strawberry milk,Green tea / unsweetened tea
+487,About $3,Red Bull style energy drink,Red Bull style energy drink,Monster style energy drink
+488,About $3,Red Bull style energy drink,Monster style energy drink,Regular milk (white)
+489,About $4 or more,Sprite / 7UP,Dr Pepper,Sweet tea
+490,About $4 or more,Red Bull style energy drink,Orange juice,Bottled water
+491,About $2,Red Bull style energy drink,Red Bull style energy drink,Rockstar / Bang style energy drink
+492,About $3,Chocolate milk,Orange juice,Coca-Cola
+493,About $2,Rockstar / Bang style energy drink,Orange juice,Bottled water
+494,About $2,Chocolate milk,Fruit punch / tropical juice,Mountain Dew
+495,About $4 or more,Red Bull style energy drink,Iced coffee / coffee drink,Green tea / unsweetened tea
+496,About $2,Regular milk (white),Sprite / 7UP,Fruit punch / tropical juice
+497,About $4 or more,Mountain Dew,Strawberry milk,Green tea / unsweetened tea
+498,About $1,Monster style energy drink,Sweet tea,Pepsi
+499,About $3,Monster style energy drink,Pepsi,Fruit punch / tropical juice
+500,About $1,Monster style energy drink,Pepsi,Strawberry milk
