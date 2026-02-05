@@ -2,6 +2,7 @@
 
 import random
 from typing import List, Optional, Tuple
+from dataclasses import dataclass
 
 from ..models.menu_item import MenuItem
 from ..models.student import StudentProfile, StudentDailyState
@@ -15,7 +16,17 @@ from ..config import (
     LOSS_REASON_FASTFOOD,
     ITEM_TYPE_FOOD,
     ITEM_TYPE_DRINK,
+    PENALTY_NO_DRINK,
 )
+
+
+@dataclass
+class TruckOption:
+    """Best food/drink option from a specific truck."""
+    truck: FoodTruck
+    best_food: Optional[MenuItem]
+    best_drink: Optional[MenuItem]
+    combined_score: float
 
 
 def _check_fast_food(profile: StudentProfile, state: StudentDailyState) -> bool:
@@ -29,15 +40,15 @@ def _check_fast_food(profile: StudentProfile, state: StudentDailyState) -> bool:
     return False
 
 
-def _find_best_items(
+def _find_best_items_for_truck(
     truck: FoodTruck,
     profile: StudentProfile,
     state: StudentDailyState,
-) -> Tuple[Optional[MenuItem], Optional[MenuItem], float]:
-    """Find best food and drink items for student.
+) -> TruckOption:
+    """Find best food and drink items for student from a specific truck.
 
     Returns:
-        Tuple of (best_food, best_drink, combined_score)
+        TruckOption with (truck, best_food, best_drink, combined_score)
     """
     available_food = truck.get_available_food()
     available_drinks = truck.get_available_drinks()
@@ -62,19 +73,49 @@ def _find_best_items(
             best_drink_score = score
             best_drink = item
 
-    # Combined score is the max of food score and (food + drink) if both affordable
+    # Combined score considers whether student can afford food + drink
     combined_score = best_food_score
     if best_food and best_drink:
         if best_food.price + best_drink.price <= state.available_money:
+            # Can afford both - use combined score
             combined_score = max(best_food_score, (best_food_score + best_drink_score) / 1.5)
+        else:
+            # Can afford food but not drink - penalty for incomplete meal
+            combined_score = best_food_score * PENALTY_NO_DRINK
 
-    return best_food, best_drink, combined_score
+    return TruckOption(
+        truck=truck,
+        best_food=best_food,
+        best_drink=best_drink,
+        combined_score=combined_score,
+    )
+
+
+def _find_best_items(
+    trucks: List[FoodTruck],
+    profile: StudentProfile,
+    state: StudentDailyState,
+) -> Optional[TruckOption]:
+    """Find best food and drink items for student across all trucks.
+
+    Returns:
+        TruckOption for the best truck, or None if no options available
+    """
+    best_option: Optional[TruckOption] = None
+
+    for truck in trucks:
+        option = _find_best_items_for_truck(truck, profile, state)
+        if option.best_food is not None:
+            if best_option is None or option.combined_score > best_option.combined_score:
+                best_option = option
+
+    return best_option
 
 
 def make_decision(
     profile: StudentProfile,
     state: StudentDailyState,
-    truck: FoodTruck,
+    trucks: List[FoodTruck],
     school_lunch: SchoolLunch,
 ) -> None:
     """Process a student's lunch decision.
@@ -84,7 +125,7 @@ def make_decision(
     Args:
         profile: Student's permanent profile
         state: Student's daily state (will be modified)
-        truck: The food truck
+        trucks: List of food trucks to consider
         school_lunch: School lunch competitor
     """
     # Check for fast food first
@@ -93,14 +134,16 @@ def make_decision(
         state.loss_reason = LOSS_REASON_FASTFOOD
         return
 
-    # Find best truck items
-    best_food, best_drink, truck_score = _find_best_items(truck, profile, state)
+    # Find best truck option across all trucks
+    best_option = _find_best_items(trucks, profile, state)
 
     # Get school lunch score
     school_score = score_school_lunch(profile, state, school_lunch.price)
 
-    # Check if any truck items are available
-    all_available = truck.get_available_items()
+    # Check if any truck has items available
+    all_available = []
+    for truck in trucks:
+        all_available.extend(truck.get_available_items())
     if not all_available:
         state.chose_school_lunch = True
         state.loss_reason = LOSS_REASON_STOCKOUT
@@ -114,8 +157,11 @@ def make_decision(
         return
 
     # Compare scores
-    if truck_score > school_score and best_food:
-        # Buy from truck
+    if best_option and best_option.combined_score > school_score and best_option.best_food:
+        # Buy from the best truck
+        truck = best_option.truck
+        best_food = best_option.best_food
+        best_drink = best_option.best_drink
         remaining_money = state.available_money
 
         # Try to buy food
@@ -123,9 +169,10 @@ def make_decision(
             if truck.sell_item(best_food):
                 state.purchased_items.append(best_food)
                 state.total_spent += best_food.price
+                state.purchased_from_truck = truck.name
                 remaining_money -= best_food.price
 
-        # Try to also buy drink if affordable
+        # Try to also buy drink if affordable (from same truck)
         if best_drink and best_drink.price <= remaining_money:
             if truck.sell_item(best_drink):
                 state.purchased_items.append(best_drink)
@@ -136,6 +183,7 @@ def make_decision(
             # Stockout occurred during purchase
             state.chose_school_lunch = True
             state.loss_reason = LOSS_REASON_STOCKOUT
+            state.purchased_from_truck = None
     else:
         # School lunch wins
         state.chose_school_lunch = True

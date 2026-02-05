@@ -1,0 +1,92 @@
+name: "Pizza Paradise"
+
+items:
+  - name: "Pepperoni Pizza Slice"
+    price: 4.50
+    health_rating: 3
+    type: food
+    category: savory
+    sub_type: savory
+    energy_boost: false
+    inventory_per_day: 100
+    calories: 350
+
+  - name: "Veggie Pizza Slice"
+    price: 4.00
+    health_rating: 5
+    type: food
+    category: healthy
+    sub_type: savory
+    energy_boost: false
+    inventory_per_day: 60
+    calories: 280
+
+  - name: "Cheese Breadsticks"
+    price: 3.50
+    health_rating: 3
+    type: food
+    category: fried
+    sub_type: savory
+    energy_boost: false
+    inventory_per_day: 80
+    calories: 320
+
+  - name: "Caesar Salad"
+    price: 6.00
+    health_rating: 8
+    type: food
+    category: healthy
+    sub_type: savory
+    energy_boost: false
+    inventory_per_day: 40
+    calories: 220
+
+  - name: "Meat Lovers Calzone"
+    price: 8.00
+    health_rating: 3
+    type: food
+    category: savory
+    sub_type: savory
+    energy_boost: false
+    inventory_per_day: 35
+    calories: 680
+
+  - name: "Cinnamon Sticks"
+    price: 3.00
+    health_rating: 2
+    type: food
+    category: sweet
+    sub_type: sweet
+    energy_boost: false
+    inventory_per_day: 50
+    calories: 340
+
+  - name: "Fountain Soda"
+    price: 2.00
+    health_rating: 2
+    type: drink
+    category: soda
+    sub_type: sweet
+    energy_boost: false
+    inventory_per_day: 150
+    calories: 180
+
+  - name: "Italian Sparkling Water"
+    price: 2.50
+    health_rating: 10
+    type: drink
+    category: water
+    sub_type: savory
+    energy_boost: false
+    inventory_per_day: 80
+    calories: 0
+
+  - name: "Fresh Squeezed OJ"
+    price: 3.50
+    health_rating: 6
+    type: drink
+    category: juice
+    sub_type: sweet
+    energy_boost: false
+    inventory_per_day: 50
+    calories: 120

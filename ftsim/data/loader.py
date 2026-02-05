@@ -4,7 +4,7 @@ import csv
 import json
 import random
 from pathlib import Path
-from typing import List, Dict, Any
+from typing import List, Dict, Any, NamedTuple
 
 from ..models.student import StudentProfile
 from ..models.menu_item import MenuItem
@@ -204,7 +204,13 @@ def load_students(
     return students
 
 
-def load_menu(menu_path: str) -> List[MenuItem]:
+class MenuData(NamedTuple):
+    """Container for loaded menu data."""
+    name: str
+    items: List[MenuItem]
+
+
+def load_menu(menu_path: str) -> MenuData:
     """Load menu from JSON or YAML file.
 
     All fields are required. See README.md for field documentation.
@@ -213,7 +219,7 @@ def load_menu(menu_path: str) -> List[MenuItem]:
         menu_path: Path to menu file (JSON or YAML)
 
     Returns:
-        List of MenuItem objects
+        MenuData named tuple with (name, items)
 
     Raises:
         ValueError: If required fields are missing or have invalid values
@@ -229,6 +235,14 @@ def load_menu(menu_path: str) -> List[MenuItem]:
                 raise ImportError("PyYAML is required to load YAML files. Install with: pip install pyyaml")
         else:
             data = json.load(f)
+
+    # Extract company name
+    company_name = data.get("name")
+    if not company_name:
+        raise ValueError("Menu file must include a 'name' field for the company name")
+    if not isinstance(company_name, str) or not company_name.strip():
+        raise ValueError("Menu 'name' field must be a non-empty string")
+    company_name = company_name.strip()
 
     items = []
     required_fields = [
@@ -323,4 +337,4 @@ def load_menu(menu_path: str) -> List[MenuItem]:
     if not items:
         raise ValueError("Menu file contains no items")
 
-    return items
+    return MenuData(name=company_name, items=items)

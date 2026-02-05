@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Food Truck Simulation - Main Entry Point.
 
-Simulates a food truck competing against school lunch and fast food
-at a high school lunch period over multiple days.
+Simulates two food trucks competing head-to-head against each other
+(and school lunch/fast food) at a high school lunch period.
 """
 
 import argparse
@@ -11,6 +11,7 @@ import sys
 from pathlib import Path
 
 from ftsim.data.loader import load_students, load_menu
+from ftsim.models.vendors import FoodTruck
 from ftsim.simulation.engine import SimulationEngine
 from ftsim.output.reporter import print_aggregate_summary, export_json
 from ftsim.config import DEFAULT_DAYS
@@ -19,20 +20,25 @@ from ftsim.config import DEFAULT_DAYS
 def main():
     """Main entry point for the food truck simulation."""
     parser = argparse.ArgumentParser(
-        description="Food Truck Simulation - Compete for high school lunch customers",
+        description="Food Truck Simulation - Two trucks compete head-to-head for high school lunch customers",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  python main.py --menu sample_menu.yaml
-  python main.py --menu menu.json --days 30 --verbose
-  python main.py --menu menu.yaml --seed 42 --export results.json
+  python main.py --menu1 tacos.yaml --menu2 pizza.yaml
+  python main.py --menu1 menu1.yaml --menu2 menu2.yaml --days 30 --verbose
+  python main.py --menu1 menu1.yaml --menu2 menu2.yaml --seed 42 --export results.json
         """,
     )
 
     parser.add_argument(
-        "--menu",
+        "--menu1",
         required=True,
-        help="Path to menu file (JSON or YAML)",
+        help="Path to first truck's menu file (JSON or YAML)",
+    )
+    parser.add_argument(
+        "--menu2",
+        required=True,
+        help="Path to second truck's menu file (JSON or YAML)",
     )
     parser.add_argument(
         "--days",
@@ -72,9 +78,15 @@ Examples:
         print(f"Using random seed: {args.seed}")
 
     # Validate paths
-    menu_path = Path(args.menu)
-    if not menu_path.exists():
-        print(f"Error: Menu file not found: {menu_path}", file=sys.stderr)
+    menu1_path = Path(args.menu1)
+    menu2_path = Path(args.menu2)
+
+    if not menu1_path.exists():
+        print(f"Error: Menu file not found: {menu1_path}", file=sys.stderr)
+        sys.exit(1)
+
+    if not menu2_path.exists():
+        print(f"Error: Menu file not found: {menu2_path}", file=sys.stderr)
         sys.exit(1)
 
     data_dir = Path(args.data_dir)
@@ -94,17 +106,28 @@ Examples:
     students = load_students(str(food_csv), str(drink_csv), args.seed)
     print(f"Loaded {len(students)} students")
 
-    print("Loading menu...")
-    menu_items = load_menu(str(menu_path))
-    print(f"Loaded {len(menu_items)} menu items:")
-    for item in menu_items:
-        print(f"  - {item.name}: ${item.price:.2f} (inventory: {item.inventory_per_day}/day)")
+    # Load menus and create trucks
+    print("\nLoading menus...")
+
+    menu1_data = load_menu(str(menu1_path))
+    truck1 = FoodTruck(name=menu1_data.name, menu=menu1_data.items)
+    print(f"\nTruck 1: {truck1.name}")
+    print(f"  {len(menu1_data.items)} menu items:")
+    for item in menu1_data.items:
+        print(f"    - {item.name}: ${item.price:.2f} (inventory: {item.inventory_per_day}/day)")
+
+    menu2_data = load_menu(str(menu2_path))
+    truck2 = FoodTruck(name=menu2_data.name, menu=menu2_data.items)
+    print(f"\nTruck 2: {truck2.name}")
+    print(f"  {len(menu2_data.items)} menu items:")
+    for item in menu2_data.items:
+        print(f"    - {item.name}: ${item.price:.2f} (inventory: {item.inventory_per_day}/day)")
 
     # Run simulation
-    print(f"\nRunning simulation for {args.days} days...")
+    print(f"\nRunning head-to-head simulation for {args.days} days...")
     engine = SimulationEngine(
         students=students,
-        menu_items=menu_items,
+        trucks=[truck1, truck2],
         num_days=args.days,
         verbose=args.verbose,
     )

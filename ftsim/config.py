@@ -19,6 +19,9 @@ BONUS_ENERGY = 1.30  # +30% for energy boost when drowsy
 BONUS_HIGH_CALORIE = 1.20  # +20% for high calories (>=600) for active students
 BONUS_CATEGORY_MATCH = 1.35  # +35% when item category matches student preferences
 
+# Penalty for incomplete meal (can afford food but not drink)
+PENALTY_NO_DRINK = 0.85  # 15% penalty when student can't afford food + drink combo
+
 # Fuzzy match thresholds
 FUZZY_THRESHOLD_HIGH = 85  # High confidence match
 FUZZY_THRESHOLD_MEDIUM = 70  # Medium confidence match

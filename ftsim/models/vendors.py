@@ -18,6 +18,7 @@ from ..config import (
 class FoodTruck:
     """The player's food truck with inventory management."""
 
+    name: str
     menu: List[MenuItem] = field(default_factory=list)
 
     def reset_inventory(self) -> None:

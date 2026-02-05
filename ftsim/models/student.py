@@ -47,6 +47,7 @@ class StudentDailyState:
     chose_school_lunch: bool = False
     chose_fast_food: bool = False
     loss_reason: Optional[str] = None
+    purchased_from_truck: Optional[str] = None
 
     def __post_init__(self):
         if self.purchased_items is None:
@@ -64,4 +65,5 @@ class StudentDailyState:
             "chose_school_lunch": self.chose_school_lunch,
             "chose_fast_food": self.chose_fast_food,
             "loss_reason": self.loss_reason,
+            "purchased_from_truck": self.purchased_from_truck,
         }
