@@ -1,36 +1,79 @@
 # Food Truck Simulation
 
-A Python simulation where students design a food truck menu to compete against school lunch and fast food at a high school lunch period. Simulates 1000 students over N days, tracking sales, stockouts, and competitor losses.
+A Python simulation where two food trucks compete head-to-head for high school lunch customers. Each truck has its own menu, and 1000 students choose between both trucks, school lunch, or fast food over N days. Track revenue, customers, stockouts, and see which truck wins.
 
 ## Running the Simulation
 
 ```bash
-# Basic run with a menu file
-uv run main.py --menu sample_menu.yaml
+# Basic head-to-head run with two menu files
+uv run main.py --menu1 sample_menu.yaml --menu2 sample_menu2.yaml
 
 # Run for 30 days with daily output
-uv run main.py --menu sample_menu.yaml --days 30 --verbose
+uv run main.py --menu1 sample_menu.yaml --menu2 sample_menu2.yaml --days 30 --verbose
 
 # Use a seed for reproducible results
-uv run main.py --menu sample_menu.yaml --seed 42
+uv run main.py --menu1 sample_menu.yaml --menu2 sample_menu2.yaml --seed 42
 
-# Export results to JSON for analysis or Pygame
-uv run main.py --menu sample_menu.yaml --export results.json
+# Export results to JSON for analysis
+uv run main.py --menu1 sample_menu.yaml --menu2 sample_menu2.yaml --export results.json
 
 # Full example
-uv run main.py --menu my_menu.yaml --days 30 --seed 42 --verbose --export results.json
+uv run main.py --menu1 my_menu.yaml --menu2 competitor.yaml --days 30 --seed 42 --verbose --export results.json
 ```
 
 ### Command Line Options
 
 | Option | Required | Default | Description |
 |--------|----------|---------|-------------|
-| `--menu` | Yes | - | Path to your menu file (JSON or YAML) |
+| `--menu1` | Yes | - | Path to first truck's menu file (JSON or YAML) |
+| `--menu2` | Yes | - | Path to second truck's menu file (JSON or YAML) |
 | `--days` | No | 30 | Number of days to simulate |
 | `--seed` | No | Random | Random seed for reproducible results |
 | `--verbose` | No | Off | Print daily summaries |
 | `--export` | No | None | Export results to JSON file |
 | `--data-dir` | No | `data` | Directory containing CSV data files |
+
+## Validating Menu Files
+
+Before running a simulation, you can validate that your menu file is correctly formatted using the validation utility:
+
+```bash
+# Validate a menu file
+uv run validate_menu.py --menu my_menu.yaml
+```
+
+This will check that:
+- The file is valid YAML/JSON
+- A company `name` is provided
+- All required fields are present for each item
+- All field values are within valid ranges (e.g., health_rating 1-10)
+- Categories and types are valid
+
+On success, you'll see a summary of your menu:
+
+```
+Validating: my_menu.yaml
+--------------------------------------------------
+Company Name: Taco Express
+Total Items: 8
+
+Food Items (5):
+  - Chicken Tacos: $7.50 | savory | health:6/10 | 450cal | inventory:60/day
+  ...
+
+Drink Items (3):
+  - Horchata: $3.00 | milk | health:4/10 | 180cal | inventory:50/day
+  ...
+
+--------------------------------------------------
+VALID: Menu file is correctly formatted.
+```
+
+On failure, you'll see a specific error message:
+
+```
+INVALID: Menu item 'Bad Item' has invalid health_rating 15. Must be between 1 and 10
+```
 
 ## Creating Menu Files
 
@@ -38,7 +81,9 @@ Menu files define what your food truck sells. You can use either YAML or JSON fo
 
 ### Menu File Structure
 
-Each menu file must have an `items` array containing your menu items.
+Each menu file must have:
+- A `name` field with your company/truck name (displayed in results)
+- An `items` array containing your menu items
 
 ### Required Fields
 
@@ -78,6 +123,8 @@ Each menu file must have an `items` array containing your menu items.
 ### YAML Example
 
 ```yaml
+name: "Fusion Bites"
+
 items:
   - name: "Teriyaki Chicken Bowl"
     price: 9.00
@@ -154,6 +201,7 @@ items:
 
 ```json
 {
+  "name": "Fusion Bites",
   "items": [
     {
       "name": "Teriyaki Chicken Bowl",
@@ -255,41 +303,75 @@ Categories help match items to student preferences based on their mood:
 
 ### Daily Summary (with --verbose)
 ```
+============================================================
 Day 1 Summary
-==================================================
-Revenue: $2955.00
-Customers: 310/1000 (31.0%)
+============================================================
 School Lunch Price: $0.38
 
+--- Fusion Bites ---
+Revenue: $2961.00
+Customers: 310 (31.0%)
 Items Sold:
   Red Bull style energy drink: 80
   Loaded Nachos: 60
   ...
+Stockouts: Teriyaki Chicken Bowl, Veggie Burrito Bowl, ...
 
-Stockouts (sold out):
-  Red Bull style energy drink: sold out
+--- Pizza Paradise ---
+Revenue: $2226.50
+Customers: 365 (36.5%)
+Items Sold:
+  Fountain Soda: 132
+  Pepperoni Pizza Slice: 100
   ...
+Stockouts: Pepperoni Pizza Slice, Veggie Pizza Slice, ...
+
+--- Combined ---
+Total Revenue: $5187.50
+Total Customers: 675/1000
 
 Lost Sales:
-  school_lunch: 643    # Chose school lunch over your menu
+  school_lunch: 278    # Chose school lunch over both trucks
   fastfood: 47         # Students with cars who chose fast food
 ```
 
 ### Aggregate Summary
 ```
+############################################################
 SIMULATION COMPLETE - 30 Days
---- TOTALS ---
+############################################################
+
+************************************************************
+  WINNER: Fusion Bites
+  Total Revenue: $88,770.00
+************************************************************
+
+============================================================
+HEAD-TO-HEAD COMPARISON
+============================================================
+Metric                      Fusion Bites Pizza Paradise
+------------------------------------------------------------
+Total Revenue            $     88,770.00$     66,420.00
+Total Customers                    9,300         10,950
+Avg Daily Revenue        $      2,959.00$      2,214.00
+Avg Daily Customers                310.0          365.0
+
+============================================================
+Fusion Bites - DETAILED RESULTS
+============================================================
 Total Revenue: $88,770.00
 Total Customers: 9,300
+...
 
---- AVERAGES ---
-Daily Revenue: $2,959.00
-Customer Rate: 31.0%
-Items per Customer: 1.81
+============================================================
+COMBINED STATISTICS
+============================================================
+Total Students Processed: 30,000
+Combined Customer Rate: 67.5%
 
---- LOST SALES BY REASON ---
-  school_lunch: 19,248 (93.0%)  # Chose school lunch
-  fastfood: 1,452 (7.0%)        # Lost to drive-through
+Lost Sales by Reason:
+  school_lunch: 8,340 (85.1%)  # Chose school lunch
+  fastfood: 1,410 (14.9%)      # Lost to drive-through
 ```
 
 ### Loss Reasons
@@ -308,25 +390,41 @@ The `--export` option creates a JSON file with complete simulation data:
 {
   "summary": {
     "total_days": 30,
-    "total_revenue": 88770.00,
-    "total_customers": 9300,
-    "total_items_sold": {"Item Name": 500, ...},
-    "total_stockouts": {"Item Name": 15, ...},
-    "total_losses_by_reason": {"preference": 19248, ...}
+    "total_revenue": 155190.00,
+    "total_customers": 20250,
+    "total_losses_by_reason": {"school_lunch": 8340, "fastfood": 1410},
+    "total_students_served": 30000,
+    "winner": "Fusion Bites"
   },
-  "averages": {
-    "daily_revenue": 2959.00,
-    "daily_customers": 310.0,
-    "items_per_customer": 1.81,
-    "customer_rate_percent": 31.0
+  "truck_results": {
+    "Fusion Bites": {
+      "truck_name": "Fusion Bites",
+      "total_revenue": 88770.00,
+      "total_customers": 9300,
+      "total_items_sold": {"Teriyaki Chicken Bowl": 1500, ...},
+      "total_stockouts": {"Teriyaki Chicken Bowl": 30, ...},
+      "avg_daily_revenue": 2959.00,
+      "avg_daily_customers": 310.0
+    },
+    "Pizza Paradise": {
+      "truck_name": "Pizza Paradise",
+      "total_revenue": 66420.00,
+      "total_customers": 10950,
+      "total_items_sold": {"Pepperoni Pizza Slice": 3000, ...},
+      "total_stockouts": {"Pepperoni Pizza Slice": 30, ...},
+      "avg_daily_revenue": 2214.00,
+      "avg_daily_customers": 365.0
+    }
   },
   "daily_results": [
     {
       "day": 1,
-      "revenue": 2955.00,
-      "customers": 310,
-      "items_sold": {...},
-      "stockouts": {...},
+      "truck_results": {
+        "Fusion Bites": {"revenue": 2961.00, "customers": 310, ...},
+        "Pizza Paradise": {"revenue": 2226.50, "customers": 365, ...}
+      },
+      "total_revenue": 5187.50,
+      "total_customers": 675,
       "losses_by_reason": {...},
       "student_states": [...]
     }
