@@ -1,8 +1,9 @@
 """Console output reporting for the food truck simulation."""
 
+import csv
 import json
 from pathlib import Path
-from typing import Optional
+from typing import List
 
 from .results import DailyResult, CompetitionAggregateResult
 
@@ -151,14 +152,94 @@ def print_aggregate_summary(result: CompetitionAggregateResult) -> None:
             print(f"  {reason}: {count} ({pct:.1f}%)")
 
 
-def export_json(result: CompetitionAggregateResult, output_path: str) -> None:
-    """Export results to JSON file.
+def export_csv(
+    result: CompetitionAggregateResult,
+    output_dir: str,
+    truck_order: List[str],
+) -> None:
+    """Export results to CSV files, one set per truck.
+
+    Creates 4 files:
+    - menu1.csv / menu2.csv: Daily aggregate data per truck
+    - menu1_students.csv / menu2_students.csv: Per-student purchase data per truck
 
     Args:
         result: Competition aggregate simulation results
-        output_path: Path to output JSON file
+        output_dir: Directory to write CSV files
+        truck_order: List of truck names in order [menu1_truck, menu2_truck]
     """
-    path = Path(output_path)
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(result.to_dict(), f, indent=2)
-    print(f"\nResults exported to: {path}")
+    output_path = Path(output_dir)
+    output_path.mkdir(parents=True, exist_ok=True)
+
+    # Process each truck in order (menu1, menu2)
+    menu_prefixes = ["menu1", "menu2"]
+    for i, truck_name in enumerate(truck_order):
+        menu_prefix = menu_prefixes[i]
+        _write_daily_csv(result, output_path, truck_name, menu_prefix)
+        _write_student_csv(result, output_path, truck_name, menu_prefix)
+
+    print(f"\nResults exported to: {output_path}/")
+    print(f"  - menu1.csv, menu1_students.csv ({truck_order[0]})")
+    print(f"  - menu2.csv, menu2_students.csv ({truck_order[1]})")
+
+
+def _write_daily_csv(
+    result: CompetitionAggregateResult,
+    output_path: Path,
+    truck_name: str,
+    menu_prefix: str,
+) -> None:
+    """Write daily aggregate CSV for a single truck."""
+    csv_path = output_path / f"{menu_prefix}.csv"
+
+    with open(csv_path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(["day", "revenue", "customers", "items_sold", "stockouts"])
+
+        for daily_result in result.daily_results:
+            truck_result = daily_result.truck_results[truck_name]
+
+            # JSON-encode items_sold dict
+            items_sold_json = json.dumps(truck_result.items_sold)
+
+            # Comma-separated list of stocked-out items
+            stockout_items = [
+                item for item, count in truck_result.stockouts.items() if count > 0
+            ]
+            stockouts_str = ",".join(stockout_items)
+
+            writer.writerow([
+                daily_result.day,
+                round(truck_result.revenue, 2),
+                truck_result.customers,
+                items_sold_json,
+                stockouts_str,
+            ])
+
+
+def _write_student_csv(
+    result: CompetitionAggregateResult,
+    output_path: Path,
+    truck_name: str,
+    menu_prefix: str,
+) -> None:
+    """Write per-student purchase CSV for a single truck."""
+    csv_path = output_path / f"{menu_prefix}_students.csv"
+
+    with open(csv_path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(["day", "student_id", "purchased_items", "total_spent"])
+
+        for daily_result in result.daily_results:
+            for student_state in daily_result.student_states:
+                # Only include students who purchased from this truck
+                if student_state.get("purchased_from_truck") != truck_name:
+                    continue
+
+                purchased_items = ",".join(student_state.get("purchased_items", []))
+                writer.writerow([
+                    daily_result.day,
+                    student_state.get("student_id"),
+                    purchased_items,
+                    round(student_state.get("total_spent", 0), 2),
+                ])

@@ -13,7 +13,7 @@ from pathlib import Path
 from ftsim.data.loader import load_students, load_menu
 from ftsim.models.vendors import FoodTruck
 from ftsim.simulation.engine import SimulationEngine
-from ftsim.output.reporter import print_aggregate_summary, export_json
+from ftsim.output.reporter import print_aggregate_summary, export_csv
 from ftsim.config import DEFAULT_DAYS
 
 
@@ -26,7 +26,7 @@ def main():
 Examples:
   python main.py --menu1 tacos.yaml --menu2 pizza.yaml
   python main.py --menu1 menu1.yaml --menu2 menu2.yaml --days 30 --verbose
-  python main.py --menu1 menu1.yaml --menu2 menu2.yaml --seed 42 --export results.json
+  python main.py --menu1 menu1.yaml --menu2 menu2.yaml --seed 42 --export results/
         """,
     )
 
@@ -61,7 +61,7 @@ Examples:
         "--export",
         type=str,
         default=None,
-        help="Export results to JSON file",
+        help="Export results to CSV files in the specified directory (creates menu1.csv, menu2.csv, menu1_students.csv, menu2_students.csv)",
     )
     parser.add_argument(
         "--data-dir",
@@ -139,7 +139,7 @@ Examples:
 
     # Export if requested
     if args.export:
-        export_json(results, args.export)
+        export_csv(results, args.export, truck_order=[truck1.name, truck2.name])
 
     return 0
 
