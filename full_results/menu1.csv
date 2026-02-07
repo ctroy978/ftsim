@@ -1,0 +1,6 @@
+day,revenue,customers,items_sold,stockouts
+1,410.5,76,"{""Cinnamon Sticks"": 50, ""Italian Sparkling Water"": 10, ""Cheese Breadsticks"": 12, ""Fountain Soda"": 37, ""Fresh Squeezed OJ"": 11, ""Caesar Salad"": 12, ""Pepperoni Pizza Slice"": 2}",Cinnamon Sticks
+2,462.0,84,"{""Cinnamon Sticks"": 50, ""Fountain Soda"": 44, ""Veggie Pizza Slice"": 2, ""Italian Sparkling Water"": 8, ""Caesar Salad"": 14, ""Fresh Squeezed OJ"": 14, ""Cheese Breadsticks"": 18}",Cinnamon Sticks
+3,538.5,96,"{""Pepperoni Pizza Slice"": 2, ""Cinnamon Sticks"": 50, ""Fresh Squeezed OJ"": 14, ""Caesar Salad"": 24, ""Fountain Soda"": 38, ""Italian Sparkling Water"": 16, ""Cheese Breadsticks"": 19, ""Veggie Pizza Slice"": 1}",Cinnamon Sticks
+4,505.5,94,"{""Cinnamon Sticks"": 50, ""Caesar Salad"": 19, ""Italian Sparkling Water"": 7, ""Cheese Breadsticks"": 22, ""Fresh Squeezed OJ"": 16, ""Fountain Soda"": 39, ""Pepperoni Pizza Slice"": 2, ""Veggie Pizza Slice"": 1}",Cinnamon Sticks
+5,490.5,88,"{""Cinnamon Sticks"": 50, ""Fountain Soda"": 40, ""Cheese Breadsticks"": 17, ""Caesar Salad"": 16, ""Italian Sparkling Water"": 18, ""Fresh Squeezed OJ"": 11, ""Pepperoni Pizza Slice"": 3, ""Veggie Pizza Slice"": 2}",Cinnamon Sticks

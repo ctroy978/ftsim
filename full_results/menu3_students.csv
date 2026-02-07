@@ -1,0 +1,239 @@
+day,student_id,purchased_items,total_spent
+1,896,Acai Bowl,8.0
+1,61,"Grilled Chicken Salad,Green Power Smoothie",12.5
+1,950,"Turkey Avocado Wrap,Coconut Water",11.0
+1,26,"Turkey Avocado Wrap,Coconut Water",11.0
+1,303,Acai Bowl,8.0
+1,825,"Turkey Avocado Wrap,Coconut Water",11.0
+1,642,Grilled Chicken Salad,7.5
+1,255,"Turkey Avocado Wrap,Green Power Smoothie",13.0
+1,854,"Banana Oat Muffin,Green Power Smoothie",8.0
+1,263,"Acai Bowl,Green Power Smoothie",13.0
+1,6,Acai Bowl,8.0
+1,5,"Grilled Chicken Salad,Cold Brew Coffee",11.5
+1,935,"Banana Oat Muffin,Coconut Water",6.0
+1,239,"Acai Bowl,Cold Brew Coffee",12.0
+1,979,"Banana Oat Muffin,Green Power Smoothie",8.0
+1,517,Acai Bowl,8.0
+1,512,"Acai Bowl,Cold Brew Coffee",12.0
+1,657,Grilled Chicken Salad,7.5
+1,460,"Acai Bowl,Cold Brew Coffee",12.0
+1,259,"Turkey Avocado Wrap,Green Power Smoothie",13.0
+1,770,"Turkey Avocado Wrap,Green Power Smoothie",13.0
+1,329,Protein Energy Balls (4),4.5
+1,364,"Banana Oat Muffin,Green Power Smoothie",8.0
+1,667,Turkey Avocado Wrap,8.0
+1,463,Banana Oat Muffin,3.0
+1,931,"Turkey Avocado Wrap,Coconut Water",11.0
+1,583,"Protein Energy Balls (4),Cold Brew Coffee",8.5
+1,233,"Acai Bowl,Green Power Smoothie",13.0
+1,644,Banana Oat Muffin,3.0
+1,424,"Turkey Avocado Wrap,Cold Brew Coffee",12.0
+1,403,"Acai Bowl,Green Power Smoothie",13.0
+1,170,"Grilled Chicken Salad,Coconut Water",10.5
+1,629,"Acai Bowl,Green Power Smoothie",13.0
+1,675,Banana Oat Muffin,3.0
+1,200,"Turkey Avocado Wrap,Green Power Smoothie",13.0
+1,294,"Protein Energy Balls (4),Coconut Water",7.5
+1,898,"Acai Bowl,Coconut Water",11.0
+1,456,"Acai Bowl,Coconut Water",11.0
+1,977,"Acai Bowl,Green Power Smoothie",13.0
+1,151,"Grilled Chicken Salad,Coconut Water",10.5
+1,633,"Banana Oat Muffin,Cold Brew Coffee",7.0
+1,538,Banana Oat Muffin,3.0
+1,560,"Acai Bowl,Coconut Water",11.0
+1,491,Protein Energy Balls (4),4.5
+1,862,"Turkey Avocado Wrap,Green Power Smoothie",13.0
+1,34,Banana Oat Muffin,3.0
+1,881,"Turkey Avocado Wrap,Coconut Water",11.0
+1,54,Grilled Chicken Salad,7.5
+1,418,"Turkey Avocado Wrap,Coconut Water",11.0
+1,38,"Turkey Avocado Wrap,Coconut Water",11.0
+2,276,"Acai Bowl,Green Power Smoothie",13.0
+2,61,"Grilled Chicken Salad,Green Power Smoothie",12.5
+2,534,"Grilled Chicken Salad,Green Power Smoothie",12.5
+2,792,"Acai Bowl,Cold Brew Coffee",12.0
+2,138,"Grilled Chicken Salad,Coconut Water",10.5
+2,148,"Banana Oat Muffin,Green Power Smoothie",8.0
+2,579,Acai Bowl,8.0
+2,942,Grilled Chicken Salad,7.5
+2,261,Grilled Chicken Salad,7.5
+2,807,"Banana Oat Muffin,Green Power Smoothie",8.0
+2,214,"Acai Bowl,Green Power Smoothie",13.0
+2,671,"Grilled Chicken Salad,Green Power Smoothie",12.5
+2,854,"Banana Oat Muffin,Green Power Smoothie",8.0
+2,991,"Acai Bowl,Coconut Water",11.0
+2,5,"Grilled Chicken Salad,Coconut Water",10.5
+2,521,"Acai Bowl,Cold Brew Coffee",12.0
+2,598,"Protein Energy Balls (4),Coconut Water",7.5
+2,92,"Protein Energy Balls (4),Green Power Smoothie",9.5
+2,655,"Protein Energy Balls (4),Green Power Smoothie",9.5
+2,515,"Acai Bowl,Coconut Water",11.0
+2,858,"Banana Oat Muffin,Coconut Water",6.0
+2,72,"Banana Oat Muffin,Green Power Smoothie",8.0
+2,370,Grilled Chicken Salad,7.5
+2,643,Acai Bowl,8.0
+2,428,"Acai Bowl,Coconut Water",11.0
+2,883,"Acai Bowl,Cold Brew Coffee",12.0
+2,240,"Acai Bowl,Cold Brew Coffee",12.0
+2,946,"Grilled Chicken Salad,Green Power Smoothie",12.5
+2,267,"Protein Energy Balls (4),Cold Brew Coffee",8.5
+2,859,"Banana Oat Muffin,Coconut Water",6.0
+2,117,"Acai Bowl,Coconut Water",11.0
+2,557,"Banana Oat Muffin,Berry Kombucha",6.5
+2,338,Acai Bowl,8.0
+2,870,"Acai Bowl,Coconut Water",11.0
+2,898,"Acai Bowl,Coconut Water",11.0
+2,263,"Acai Bowl,Green Power Smoothie",13.0
+2,13,Grilled Chicken Salad,7.5
+2,494,"Acai Bowl,Cold Brew Coffee",12.0
+2,755,"Banana Oat Muffin,Berry Kombucha",6.5
+2,151,"Grilled Chicken Salad,Coconut Water",10.5
+2,890,"Acai Bowl,Cold Brew Coffee",12.0
+2,629,"Acai Bowl,Coconut Water",11.0
+2,719,Grilled Chicken Salad,7.5
+2,54,Grilled Chicken Salad,7.5
+2,987,"Banana Oat Muffin,Coconut Water",6.0
+2,323,"Grilled Chicken Salad,Green Power Smoothie",12.5
+2,626,"Banana Oat Muffin,Cold Brew Coffee",7.0
+2,512,"Acai Bowl,Cold Brew Coffee",12.0
+2,884,"Grilled Chicken Salad,Green Power Smoothie",12.5
+3,151,"Grilled Chicken Salad,Coconut Water",10.5
+3,946,"Grilled Chicken Salad,Green Power Smoothie",12.5
+3,138,"Grilled Chicken Salad,Coconut Water",10.5
+3,418,"Turkey Avocado Wrap,Coconut Water",11.0
+3,13,Grilled Chicken Salad,7.5
+3,216,Acai Bowl,8.0
+3,370,Grilled Chicken Salad,7.5
+3,657,Grilled Chicken Salad,7.5
+3,807,"Acai Bowl,Green Power Smoothie",13.0
+3,579,Acai Bowl,8.0
+3,31,"Protein Energy Balls (4),Coconut Water",7.5
+3,884,"Grilled Chicken Salad,Green Power Smoothie",12.5
+3,979,"Banana Oat Muffin,Berry Kombucha",6.5
+3,80,Grilled Chicken Salad,7.5
+3,643,Acai Bowl,8.0
+3,517,Acai Bowl,8.0
+3,231,Turkey Avocado Wrap,8.0
+3,810,"Protein Energy Balls (4),Cold Brew Coffee",8.5
+3,598,"Protein Energy Balls (4),Coconut Water",7.5
+3,488,Banana Oat Muffin,3.0
+3,547,"Protein Energy Balls (4),Cold Brew Coffee",8.5
+3,267,"Protein Energy Balls (4),Cold Brew Coffee",8.5
+3,931,"Turkey Avocado Wrap,Green Power Smoothie",13.0
+3,323,"Grilled Chicken Salad,Green Power Smoothie",12.5
+3,100,"Acai Bowl,Cold Brew Coffee",12.0
+3,212,"Turkey Avocado Wrap,Coconut Water",11.0
+3,739,"Protein Energy Balls (4),Cold Brew Coffee",8.5
+3,999,Protein Energy Balls (4),4.5
+3,642,Grilled Chicken Salad,7.5
+3,994,Protein Energy Balls (4),4.5
+3,538,Banana Oat Muffin,3.0
+3,362,Protein Energy Balls (4),4.5
+3,25,Grilled Chicken Salad,7.5
+3,424,"Turkey Avocado Wrap,Cold Brew Coffee",12.0
+3,873,"Protein Energy Balls (4),Green Power Smoothie",9.5
+3,752,"Banana Oat Muffin,Coconut Water",6.0
+3,6,Acai Bowl,8.0
+3,878,"Grilled Chicken Salad,Green Power Smoothie",12.5
+3,585,"Turkey Avocado Wrap,Green Power Smoothie",13.0
+3,655,"Banana Oat Muffin,Green Power Smoothie",8.0
+3,716,Protein Energy Balls (4),4.5
+3,314,"Acai Bowl,Green Power Smoothie",13.0
+3,421,"Protein Energy Balls (4),Coconut Water",7.5
+3,552,Banana Oat Muffin,3.0
+3,559,"Turkey Avocado Wrap,Green Power Smoothie",13.0
+4,5,"Grilled Chicken Salad,Green Power Smoothie",12.5
+4,971,"Grilled Chicken Salad,Green Power Smoothie",12.5
+4,579,Acai Bowl,8.0
+4,456,"Acai Bowl,Coconut Water",11.0
+4,124,"Protein Energy Balls (4),Green Power Smoothie",9.5
+4,114,"Grilled Chicken Salad,Green Power Smoothie",12.5
+4,884,"Grilled Chicken Salad,Green Power Smoothie",12.5
+4,975,"Acai Bowl,Coconut Water",11.0
+4,13,Grilled Chicken Salad,7.5
+4,643,Acai Bowl,8.0
+4,923,"Protein Energy Balls (4),Green Power Smoothie",9.5
+4,674,Acai Bowl,8.0
+4,702,"Acai Bowl,Coconut Water",11.0
+4,311,"Acai Bowl,Green Power Smoothie",13.0
+4,338,Acai Bowl,8.0
+4,323,"Grilled Chicken Salad,Green Power Smoothie",12.5
+4,807,"Acai Bowl,Green Power Smoothie",13.0
+4,550,"Acai Bowl,Green Power Smoothie",13.0
+4,25,Grilled Chicken Salad,7.5
+4,364,"Banana Oat Muffin,Green Power Smoothie",8.0
+4,694,"Acai Bowl,Green Power Smoothie",13.0
+4,562,"Acai Bowl,Coconut Water",11.0
+4,719,Grilled Chicken Salad,7.5
+4,947,"Acai Bowl,Coconut Water",11.0
+4,139,"Protein Energy Balls (4),Coconut Water",7.5
+4,754,"Banana Oat Muffin,Coconut Water",6.0
+4,512,"Acai Bowl,Cold Brew Coffee",12.0
+4,453,"Acai Bowl,Green Power Smoothie",13.0
+4,80,Grilled Chicken Salad,7.5
+4,436,"Banana Oat Muffin,Green Power Smoothie",8.0
+4,898,"Acai Bowl,Coconut Water",11.0
+4,888,"Acai Bowl,Green Power Smoothie",13.0
+4,767,"Acai Bowl,Cold Brew Coffee",12.0
+4,116,"Banana Oat Muffin,Green Power Smoothie",8.0
+4,870,"Acai Bowl,Green Power Smoothie",13.0
+4,541,"Banana Oat Muffin,Green Power Smoothie",8.0
+4,929,"Acai Bowl,Coconut Water",11.0
+5,214,"Acai Bowl,Green Power Smoothie",13.0
+5,270,"Grilled Chicken Salad,Green Power Smoothie",12.5
+5,923,"Protein Energy Balls (4),Green Power Smoothie",9.5
+5,606,"Banana Oat Muffin,Berry Kombucha",6.5
+5,263,"Acai Bowl,Green Power Smoothie",13.0
+5,971,"Grilled Chicken Salad,Green Power Smoothie",12.5
+5,585,"Turkey Avocado Wrap,Green Power Smoothie",13.0
+5,216,Acai Bowl,8.0
+5,100,"Acai Bowl,Cold Brew Coffee",12.0
+5,224,"Turkey Avocado Wrap,Green Power Smoothie",13.0
+5,977,"Acai Bowl,Green Power Smoothie",13.0
+5,80,Grilled Chicken Salad,7.5
+5,998,"Turkey Avocado Wrap,Green Power Smoothie",13.0
+5,340,Banana Oat Muffin,3.0
+5,179,"Acai Bowl,Cold Brew Coffee",12.0
+5,38,"Turkey Avocado Wrap,Coconut Water",11.0
+5,239,"Acai Bowl,Cold Brew Coffee",12.0
+5,932,"Acai Bowl,Green Power Smoothie",13.0
+5,950,"Turkey Avocado Wrap,Coconut Water",11.0
+5,512,"Acai Bowl,Cold Brew Coffee",12.0
+5,818,"Protein Energy Balls (4),Cold Brew Coffee",8.5
+5,297,Turkey Avocado Wrap,8.0
+5,896,Acai Bowl,8.0
+5,327,"Acai Bowl,Green Power Smoothie",13.0
+5,401,"Grilled Chicken Salad,Green Power Smoothie",12.5
+5,617,Banana Oat Muffin,3.0
+5,929,"Acai Bowl,Green Power Smoothie",13.0
+5,613,"Protein Energy Balls (4),Green Power Smoothie",9.5
+5,461,"Protein Energy Balls (4),Green Power Smoothie",9.5
+5,883,"Acai Bowl,Cold Brew Coffee",12.0
+5,888,"Acai Bowl,Green Power Smoothie",13.0
+5,236,"Banana Oat Muffin,Coconut Water",6.0
+5,36,"Protein Energy Balls (4),Cold Brew Coffee",8.5
+5,436,"Banana Oat Muffin,Berry Kombucha",6.5
+5,792,"Acai Bowl,Cold Brew Coffee",12.0
+5,562,"Acai Bowl,Coconut Water",11.0
+5,494,"Acai Bowl,Cold Brew Coffee",12.0
+5,93,"Acai Bowl,Coconut Water",11.0
+5,637,"Acai Bowl,Coconut Water",11.0
+5,653,"Banana Oat Muffin,Cold Brew Coffee",7.0
+5,331,"Banana Oat Muffin,Coconut Water",6.0
+5,734,"Banana Oat Muffin,Green Power Smoothie",8.0
+5,738,Acai Bowl,8.0
+5,170,"Grilled Chicken Salad,Coconut Water",10.5
+5,987,"Acai Bowl,Coconut Water",11.0
+5,255,"Turkey Avocado Wrap,Green Power Smoothie",13.0
+5,5,"Grilled Chicken Salad,Coconut Water",10.5
+5,314,"Acai Bowl,Green Power Smoothie",13.0
+5,534,"Grilled Chicken Salad,Green Power Smoothie",12.5
+5,689,"Acai Bowl,Green Power Smoothie",13.0
+5,619,"Grilled Chicken Salad,Green Power Smoothie",12.5
+5,969,Protein Energy Balls (4),4.5
+5,991,"Acai Bowl,Green Power Smoothie",13.0
+5,428,"Acai Bowl,Coconut Water",11.0
+5,648,"Acai Bowl,Green Power Smoothie",13.0
+5,964,"Acai Bowl,Coconut Water",11.0
+5,767,"Banana Oat Muffin,Cold Brew Coffee",7.0

@@ -54,29 +54,32 @@ def print_daily_summary(result: DailyResult) -> None:
 
 def print_aggregate_summary(result: CompetitionAggregateResult) -> None:
     """Print aggregate summary for entire simulation."""
-    print(f"\n{'#' * 60}")
+    truck_names = list(result.truck_results.keys())
+    col_width = 15
+    table_width = 25 + col_width * len(truck_names)
+
+    print(f"\n{'#' * table_width}")
     print(f"SIMULATION COMPLETE - {result.total_days} Days")
-    print(f"{'#' * 60}")
+    print(f"{'#' * table_width}")
 
     # Print winner banner
     winner_result = result.truck_results[result.winner]
-    print(f"\n{'*' * 60}")
+    print(f"\n{'*' * table_width}")
     print(f"  WINNER: {result.winner}")
     print(f"  Total Revenue: ${winner_result.total_revenue:.2f}")
-    print(f"{'*' * 60}")
+    print(f"{'*' * table_width}")
 
     # Print head-to-head comparison
-    truck_names = list(result.truck_results.keys())
-    print("\n" + "=" * 60)
+    print("\n" + "=" * table_width)
     print("HEAD-TO-HEAD COMPARISON")
-    print("=" * 60)
+    print("=" * table_width)
 
     # Header row
     header = f"{'Metric':<25}"
     for name in truck_names:
         header += f"{name:>15}"
     print(header)
-    print("-" * 60)
+    print("-" * table_width)
 
     # Revenue row
     row = f"{'Total Revenue':<25}"
@@ -104,9 +107,9 @@ def print_aggregate_summary(result: CompetitionAggregateResult) -> None:
 
     # Print per-truck details
     for truck_name, truck_result in result.truck_results.items():
-        print(f"\n{'=' * 60}")
+        print(f"\n{'=' * table_width}")
         print(f"{truck_name} - DETAILED RESULTS")
-        print(f"{'=' * 60}")
+        print(f"{'=' * table_width}")
 
         print(f"\nTotal Revenue: ${truck_result.total_revenue:.2f}")
         print(f"Total Customers: {truck_result.total_customers}")
@@ -159,28 +162,27 @@ def export_csv(
 ) -> None:
     """Export results to CSV files, one set per truck.
 
-    Creates 4 files:
-    - menu1.csv / menu2.csv: Daily aggregate data per truck
-    - menu1_students.csv / menu2_students.csv: Per-student purchase data per truck
+    Creates 2 files per truck:
+    - menuN.csv: Daily aggregate data per truck
+    - menuN_students.csv: Per-student purchase data per truck
 
     Args:
         result: Competition aggregate simulation results
         output_dir: Directory to write CSV files
-        truck_order: List of truck names in order [menu1_truck, menu2_truck]
+        truck_order: List of truck names in order [menu1_truck, menu2_truck, ...]
     """
     output_path = Path(output_dir)
     output_path.mkdir(parents=True, exist_ok=True)
 
-    # Process each truck in order (menu1, menu2)
-    menu_prefixes = ["menu1", "menu2"]
+    menu_prefixes = [f"menu{i}" for i in range(1, len(truck_order) + 1)]
     for i, truck_name in enumerate(truck_order):
         menu_prefix = menu_prefixes[i]
         _write_daily_csv(result, output_path, truck_name, menu_prefix)
         _write_student_csv(result, output_path, truck_name, menu_prefix)
 
     print(f"\nResults exported to: {output_path}/")
-    print(f"  - menu1.csv, menu1_students.csv ({truck_order[0]})")
-    print(f"  - menu2.csv, menu2_students.csv ({truck_order[1]})")
+    for prefix, truck_name in zip(menu_prefixes, truck_order):
+        print(f"  - {prefix}.csv, {prefix}_students.csv ({truck_name})")
 
 
 def _write_daily_csv(

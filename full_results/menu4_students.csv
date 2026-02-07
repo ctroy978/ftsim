@@ -1,0 +1,305 @@
+day,student_id,purchased_items,total_spent
+1,66,"Churros (3),Horchata",6.5
+1,914,"Chicken Quesadilla,Horchata",9.5
+1,783,"Chicken Quesadilla,Jarritos Soda",9.0
+1,990,"Churros (3),Agua Fresca",7.0
+1,989,"Chicken Quesadilla,Agua Fresca",10.0
+1,967,"Churros (3),Mexican Hot Chocolate",6.5
+1,506,"Chicken Quesadilla,Agua Fresca",10.0
+1,992,"Churros (3),Mexican Hot Chocolate",6.5
+1,968,"Churros (3),Mexican Hot Chocolate",6.5
+1,573,"Churros (3),Mexican Hot Chocolate",6.5
+1,288,"Churros (3),Horchata",6.5
+1,548,"Churros (3),Mexican Hot Chocolate",6.5
+1,108,"Churros (3),Agua Fresca",7.0
+1,10,"Chicken Quesadilla,Agua Fresca",10.0
+1,678,"Churros (3),Horchata",6.5
+1,895,"Chicken Quesadilla,Jarritos Soda",9.0
+1,341,"Churros (3),Jarritos Soda",6.0
+1,182,"Churros (3),Mexican Hot Chocolate",6.5
+1,39,"Churros (3),Mexican Hot Chocolate",6.5
+1,253,"Chicken Quesadilla,Jarritos Soda",9.0
+1,831,Churros (3),3.5
+1,847,"Churros (3),Jarritos Soda",6.0
+1,207,Chicken Quesadilla,6.5
+1,563,"Chicken Quesadilla,Mexican Hot Chocolate",9.5
+1,908,"Churros (3),Jarritos Soda",6.0
+1,479,Chicken Quesadilla,6.5
+1,345,"Chicken Quesadilla,Agua Fresca",10.0
+1,52,"Churros (3),Horchata",6.5
+1,981,"Churros (3),Jarritos Soda",6.0
+1,857,"Churros (3),Mexican Hot Chocolate",6.5
+1,754,"Churros (3),Mexican Hot Chocolate",6.5
+1,134,"Churros (3),Mexican Hot Chocolate",6.5
+1,665,"Chicken Quesadilla,Jarritos Soda",9.0
+1,31,"Churros (3),Horchata",6.5
+1,81,"Churros (3),Mexican Hot Chocolate",6.5
+1,127,"Churros (3),Mexican Hot Chocolate",6.5
+1,316,"Churros (3),Mexican Hot Chocolate",6.5
+1,957,"Churros (3),Mexican Hot Chocolate",6.5
+1,317,"Churros (3),Jarritos Soda",6.0
+1,546,"Churros (3),Horchata",6.5
+1,30,"Chicken Quesadilla,Mexican Hot Chocolate",9.5
+1,320,Churros (3),3.5
+1,292,"Churros (3),Horchata",6.5
+1,44,"Chicken Quesadilla,Jarritos Soda",9.0
+1,821,Chicken Quesadilla,6.5
+1,439,"Churros (3),Jarritos Soda",6.0
+1,524,"Churros (3),Jarritos Soda",6.0
+1,511,"Chicken Quesadilla,Horchata",9.5
+1,714,"Chicken Quesadilla,Agua Fresca",10.0
+1,542,"Churros (3),Agua Fresca",7.0
+1,523,"Churros (3),Agua Fresca",7.0
+1,152,"Churros (3),Jarritos Soda",6.0
+1,515,"Churros (3),Mexican Hot Chocolate",6.5
+1,92,"Churros (3),Mexican Hot Chocolate",6.5
+1,531,"Chicken Quesadilla,Agua Fresca",10.0
+1,70,"Churros (3),Mexican Hot Chocolate",6.5
+1,951,"Churros (3),Horchata",6.5
+1,291,Churros (3),3.5
+1,12,"Churros (3),Horchata",6.5
+1,891,"Chicken Quesadilla,Jarritos Soda",9.0
+2,558,"Chicken Quesadilla,Agua Fresca",10.0
+2,679,"Chicken Quesadilla,Agua Fresca",10.0
+2,479,Chicken Quesadilla,6.5
+2,168,Churros (3),3.5
+2,123,"Chicken Quesadilla,Jarritos Soda",9.0
+2,714,"Chicken Quesadilla,Agua Fresca",10.0
+2,447,"Churros (3),Jarritos Soda",6.0
+2,692,"Chicken Quesadilla,Jarritos Soda",9.0
+2,218,"Chicken Quesadilla,Agua Fresca",10.0
+2,404,"Chicken Quesadilla,Jarritos Soda",9.0
+2,228,"Churros (3),Jarritos Soda",6.0
+2,996,"Chicken Quesadilla,Mexican Hot Chocolate",9.5
+2,182,"Churros (3),Horchata",6.5
+2,454,Churros (3),3.5
+2,990,"Churros (3),Agua Fresca",7.0
+2,229,"Churros (3),Horchata",6.5
+2,818,"Churros (3),Mexican Hot Chocolate",6.5
+2,60,Churros (3),3.5
+2,740,"Chicken Quesadilla,Mexican Hot Chocolate",9.5
+2,968,"Churros (3),Horchata",6.5
+2,773,"Churros (3),Mexican Hot Chocolate",6.5
+2,172,"Churros (3),Agua Fresca",7.0
+2,785,"Chicken Quesadilla,Jarritos Soda",9.0
+2,465,"Chicken Quesadilla,Mexican Hot Chocolate",9.5
+2,631,"Chicken Quesadilla,Jarritos Soda",9.0
+2,208,"Churros (3),Horchata",6.5
+2,185,"Chicken Quesadilla,Agua Fresca",10.0
+2,563,"Chicken Quesadilla,Agua Fresca",10.0
+2,30,"Chicken Quesadilla,Mexican Hot Chocolate",9.5
+2,511,Chicken Quesadilla,6.5
+2,39,"Churros (3),Horchata",6.5
+2,12,"Churros (3),Horchata",6.5
+2,131,"Chicken Quesadilla,Jarritos Soda",9.0
+2,523,"Churros (3),Agua Fresca",7.0
+2,762,"Chicken Quesadilla,Mexican Hot Chocolate",9.5
+2,474,"Churros (3),Horchata",6.5
+2,678,"Churros (3),Horchata",6.5
+2,914,Chicken Quesadilla,6.5
+2,266,Chicken Quesadilla,6.5
+2,10,"Chicken Quesadilla,Agua Fresca",10.0
+2,847,"Churros (3),Jarritos Soda",6.0
+2,618,"Churros (3),Mexican Hot Chocolate",6.5
+2,48,Churros (3),3.5
+2,729,"Churros (3),Horchata",6.5
+2,81,"Churros (3),Mexican Hot Chocolate",6.5
+2,127,"Churros (3),Jarritos Soda",6.0
+2,548,"Churros (3),Horchata",6.5
+2,473,"Churros (3),Jarritos Soda",6.0
+2,627,"Chicken Quesadilla,Jarritos Soda",9.0
+2,88,"Chicken Quesadilla,Agua Fresca",10.0
+2,533,"Churros (3),Jarritos Soda",6.0
+2,542,"Churros (3),Agua Fresca",7.0
+2,623,"Churros (3),Jarritos Soda",6.0
+2,98,"Churros (3),Jarritos Soda",6.0
+2,879,"Churros (3),Jarritos Soda",6.0
+2,909,"Churros (3),Horchata",6.5
+2,489,Churros (3),3.5
+2,997,"Churros (3),Jarritos Soda",6.0
+2,754,"Churros (3),Agua Fresca",7.0
+3,297,"Chicken Quesadilla,Jarritos Soda",9.0
+3,39,"Churros (3),Horchata",6.5
+3,685,Churros (3),3.5
+3,48,Churros (3),3.5
+3,573,"Churros (3),Mexican Hot Chocolate",6.5
+3,988,"Chicken Quesadilla,Mexican Hot Chocolate",9.5
+3,182,"Churros (3),Horchata",6.5
+3,831,Churros (3),3.5
+3,84,Churros (3),3.5
+3,575,"Chicken Quesadilla,Agua Fresca",10.0
+3,678,"Churros (3),Mexican Hot Chocolate",6.5
+3,10,"Chicken Quesadilla,Agua Fresca",10.0
+3,901,"Churros (3),Mexican Hot Chocolate",6.5
+3,523,"Churros (3),Agua Fresca",7.0
+3,751,"Churros (3),Horchata",6.5
+3,992,"Churros (3),Horchata",6.5
+3,228,"Churros (3),Jarritos Soda",6.0
+3,515,"Churros (3),Horchata",6.5
+3,366,"Chicken Quesadilla,Agua Fresca",10.0
+3,531,"Chicken Quesadilla,Agua Fresca",10.0
+3,506,"Chicken Quesadilla,Agua Fresca",10.0
+3,483,"Chicken Quesadilla,Agua Fresca",10.0
+3,614,"Churros (3),Mexican Hot Chocolate",6.5
+3,357,"Churros (3),Horchata",6.5
+3,586,"Chicken Quesadilla,Jarritos Soda",9.0
+3,494,"Churros (3),Horchata",6.5
+3,108,"Churros (3),Mexican Hot Chocolate",6.5
+3,542,"Churros (3),Agua Fresca",7.0
+3,60,Churros (3),3.5
+3,438,"Chicken Quesadilla,Agua Fresca",10.0
+3,66,"Churros (3),Horchata",6.5
+3,511,Chicken Quesadilla,6.5
+3,474,"Churros (3),Horchata",6.5
+3,493,"Churros (3),Agua Fresca",7.0
+3,714,"Chicken Quesadilla,Mexican Hot Chocolate",9.5
+3,288,"Churros (3),Horchata",6.5
+3,563,"Chicken Quesadilla,Agua Fresca",10.0
+3,626,"Churros (3),Horchata",6.5
+3,343,"Churros (3),Mexican Hot Chocolate",6.5
+3,345,"Chicken Quesadilla,Agua Fresca",10.0
+3,460,"Churros (3),Mexican Hot Chocolate",6.5
+3,265,"Chicken Quesadilla,Horchata",9.5
+3,479,Chicken Quesadilla,6.5
+3,229,"Churros (3),Horchata",6.5
+3,957,"Churros (3),Horchata",6.5
+3,328,Churros (3),3.5
+3,239,"Churros (3),Horchata",6.5
+3,470,"Churros (3),Jarritos Soda",6.0
+3,975,"Churros (3),Jarritos Soda",6.0
+3,207,Chicken Quesadilla,6.5
+3,406,Churros (3),3.5
+3,310,"Churros (3),Horchata",6.5
+3,109,"Churros (3),Agua Fresca",7.0
+3,168,Churros (3),3.5
+3,291,Churros (3),3.5
+3,787,"Churros (3),Agua Fresca",7.0
+4,46,"Churros (3),Mexican Hot Chocolate",6.5
+4,268,"Churros (3),Horchata",6.5
+4,60,Churros (3),3.5
+4,182,"Churros (3),Mexican Hot Chocolate",6.5
+4,127,"Churros (3),Jarritos Soda",6.0
+4,828,"Churros (3),Agua Fresca",7.0
+4,714,"Chicken Quesadilla,Agua Fresca",10.0
+4,354,Churros (3),3.5
+4,105,"Churros (3),Jarritos Soda",6.0
+4,631,"Chicken Quesadilla,Jarritos Soda",9.0
+4,678,"Churros (3),Mexican Hot Chocolate",6.5
+4,968,"Churros (3),Horchata",6.5
+4,341,"Churros (3),Jarritos Soda",6.0
+4,328,Churros (3),3.5
+4,493,Churros (3),3.5
+4,474,"Churros (3),Horchata",6.5
+4,315,"Chicken Quesadilla,Jarritos Soda",9.0
+4,483,"Chicken Quesadilla,Agua Fresca",10.0
+4,891,"Chicken Quesadilla,Jarritos Soda",9.0
+4,914,Chicken Quesadilla,6.5
+4,447,"Churros (3),Jarritos Soda",6.0
+4,952,"Chicken Quesadilla,Mexican Hot Chocolate",9.5
+4,253,"Chicken Quesadilla,Jarritos Soda",9.0
+4,513,"Chicken Quesadilla,Mexican Hot Chocolate",9.5
+4,848,"Churros (3),Mexican Hot Chocolate",6.5
+4,679,"Chicken Quesadilla,Agua Fresca",10.0
+4,229,"Churros (3),Horchata",6.5
+4,958,"Churros (3),Mexican Hot Chocolate",6.5
+4,96,"Chicken Quesadilla,Mexican Hot Chocolate",9.5
+4,145,"Churros (3),Jarritos Soda",6.0
+4,454,Churros (3),3.5
+4,153,"Churros (3),Horchata",6.5
+4,708,"Churros (3),Horchata",6.5
+4,531,"Chicken Quesadilla,Agua Fresca",10.0
+4,446,"Chicken Quesadilla,Jarritos Soda",9.0
+4,936,"Churros (3),Agua Fresca",7.0
+4,785,"Chicken Quesadilla,Jarritos Soda",9.0
+4,665,"Chicken Quesadilla,Jarritos Soda",9.0
+4,353,"Churros (3),Horchata",6.5
+4,706,"Churros (3),Jarritos Soda",6.0
+4,15,"Churros (3),Horchata",6.5
+4,831,Churros (3),3.5
+4,207,Chicken Quesadilla,6.5
+4,422,"Churros (3),Horchata",6.5
+4,30,"Chicken Quesadilla,Mexican Hot Chocolate",9.5
+4,286,"Chicken Quesadilla,Jarritos Soda",9.0
+4,193,"Churros (3),Agua Fresca",7.0
+4,10,"Chicken Quesadilla,Agua Fresca",10.0
+4,729,"Churros (3),Horchata",6.5
+4,502,"Churros (3),Mexican Hot Chocolate",6.5
+4,563,"Chicken Quesadilla,Mexican Hot Chocolate",9.5
+4,189,"Churros (3),Agua Fresca",7.0
+4,524,"Churros (3),Jarritos Soda",6.0
+4,734,"Churros (3),Jarritos Soda",6.0
+4,629,"Churros (3),Jarritos Soda",6.0
+4,12,"Churros (3),Horchata",6.5
+4,873,"Churros (3),Agua Fresca",7.0
+4,549,"Churros (3),Jarritos Soda",6.0
+4,854,"Churros (3),Mexican Hot Chocolate",6.5
+4,172,"Churros (3),Mexican Hot Chocolate",6.5
+5,320,Churros (3),3.5
+5,493,"Churros (3),Agua Fresca",7.0
+5,579,"Churros (3),Mexican Hot Chocolate",6.5
+5,39,"Churros (3),Horchata",6.5
+5,12,"Churros (3),Horchata",6.5
+5,46,"Churros (3),Horchata",6.5
+5,172,"Churros (3),Agua Fresca",7.0
+5,914,Chicken Quesadilla,6.5
+5,988,"Chicken Quesadilla,Horchata",9.5
+5,183,"Chicken Quesadilla,Jarritos Soda",9.0
+5,10,"Chicken Quesadilla,Agua Fresca",10.0
+5,678,"Churros (3),Mexican Hot Chocolate",6.5
+5,168,Churros (3),3.5
+5,821,Chicken Quesadilla,6.5
+5,908,"Churros (3),Agua Fresca",7.0
+5,474,"Churros (3),Horchata",6.5
+5,996,"Chicken Quesadilla,Mexican Hot Chocolate",9.5
+5,511,Chicken Quesadilla,6.5
+5,865,"Churros (3),Jarritos Soda",6.0
+5,127,"Churros (3),Jarritos Soda",6.0
+5,530,"Churros (3),Mexican Hot Chocolate",6.5
+5,403,"Churros (3),Mexican Hot Chocolate",6.5
+5,563,"Chicken Quesadilla,Agua Fresca",10.0
+5,852,"Churros (3),Agua Fresca",7.0
+5,228,"Churros (3),Jarritos Soda",6.0
+5,454,Churros (3),3.5
+5,614,"Churros (3),Agua Fresca",7.0
+5,967,"Churros (3),Mexican Hot Chocolate",6.5
+5,108,"Churros (3),Agua Fresca",7.0
+5,909,"Churros (3),Mexican Hot Chocolate",6.5
+5,685,Churros (3),3.5
+5,145,"Churros (3),Mexican Hot Chocolate",6.5
+5,266,Chicken Quesadilla,6.5
+5,847,"Churros (3),Jarritos Soda",6.0
+5,218,"Chicken Quesadilla,Agua Fresca",10.0
+5,957,"Churros (3),Horchata",6.5
+5,210,"Chicken Quesadilla,Jarritos Soda",9.0
+5,479,"Chicken Quesadilla,Jarritos Soda",9.0
+5,341,"Churros (3),Jarritos Soda",6.0
+5,751,"Churros (3),Horchata",6.5
+5,854,"Churros (3),Agua Fresca",7.0
+5,714,"Chicken Quesadilla,Mexican Hot Chocolate",9.5
+5,531,"Chicken Quesadilla,Agua Fresca",10.0
+5,817,"Churros (3),Jarritos Soda",6.0
+5,674,"Churros (3),Jarritos Soda",6.0
+5,273,"Churros (3),Horchata",6.5
+5,316,"Churros (3),Jarritos Soda",6.0
+5,523,"Churros (3),Agua Fresca",7.0
+5,836,"Churros (3),Mexican Hot Chocolate",6.5
+5,186,Churros (3),3.5
+5,547,"Chicken Quesadilla,Horchata",9.5
+5,2,"Chicken Quesadilla,Horchata",9.5
+5,129,"Churros (3),Jarritos Soda",6.0
+5,524,"Churros (3),Jarritos Soda",6.0
+5,229,"Churros (3),Horchata",6.5
+5,790,"Churros (3),Horchata",6.5
+5,483,"Chicken Quesadilla,Agua Fresca",10.0
+5,326,"Churros (3),Agua Fresca",7.0
+5,935,"Churros (3),Jarritos Soda",6.0
+5,62,"Churros (3),Horchata",6.5
+5,421,"Churros (3),Jarritos Soda",6.0
+5,470,"Churros (3),Jarritos Soda",6.0
+5,925,Churros (3),3.5
+5,775,"Churros (3),Agua Fresca",7.0
+5,797,"Churros (3),Jarritos Soda",6.0
+5,890,"Churros (3),Horchata",6.5
+5,486,"Churros (3),Mexican Hot Chocolate",6.5
+5,95,Churros (3),3.5
+5,489,Churros (3),3.5

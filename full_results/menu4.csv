@@ -1,0 +1,6 @@
+day,revenue,customers,items_sold,stockouts
+1,427.0,60,"{""Churros (3)"": 41, ""Horchata"": 11, ""Chicken Quesadilla"": 19, ""Jarritos Soda"": 14, ""Agua Fresca"": 10, ""Mexican Hot Chocolate"": 19}",
+2,426.5,59,"{""Chicken Quesadilla"": 24, ""Agua Fresca"": 13, ""Churros (3)"": 35, ""Jarritos Soda"": 17, ""Mexican Hot Chocolate"": 9, ""Horchata"": 11}",
+3,383.5,56,"{""Chicken Quesadilla"": 17, ""Jarritos Soda"": 5, ""Churros (3)"": 39, ""Horchata"": 16, ""Mexican Hot Chocolate"": 9, ""Agua Fresca"": 14}",
+4,422.0,60,"{""Churros (3)"": 40, ""Mexican Hot Chocolate"": 13, ""Horchata"": 11, ""Jarritos Soda"": 18, ""Agua Fresca"": 10, ""Chicken Quesadilla"": 20}",
+5,462.5,69,"{""Churros (3)"": 52, ""Agua Fresca"": 15, ""Mexican Hot Chocolate"": 11, ""Horchata"": 14, ""Chicken Quesadilla"": 17, ""Jarritos Soda"": 17}",

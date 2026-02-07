@@ -1,0 +1,602 @@
+day,student_id,purchased_items,total_spent
+1,519,"Teriyaki Chicken Bowl,Bottled Water",10.5
+1,343,"Chocolate Brownie,Red Bull style energy drink",7.0
+1,932,"Fresh Fruit Cup,Fresh Lemonade",7.0
+1,662,"Chocolate Brownie,Red Bull style energy drink",7.0
+1,180,"Fresh Fruit Cup,Bottled Water",5.5
+1,210,"Fresh Fruit Cup,Fresh Lemonade",7.0
+1,230,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+1,281,"Loaded Nachos,Red Bull style energy drink",11.0
+1,231,"Loaded Nachos,Red Bull style energy drink",11.0
+1,193,"Chocolate Brownie,Red Bull style energy drink",7.0
+1,311,"Teriyaki Chicken Bowl,Red Bull style energy drink",12.5
+1,787,"Fresh Fruit Cup,Fresh Lemonade",7.0
+1,28,"Loaded Nachos,Red Bull style energy drink",11.0
+1,715,"Chocolate Brownie,Red Bull style energy drink",7.0
+1,331,"Chocolate Brownie,Red Bull style energy drink",7.0
+1,795,"Loaded Nachos,Red Bull style energy drink",11.0
+1,879,"Fresh Fruit Cup,Iced Coffee",8.0
+1,189,"Chocolate Brownie,Fresh Lemonade",6.5
+1,858,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+1,793,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+1,568,"Loaded Nachos,Red Bull style energy drink",11.0
+1,813,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+1,672,"Chocolate Brownie,Red Bull style energy drink",7.0
+1,887,"Chocolate Brownie,Red Bull style energy drink",7.0
+1,611,"Chocolate Brownie,Red Bull style energy drink",7.0
+1,884,"Grilled Chicken Wrap,Red Bull style energy drink",12.0
+1,964,"Chocolate Brownie,Red Bull style energy drink",7.0
+1,109,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+1,507,Chocolate Brownie,3.5
+1,640,"Chocolate Brownie,Red Bull style energy drink",7.0
+1,492,"Loaded Nachos,Iced Coffee",11.5
+1,286,"Loaded Nachos,Red Bull style energy drink",11.0
+1,138,"Grilled Chicken Wrap,Iced Coffee",12.5
+1,663,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+1,245,"Chocolate Brownie,Red Bull style energy drink",7.0
+1,836,"Chocolate Brownie,Fresh Lemonade",6.5
+1,494,"Fresh Fruit Cup,Iced Coffee",8.0
+1,844,"Loaded Nachos,Red Bull style energy drink",11.0
+1,632,"Chocolate Brownie,Red Bull style energy drink",7.0
+1,797,"Chocolate Brownie,Red Bull style energy drink",7.0
+1,325,Fresh Fruit Cup,4.0
+1,520,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+1,730,"Chocolate Brownie,Red Bull style energy drink",7.0
+1,137,"Loaded Nachos,Red Bull style energy drink",11.0
+1,916,"Fresh Fruit Cup,Bottled Water",5.5
+1,661,"Chocolate Brownie,Red Bull style energy drink",7.0
+1,726,Fresh Fruit Cup,4.0
+1,340,Fresh Fruit Cup,4.0
+1,725,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+1,883,"Fresh Fruit Cup,Iced Coffee",8.0
+1,840,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+1,953,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+1,861,Fresh Fruit Cup,4.0
+1,11,"Chocolate Brownie,Red Bull style energy drink",7.0
+1,540,"Chocolate Brownie,Red Bull style energy drink",7.0
+1,571,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+1,877,"Loaded Nachos,Red Bull style energy drink",11.0
+1,122,Fresh Fruit Cup,4.0
+1,888,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+1,890,"Chocolate Brownie,Red Bull style energy drink",7.0
+1,627,"Loaded Nachos,Red Bull style energy drink",11.0
+1,378,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+1,589,"Loaded Nachos,Red Bull style energy drink",11.0
+1,71,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+1,816,"Teriyaki Chicken Bowl,Red Bull style energy drink",12.5
+1,655,"Fresh Fruit Cup,Fresh Lemonade",7.0
+1,824,"Loaded Nachos,Red Bull style energy drink",11.0
+1,626,"Chocolate Brownie,Red Bull style energy drink",7.0
+1,322,"Loaded Nachos,Red Bull style energy drink",11.0
+1,36,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+1,689,"Chocolate Brownie,Fresh Lemonade",6.5
+1,557,"Chocolate Brownie,Red Bull style energy drink",7.0
+1,335,"Chocolate Brownie,Red Bull style energy drink",7.0
+1,135,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+1,453,"Veggie Burrito Bowl,Red Bull style energy drink",11.5
+1,77,"Chocolate Brownie,Red Bull style energy drink",7.0
+1,724,"Chocolate Brownie,Fresh Lemonade",6.5
+1,790,"Chocolate Brownie,Red Bull style energy drink",7.0
+1,323,"Grilled Chicken Wrap,Red Bull style energy drink",12.0
+1,804,"Teriyaki Chicken Bowl,Red Bull style energy drink",12.5
+1,487,"Chocolate Brownie,Fresh Lemonade",6.5
+1,564,"Chocolate Brownie,Fresh Lemonade",6.5
+1,162,"Chocolate Brownie,Red Bull style energy drink",7.0
+1,705,"Chocolate Brownie,Red Bull style energy drink",7.0
+1,910,"Chocolate Brownie,Fresh Lemonade",6.5
+1,224,"Chocolate Brownie,Fresh Lemonade",6.5
+1,652,"Veggie Burrito Bowl,Red Bull style energy drink",11.5
+1,154,"Chocolate Brownie,Red Bull style energy drink",7.0
+1,630,"Chocolate Brownie,Red Bull style energy drink",7.0
+1,699,"Loaded Nachos,Red Bull style energy drink",11.0
+1,562,"Teriyaki Chicken Bowl,Red Bull style energy drink",12.5
+1,246,"Veggie Burrito Bowl,Red Bull style energy drink",11.5
+1,86,"Grilled Chicken Wrap,Red Bull style energy drink",12.0
+1,706,"Chocolate Brownie,Red Bull style energy drink",7.0
+1,757,"Loaded Nachos,Red Bull style energy drink",11.0
+1,446,"Loaded Nachos,Red Bull style energy drink",11.0
+1,37,"Chocolate Brownie,Iced Coffee",7.5
+1,929,"Chocolate Brownie,Fresh Lemonade",6.5
+1,915,"Chocolate Brownie,Red Bull style energy drink",7.0
+1,541,"Chocolate Brownie,Red Bull style energy drink",7.0
+1,115,"Chocolate Brownie,Red Bull style energy drink",7.0
+1,358,"Loaded Nachos,Red Bull style energy drink",11.0
+1,396,"Chocolate Brownie,Red Bull style energy drink",7.0
+1,57,"Chocolate Brownie,Red Bull style energy drink",7.0
+1,96,"Loaded Nachos,Red Bull style energy drink",11.0
+1,618,"Chocolate Brownie,Red Bull style energy drink",7.0
+1,727,"Loaded Nachos,Red Bull style energy drink",11.0
+1,148,"Chocolate Brownie,Red Bull style energy drink",7.0
+1,516,"Loaded Nachos,Bottled Water",9.0
+1,791,"Loaded Nachos,Fresh Lemonade",10.5
+1,417,"Chocolate Brownie,Fresh Lemonade",6.5
+1,114,"Grilled Chicken Wrap,Fresh Lemonade",11.5
+1,762,"Loaded Nachos,Fresh Lemonade",10.5
+1,958,"Chocolate Brownie,Fresh Lemonade",6.5
+1,878,"Loaded Nachos,Fresh Lemonade",10.5
+1,312,Chocolate Brownie,3.5
+1,84,"Chocolate Brownie,Bottled Water",5.0
+1,525,"Loaded Nachos,Bottled Water",9.0
+1,579,Teriyaki Chicken Bowl,9.0
+2,486,"Chocolate Brownie,Fresh Lemonade",6.5
+2,604,"Teriyaki Chicken Bowl,Red Bull style energy drink",12.5
+2,112,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+2,279,"Chocolate Brownie,Red Bull style energy drink",7.0
+2,460,"Chocolate Brownie,Red Bull style energy drink",7.0
+2,446,"Loaded Nachos,Red Bull style energy drink",11.0
+2,421,"Chocolate Brownie,Red Bull style energy drink",7.0
+2,757,"Loaded Nachos,Red Bull style energy drink",11.0
+2,613,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+2,162,"Chocolate Brownie,Red Bull style energy drink",7.0
+2,440,Fresh Fruit Cup,4.0
+2,216,"Chocolate Brownie,Red Bull style energy drink",7.0
+2,321,"Chocolate Brownie,Red Bull style energy drink",7.0
+2,713,"Veggie Burrito Bowl,Red Bull style energy drink",11.5
+2,973,"Fresh Fruit Cup,Fresh Lemonade",7.0
+2,656,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+2,654,"Chocolate Brownie,Red Bull style energy drink",7.0
+2,805,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+2,829,"Loaded Nachos,Red Bull style energy drink",11.0
+2,59,Fresh Fruit Cup,4.0
+2,387,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+2,791,Loaded Nachos,7.5
+2,134,"Fresh Fruit Cup,Iced Coffee",8.0
+2,823,"Teriyaki Chicken Bowl,Red Bull style energy drink",12.5
+2,653,"Chocolate Brownie,Red Bull style energy drink",7.0
+2,161,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+2,640,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+2,967,"Fresh Fruit Cup,Iced Coffee",8.0
+2,44,"Chocolate Brownie,Red Bull style energy drink",7.0
+2,452,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+2,932,"Fresh Fruit Cup,Fresh Lemonade",7.0
+2,483,"Loaded Nachos,Red Bull style energy drink",11.0
+2,852,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+2,235,Teriyaki Chicken Bowl,9.0
+2,79,"Teriyaki Chicken Bowl,Red Bull style energy drink",12.5
+2,725,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+2,797,"Chocolate Brownie,Red Bull style energy drink",7.0
+2,277,"Chocolate Brownie,Red Bull style energy drink",7.0
+2,752,"Chocolate Brownie,Red Bull style energy drink",7.0
+2,693,"Loaded Nachos,Red Bull style energy drink",11.0
+2,135,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+2,455,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+2,439,"Chocolate Brownie,Red Bull style energy drink",7.0
+2,810,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+2,441,"Loaded Nachos,Red Bull style energy drink",11.0
+2,992,"Fresh Fruit Cup,Iced Coffee",8.0
+2,94,"Loaded Nachos,Red Bull style energy drink",11.0
+2,971,"Grilled Chicken Wrap,Red Bull style energy drink",12.0
+2,451,Fresh Fruit Cup,4.0
+2,243,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+2,878,"Loaded Nachos,Red Bull style energy drink",11.0
+2,283,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+2,43,"Chocolate Brownie,Red Bull style energy drink",7.0
+2,378,"Chocolate Brownie,Red Bull style energy drink",7.0
+2,709,"Loaded Nachos,Bottled Water",9.0
+2,795,"Loaded Nachos,Red Bull style energy drink",11.0
+2,873,"Fresh Fruit Cup,Fresh Lemonade",7.0
+2,430,"Chocolate Brownie,Red Bull style energy drink",7.0
+2,564,"Chocolate Brownie,Fresh Lemonade",6.5
+2,450,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+2,658,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+2,173,Fresh Fruit Cup,4.0
+2,281,"Loaded Nachos,Red Bull style energy drink",11.0
+2,225,Chocolate Brownie,3.5
+2,86,"Grilled Chicken Wrap,Red Bull style energy drink",12.0
+2,830,"Fresh Fruit Cup,Fresh Lemonade",7.0
+2,741,"Chocolate Brownie,Red Bull style energy drink",7.0
+2,547,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+2,100,"Fresh Fruit Cup,Iced Coffee",8.0
+2,6,Teriyaki Chicken Bowl,9.0
+2,160,"Chocolate Brownie,Red Bull style energy drink",7.0
+2,632,"Chocolate Brownie,Red Bull style energy drink",7.0
+2,419,"Chocolate Brownie,Red Bull style energy drink",7.0
+2,647,"Chocolate Brownie,Red Bull style energy drink",7.0
+2,756,"Loaded Nachos,Red Bull style energy drink",11.0
+2,798,"Chocolate Brownie,Red Bull style energy drink",7.0
+2,912,"Loaded Nachos,Red Bull style energy drink",11.0
+2,747,"Chocolate Brownie,Fresh Lemonade",6.5
+2,778,"Veggie Burrito Bowl,Red Bull style energy drink",11.5
+2,514,"Chocolate Brownie,Red Bull style energy drink",7.0
+2,964,"Chocolate Brownie,Red Bull style energy drink",7.0
+2,804,"Teriyaki Chicken Bowl,Red Bull style energy drink",12.5
+2,24,"Chocolate Brownie,Red Bull style energy drink",7.0
+2,302,"Chocolate Brownie,Red Bull style energy drink",7.0
+2,779,"Chocolate Brownie,Red Bull style energy drink",7.0
+2,379,"Chocolate Brownie,Iced Coffee",7.5
+2,37,"Chocolate Brownie,Iced Coffee",7.5
+2,310,"Chocolate Brownie,Red Bull style energy drink",7.0
+2,431,"Veggie Burrito Bowl,Red Bull style energy drink",11.5
+2,498,"Teriyaki Chicken Bowl,Red Bull style energy drink",12.5
+2,487,"Chocolate Brownie,Fresh Lemonade",6.5
+2,540,"Chocolate Brownie,Red Bull style energy drink",7.0
+2,960,"Loaded Nachos,Red Bull style energy drink",11.0
+2,637,"Veggie Burrito Bowl,Red Bull style energy drink",11.5
+2,541,"Chocolate Brownie,Red Bull style energy drink",7.0
+2,611,"Chocolate Brownie,Red Bull style energy drink",7.0
+2,560,"Veggie Burrito Bowl,Red Bull style energy drink",11.5
+2,833,"Chocolate Brownie,Red Bull style energy drink",7.0
+2,793,"Loaded Nachos,Red Bull style energy drink",11.0
+2,343,"Chocolate Brownie,Red Bull style energy drink",7.0
+2,809,"Chocolate Brownie,Red Bull style energy drink",7.0
+2,71,"Chocolate Brownie,Red Bull style energy drink",7.0
+2,236,"Chocolate Brownie,Red Bull style energy drink",7.0
+2,75,"Loaded Nachos,Fresh Lemonade",10.5
+2,461,"Chocolate Brownie,Iced Coffee",7.5
+2,40,"Chocolate Brownie,Fresh Lemonade",6.5
+2,675,Chocolate Brownie,3.5
+2,820,"Loaded Nachos,Bottled Water",9.0
+2,184,Chocolate Brownie,3.5
+2,836,"Chocolate Brownie,Fresh Lemonade",6.5
+2,519,"Teriyaki Chicken Bowl,Bottled Water",10.5
+2,917,"Chocolate Brownie,Bottled Water",5.0
+2,215,"Chocolate Brownie,Bottled Water",5.0
+3,187,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,890,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,849,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+3,8,"Teriyaki Chicken Bowl,Iced Coffee",13.0
+3,50,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+3,248,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+3,571,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,981,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+3,530,"Fresh Fruit Cup,Bottled Water",5.5
+3,920,Fresh Fruit Cup,4.0
+3,344,Fresh Fruit Cup,4.0
+3,81,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+3,612,Fresh Fruit Cup,4.0
+3,653,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,26,"Loaded Nachos,Bottled Water",9.0
+3,241,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+3,546,"Fresh Fruit Cup,Iced Coffee",8.0
+3,768,"Fresh Fruit Cup,Bottled Water",5.5
+3,185,"Loaded Nachos,Red Bull style energy drink",11.0
+3,637,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,861,Fresh Fruit Cup,4.0
+3,942,"Fresh Fruit Cup,Bottled Water",5.5
+3,545,"Chocolate Brownie,Fresh Lemonade",6.5
+3,824,"Veggie Burrito Bowl,Red Bull style energy drink",11.5
+3,75,"Loaded Nachos,Red Bull style energy drink",11.0
+3,947,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+3,514,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+3,36,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+3,283,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+3,881,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+3,958,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,160,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,877,"Loaded Nachos,Red Bull style energy drink",11.0
+3,963,Fresh Fruit Cup,4.0
+3,519,"Teriyaki Chicken Bowl,Bottled Water",10.5
+3,910,"Chocolate Brownie,Fresh Lemonade",6.5
+3,817,"Fresh Fruit Cup,Fresh Lemonade",7.0
+3,627,"Loaded Nachos,Red Bull style energy drink",11.0
+3,137,"Veggie Burrito Bowl,Red Bull style energy drink",11.5
+3,663,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+3,197,Fresh Fruit Cup,4.0
+3,656,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,2,"Loaded Nachos,Red Bull style energy drink",11.0
+3,524,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+3,154,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,836,"Chocolate Brownie,Fresh Lemonade",6.5
+3,949,"Chocolate Brownie,Fresh Lemonade",6.5
+3,387,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,64,"Teriyaki Chicken Bowl,Bottled Water",10.5
+3,813,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,191,Fresh Fruit Cup,4.0
+3,147,Fresh Fruit Cup,4.0
+3,798,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,152,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,159,Fresh Fruit Cup,4.0
+3,795,"Loaded Nachos,Red Bull style energy drink",11.0
+3,417,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+3,338,Teriyaki Chicken Bowl,9.0
+3,930,Fresh Fruit Cup,4.0
+3,420,Fresh Fruit Cup,4.0
+3,894,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,444,"Veggie Burrito Bowl,Iced Coffee",12.0
+3,610,"Loaded Nachos,Red Bull style energy drink",11.0
+3,661,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,562,"Teriyaki Chicken Bowl,Red Bull style energy drink",12.5
+3,804,"Loaded Nachos,Red Bull style energy drink",11.0
+3,611,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,355,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,648,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,854,"Chocolate Brownie,Fresh Lemonade",6.5
+3,507,Chocolate Brownie,3.5
+3,203,"Loaded Nachos,Red Bull style energy drink",11.0
+3,997,"Chocolate Brownie,Iced Coffee",7.5
+3,618,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,277,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,550,"Loaded Nachos,Red Bull style energy drink",11.0
+3,829,"Loaded Nachos,Red Bull style energy drink",11.0
+3,708,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,422,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,62,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,43,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,410,"Grilled Chicken Wrap,Fresh Lemonade",11.5
+3,382,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,349,"Loaded Nachos,Red Bull style energy drink",11.0
+3,533,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,293,"Loaded Nachos,Red Bull style energy drink",11.0
+3,79,"Teriyaki Chicken Bowl,Red Bull style energy drink",12.5
+3,955,Loaded Nachos,7.5
+3,520,"Loaded Nachos,Red Bull style energy drink",11.0
+3,816,"Teriyaki Chicken Bowl,Red Bull style energy drink",12.5
+3,396,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,170,"Grilled Chicken Wrap,Red Bull style energy drink",12.0
+3,281,"Loaded Nachos,Red Bull style energy drink",11.0
+3,731,"Loaded Nachos,Red Bull style energy drink",11.0
+3,510,"Teriyaki Chicken Bowl,Red Bull style energy drink",12.5
+3,532,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,316,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,294,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,94,"Teriyaki Chicken Bowl,Bottled Water",10.5
+3,455,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,896,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,521,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,727,"Loaded Nachos,Red Bull style energy drink",11.0
+3,859,"Chocolate Brownie,Fresh Lemonade",6.5
+3,21,"Loaded Nachos,Red Bull style energy drink",11.0
+3,840,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,568,"Loaded Nachos,Red Bull style energy drink",11.0
+3,361,"Loaded Nachos,Red Bull style energy drink",11.0
+3,926,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,629,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,557,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,982,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,245,"Chocolate Brownie,Red Bull style energy drink",7.0
+3,54,Grilled Chicken Wrap,8.5
+3,57,"Chocolate Brownie,Fresh Lemonade",6.5
+3,709,"Loaded Nachos,Bottled Water",9.0
+3,322,"Loaded Nachos,Fresh Lemonade",10.5
+3,613,"Chocolate Brownie,Fresh Lemonade",6.5
+3,381,"Loaded Nachos,Iced Coffee",11.5
+3,492,"Loaded Nachos,Iced Coffee",11.5
+3,262,"Chocolate Brownie,Fresh Lemonade",6.5
+3,534,"Grilled Chicken Wrap,Fresh Lemonade",11.5
+3,234,"Loaded Nachos,Fresh Lemonade",10.5
+4,570,"Loaded Nachos,Fresh Lemonade",10.5
+4,40,"Chocolate Brownie,Red Bull style energy drink",7.0
+4,138,"Grilled Chicken Wrap,Iced Coffee",12.5
+4,778,"Chocolate Brownie,Red Bull style energy drink",7.0
+4,227,"Chocolate Brownie,Red Bull style energy drink",7.0
+4,277,"Chocolate Brownie,Red Bull style energy drink",7.0
+4,137,"Loaded Nachos,Red Bull style energy drink",11.0
+4,527,"Veggie Burrito Bowl,Red Bull style energy drink",11.5
+4,262,"Chocolate Brownie,Fresh Lemonade",6.5
+4,265,"Loaded Nachos,Red Bull style energy drink",11.0
+4,768,"Fresh Fruit Cup,Bottled Water",5.5
+4,878,"Loaded Nachos,Red Bull style energy drink",11.0
+4,75,"Teriyaki Chicken Bowl,Red Bull style energy drink",12.5
+4,757,"Loaded Nachos,Red Bull style energy drink",11.0
+4,960,"Loaded Nachos,Red Bull style energy drink",11.0
+4,487,"Fresh Fruit Cup,Fresh Lemonade",7.0
+4,801,"Loaded Nachos,Red Bull style energy drink",11.0
+4,419,"Chocolate Brownie,Red Bull style energy drink",7.0
+4,663,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+4,263,"Fresh Fruit Cup,Fresh Lemonade",7.0
+4,532,"Chocolate Brownie,Red Bull style energy drink",7.0
+4,470,"Chocolate Brownie,Red Bull style energy drink",7.0
+4,676,"Veggie Burrito Bowl,Red Bull style energy drink",11.5
+4,1,"Veggie Burrito Bowl,Iced Coffee",12.0
+4,71,"Chocolate Brownie,Red Bull style energy drink",7.0
+4,2,"Loaded Nachos,Red Bull style energy drink",11.0
+4,967,"Fresh Fruit Cup,Iced Coffee",8.0
+4,426,Veggie Burrito Bowl,8.0
+4,427,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+4,220,"Chocolate Brownie,Red Bull style energy drink",7.0
+4,760,"Chocolate Brownie,Red Bull style energy drink",7.0
+4,77,"Chocolate Brownie,Red Bull style energy drink",7.0
+4,378,"Chocolate Brownie,Red Bull style energy drink",7.0
+4,22,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+4,115,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+4,157,Veggie Burrito Bowl,8.0
+4,273,"Chocolate Brownie,Iced Coffee",7.5
+4,601,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+4,214,"Teriyaki Chicken Bowl,Fresh Lemonade",12.0
+4,461,"Chocolate Brownie,Fresh Lemonade",6.5
+4,465,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+4,92,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+4,959,"Fresh Fruit Cup,Iced Coffee",8.0
+4,322,"Loaded Nachos,Red Bull style energy drink",11.0
+4,486,"Chocolate Brownie,Fresh Lemonade",6.5
+4,610,"Loaded Nachos,Red Bull style energy drink",11.0
+4,725,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+4,226,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+4,662,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+4,883,"Fresh Fruit Cup,Iced Coffee",8.0
+4,697,"Veggie Burrito Bowl,Red Bull style energy drink",11.5
+4,559,"Chocolate Brownie,Red Bull style energy drink",7.0
+4,492,"Loaded Nachos,Iced Coffee",11.5
+4,240,"Fresh Fruit Cup,Iced Coffee",8.0
+4,834,"Chocolate Brownie,Red Bull style energy drink",7.0
+4,890,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+4,981,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+4,319,Veggie Burrito Bowl,8.0
+4,997,"Chocolate Brownie,Iced Coffee",7.5
+4,525,"Loaded Nachos,Red Bull style energy drink",11.0
+4,241,"Chocolate Brownie,Red Bull style energy drink",7.0
+4,652,"Chocolate Brownie,Red Bull style energy drink",7.0
+4,987,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+4,810,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+4,252,"Veggie Burrito Bowl,Bottled Water",9.5
+4,564,"Fresh Fruit Cup,Bottled Water",5.5
+4,622,Fresh Fruit Cup,4.0
+4,498,"Teriyaki Chicken Bowl,Red Bull style energy drink",12.5
+4,582,"Fresh Fruit Cup,Iced Coffee",8.0
+4,818,"Fresh Fruit Cup,Iced Coffee",8.0
+4,752,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+4,982,"Chocolate Brownie,Red Bull style energy drink",7.0
+4,170,"Grilled Chicken Wrap,Red Bull style energy drink",12.0
+4,343,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+4,321,"Chocolate Brownie,Red Bull style energy drink",7.0
+4,398,"Veggie Burrito Bowl,Bottled Water",9.5
+4,521,"Chocolate Brownie,Red Bull style energy drink",7.0
+4,604,"Teriyaki Chicken Bowl,Red Bull style energy drink",12.5
+4,730,"Chocolate Brownie,Red Bull style energy drink",7.0
+4,161,"Chocolate Brownie,Red Bull style energy drink",7.0
+4,619,"Grilled Chicken Wrap,Bottled Water",10.0
+4,717,"Veggie Burrito Bowl,Red Bull style energy drink",11.5
+4,648,"Chocolate Brownie,Red Bull style energy drink",7.0
+4,930,Fresh Fruit Cup,4.0
+4,281,"Loaded Nachos,Red Bull style energy drink",11.0
+4,620,"Chocolate Brownie,Red Bull style energy drink",7.0
+4,233,"Fresh Fruit Cup,Fresh Lemonade",7.0
+4,613,"Chocolate Brownie,Red Bull style energy drink",7.0
+4,292,"Fresh Fruit Cup,Iced Coffee",8.0
+4,109,"Chocolate Brownie,Red Bull style energy drink",7.0
+4,246,"Veggie Burrito Bowl,Red Bull style energy drink",11.5
+4,396,"Chocolate Brownie,Red Bull style energy drink",7.0
+4,236,"Chocolate Brownie,Red Bull style energy drink",7.0
+4,293,"Loaded Nachos,Red Bull style energy drink",11.0
+4,310,"Chocolate Brownie,Red Bull style energy drink",7.0
+4,693,"Loaded Nachos,Red Bull style energy drink",11.0
+4,361,"Loaded Nachos,Red Bull style energy drink",11.0
+4,79,"Teriyaki Chicken Bowl,Red Bull style energy drink",12.5
+4,349,"Loaded Nachos,Red Bull style energy drink",11.0
+4,701,"Loaded Nachos,Red Bull style energy drink",11.0
+4,283,"Chocolate Brownie,Red Bull style energy drink",7.0
+4,156,Veggie Burrito Bowl,8.0
+4,334,"Veggie Burrito Bowl,Red Bull style energy drink",11.5
+4,314,"Chocolate Brownie,Fresh Lemonade",6.5
+4,624,"Loaded Nachos,Red Bull style energy drink",11.0
+4,912,"Loaded Nachos,Red Bull style energy drink",11.0
+4,316,"Chocolate Brownie,Red Bull style energy drink",7.0
+4,533,"Chocolate Brownie,Red Bull style energy drink",7.0
+4,545,"Chocolate Brownie,Fresh Lemonade",6.5
+4,823,"Teriyaki Chicken Bowl,Red Bull style energy drink",12.5
+4,656,"Chocolate Brownie,Red Bull style energy drink",7.0
+4,841,"Chocolate Brownie,Red Bull style energy drink",7.0
+4,758,"Loaded Nachos,Red Bull style energy drink",11.0
+4,902,"Veggie Burrito Bowl,Fresh Lemonade",11.0
+4,269,"Chocolate Brownie,Fresh Lemonade",6.5
+4,653,"Chocolate Brownie,Iced Coffee",7.5
+4,381,"Loaded Nachos,Bottled Water",9.0
+4,219,Veggie Burrito Bowl,8.0
+4,747,"Chocolate Brownie,Fresh Lemonade",6.5
+4,162,"Chocolate Brownie,Fresh Lemonade",6.5
+4,403,"Chocolate Brownie,Fresh Lemonade",6.5
+4,872,"Veggie Burrito Bowl,Bottled Water",9.5
+4,379,"Chocolate Brownie,Iced Coffee",7.5
+4,510,"Teriyaki Chicken Bowl,Fresh Lemonade",12.0
+4,860,Chocolate Brownie,3.5
+4,993,Chocolate Brownie,3.5
+4,312,Chocolate Brownie,3.5
+4,375,Chocolate Brownie,3.5
+4,417,Teriyaki Chicken Bowl,9.0
+4,235,Teriyaki Chicken Bowl,9.0
+4,791,"Loaded Nachos,Bottled Water",9.0
+4,290,Veggie Burrito Bowl,8.0
+4,863,"Veggie Burrito Bowl,Iced Coffee",12.0
+5,189,"Chocolate Brownie,Fresh Lemonade",6.5
+5,910,"Fresh Fruit Cup,Fresh Lemonade",7.0
+5,450,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,517,"Chocolate Brownie,Fresh Lemonade",6.5
+5,409,Fresh Fruit Cup,4.0
+5,482,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,810,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,140,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+5,541,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+5,598,"Fresh Fruit Cup,Bottled Water",5.5
+5,611,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+5,478,"Loaded Nachos,Red Bull style energy drink",11.0
+5,654,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+5,245,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,138,"Grilled Chicken Wrap,Iced Coffee",12.5
+5,798,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+5,64,"Teriyaki Chicken Bowl,Bottled Water",10.5
+5,427,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+5,430,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,453,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,870,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+5,215,Fresh Fruit Cup,4.0
+5,662,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+5,240,"Fresh Fruit Cup,Iced Coffee",8.0
+5,322,"Loaded Nachos,Red Bull style energy drink",11.0
+5,30,"Loaded Nachos,Bottled Water",9.0
+5,265,"Loaded Nachos,Red Bull style energy drink",11.0
+5,961,"Fresh Fruit Cup,Bottled Water",5.5
+5,595,"Loaded Nachos,Red Bull style energy drink",11.0
+5,816,"Teriyaki Chicken Bowl,Red Bull style energy drink",12.5
+5,419,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,507,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,135,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+5,586,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,564,"Fresh Fruit Cup,Bottled Water",5.5
+5,364,"Fresh Fruit Cup,Bottled Water",5.5
+5,382,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,492,"Loaded Nachos,Iced Coffee",11.5
+5,584,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,701,"Loaded Nachos,Red Bull style energy drink",11.0
+5,897,Fresh Fruit Cup,4.0
+5,918,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+5,601,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,293,"Loaded Nachos,Red Bull style energy drink",11.0
+5,40,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,152,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,704,Fresh Fruit Cup,4.0
+5,705,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,410,"Grilled Chicken Wrap,Fresh Lemonade",11.5
+5,70,"Fresh Fruit Cup,Fresh Lemonade",7.0
+5,47,Fresh Fruit Cup,4.0
+5,287,"Fresh Fruit Cup,Fresh Lemonade",7.0
+5,29,"Loaded Nachos,Red Bull style energy drink",11.0
+5,92,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+5,452,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+5,194,Fresh Fruit Cup,4.0
+5,21,"Loaded Nachos,Red Bull style energy drink",11.0
+5,368,Fresh Fruit Cup,4.0
+5,302,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,280,"Veggie Burrito Bowl,Red Bull style energy drink",11.5
+5,353,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,6,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,241,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,760,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+5,589,"Loaded Nachos,Red Bull style energy drink",11.0
+5,533,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,422,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,117,"Fresh Fruit Cup,Red Bull style energy drink",7.5
+5,139,"Fresh Fruit Cup,Iced Coffee",8.0
+5,321,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,838,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,801,"Loaded Nachos,Red Bull style energy drink",11.0
+5,137,"Loaded Nachos,Red Bull style energy drink",11.0
+5,997,"Chocolate Brownie,Iced Coffee",7.5
+5,844,"Loaded Nachos,Red Bull style energy drink",11.0
+5,762,"Loaded Nachos,Fresh Lemonade",10.5
+5,672,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,220,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,834,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,702,"Veggie Burrito Bowl,Red Bull style energy drink",11.5
+5,610,"Loaded Nachos,Red Bull style energy drink",11.0
+5,671,"Grilled Chicken Wrap,Red Bull style energy drink",12.0
+5,747,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,225,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,161,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,752,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,417,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,693,"Loaded Nachos,Red Bull style energy drink",11.0
+5,8,"Teriyaki Chicken Bowl,Iced Coffee",13.0
+5,162,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,109,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,248,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,235,Teriyaki Chicken Bowl,9.0
+5,756,"Loaded Nachos,Bottled Water",9.0
+5,657,"Grilled Chicken Wrap,Red Bull style energy drink",12.0
+5,184,Chocolate Brownie,3.5
+5,150,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,630,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,656,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,437,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,158,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,626,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,858,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,279,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,755,"Chocolate Brownie,Fresh Lemonade",6.5
+5,484,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,841,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,79,"Teriyaki Chicken Bowl,Red Bull style energy drink",12.5
+5,632,"Chocolate Brownie,Red Bull style energy drink",7.0
+5,878,"Loaded Nachos,Red Bull style energy drink",11.0
+5,624,"Loaded Nachos,Fresh Lemonade",10.5
+5,607,Teriyaki Chicken Bowl,9.0
+5,151,"Grilled Chicken Wrap,Iced Coffee",12.5

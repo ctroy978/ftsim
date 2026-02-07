@@ -1,0 +1,6 @@
+day,revenue,customers,items_sold,stockouts
+1,472.5,50,"{""Acai Bowl"": 15, ""Grilled Chicken Salad"": 7, ""Green Power Smoothie"": 14, ""Turkey Avocado Wrap"": 14, ""Coconut Water"": 14, ""Banana Oat Muffin"": 10, ""Cold Brew Coffee"": 7, ""Protein Energy Balls (4)"": 4}",
+2,480.5,49,"{""Acai Bowl"": 20, ""Green Power Smoothie"": 15, ""Grilled Chicken Salad"": 15, ""Cold Brew Coffee"": 9, ""Coconut Water"": 14, ""Banana Oat Muffin"": 10, ""Protein Energy Balls (4)"": 4, ""Berry Kombucha"": 2}",
+3,388.5,45,"{""Grilled Chicken Salad"": 12, ""Coconut Water"": 8, ""Green Power Smoothie"": 11, ""Turkey Avocado Wrap"": 7, ""Acai Bowl"": 8, ""Protein Energy Balls (4)"": 12, ""Banana Oat Muffin"": 6, ""Berry Kombucha"": 1, ""Cold Brew Coffee"": 6}",
+4,381.0,37,"{""Grilled Chicken Salad"": 9, ""Green Power Smoothie"": 18, ""Acai Bowl"": 20, ""Coconut Water"": 9, ""Protein Energy Balls (4)"": 3, ""Banana Oat Muffin"": 5, ""Cold Brew Coffee"": 2}",
+5,593.0,57,"{""Acai Bowl"": 27, ""Green Power Smoothie"": 24, ""Grilled Chicken Salad"": 8, ""Protein Energy Balls (4)"": 6, ""Banana Oat Muffin"": 9, ""Berry Kombucha"": 2, ""Turkey Avocado Wrap"": 7, ""Cold Brew Coffee"": 11, ""Coconut Water"": 12}",

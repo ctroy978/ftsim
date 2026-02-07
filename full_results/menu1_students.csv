@@ -1,0 +1,439 @@
+day,student_id,purchased_items,total_spent
+1,720,"Cinnamon Sticks,Italian Sparkling Water",5.5
+1,761,"Cheese Breadsticks,Italian Sparkling Water",6.0
+1,745,"Cinnamon Sticks,Fountain Soda",5.0
+1,415,Cinnamon Sticks,3.0
+1,209,"Cinnamon Sticks,Fountain Soda",5.0
+1,748,Cinnamon Sticks,3.0
+1,803,"Cinnamon Sticks,Fresh Squeezed OJ",6.5
+1,750,"Cinnamon Sticks,Fountain Soda",5.0
+1,856,"Cinnamon Sticks,Fountain Soda",5.0
+1,274,"Cinnamon Sticks,Fountain Soda",5.0
+1,276,"Cinnamon Sticks,Fountain Soda",5.0
+1,69,"Cinnamon Sticks,Fountain Soda",5.0
+1,377,"Cinnamon Sticks,Fountain Soda",5.0
+1,503,"Caesar Salad,Italian Sparkling Water",8.5
+1,769,"Cinnamon Sticks,Fountain Soda",5.0
+1,326,"Cinnamon Sticks,Fresh Squeezed OJ",6.5
+1,755,"Cinnamon Sticks,Fountain Soda",5.0
+1,845,Cinnamon Sticks,3.0
+1,501,"Cinnamon Sticks,Fountain Soda",5.0
+1,766,"Cinnamon Sticks,Fountain Soda",5.0
+1,400,"Cheese Breadsticks,Fountain Soda",5.5
+1,240,"Cinnamon Sticks,Fountain Soda",5.0
+1,485,Cheese Breadsticks,3.5
+1,832,"Caesar Salad,Italian Sparkling Water",8.5
+1,695,"Cheese Breadsticks,Fresh Squeezed OJ",7.0
+1,609,"Cinnamon Sticks,Fresh Squeezed OJ",6.5
+1,645,"Cinnamon Sticks,Fountain Soda",5.0
+1,617,"Cinnamon Sticks,Fountain Soda",5.0
+1,893,"Cinnamon Sticks,Fountain Soda",5.0
+1,593,"Cinnamon Sticks,Fountain Soda",5.0
+1,359,"Cinnamon Sticks,Fountain Soda",5.0
+1,660,Pepperoni Pizza Slice,4.5
+1,776,"Cinnamon Sticks,Fountain Soda",5.0
+1,920,Cinnamon Sticks,3.0
+1,605,"Caesar Salad,Fountain Soda",8.0
+1,129,"Cinnamon Sticks,Fountain Soda",5.0
+1,772,"Cinnamon Sticks,Italian Sparkling Water",5.5
+1,1000,"Cheese Breadsticks,Fountain Soda",5.5
+1,238,Cinnamon Sticks,3.0
+1,513,"Cheese Breadsticks,Fresh Squeezed OJ",7.0
+1,149,"Cinnamon Sticks,Fountain Soda",5.0
+1,204,"Cinnamon Sticks,Fountain Soda",5.0
+1,732,"Cinnamon Sticks,Fresh Squeezed OJ",6.5
+1,165,Cinnamon Sticks,3.0
+1,19,"Cinnamon Sticks,Fountain Soda",5.0
+1,8,"Cinnamon Sticks,Fountain Soda",5.0
+1,142,Cinnamon Sticks,3.0
+1,691,"Cinnamon Sticks,Fountain Soda",5.0
+1,586,"Caesar Salad,Italian Sparkling Water",8.5
+1,598,"Cinnamon Sticks,Fountain Soda",5.0
+1,251,"Cinnamon Sticks,Fountain Soda",5.0
+1,889,Cheese Breadsticks,3.5
+1,528,Caesar Salad,6.0
+1,50,"Cheese Breadsticks,Fresh Squeezed OJ",7.0
+1,596,"Caesar Salad,Italian Sparkling Water",8.5
+1,811,Cinnamon Sticks,3.0
+1,333,"Cinnamon Sticks,Fountain Soda",5.0
+1,551,"Cinnamon Sticks,Fountain Soda",5.0
+1,59,Cheese Breadsticks,3.5
+1,860,"Cinnamon Sticks,Italian Sparkling Water",5.5
+1,15,"Cinnamon Sticks,Fresh Squeezed OJ",6.5
+1,118,Cinnamon Sticks,3.0
+1,763,"Cinnamon Sticks,Fountain Soda",5.0
+1,342,Cinnamon Sticks,3.0
+1,936,"Cinnamon Sticks,Fresh Squeezed OJ",6.5
+1,572,"Caesar Salad,Fresh Squeezed OJ",9.5
+1,213,"Pepperoni Pizza Slice,Fountain Soda",6.5
+1,723,"Caesar Salad,Fresh Squeezed OJ",9.5
+1,623,"Caesar Salad,Fountain Soda",8.0
+1,656,"Cinnamon Sticks,Fountain Soda",5.0
+1,868,Caesar Salad,6.0
+1,853,Caesar Salad,6.0
+1,130,Cheese Breadsticks,3.5
+1,736,"Caesar Salad,Italian Sparkling Water",8.5
+1,315,"Cheese Breadsticks,Italian Sparkling Water",6.0
+1,999,"Cheese Breadsticks,Fountain Soda",5.5
+2,191,"Cinnamon Sticks,Fountain Soda",5.0
+2,728,"Cinnamon Sticks,Fountain Soda",5.0
+2,737,"Cinnamon Sticks,Fountain Soda",5.0
+2,190,"Veggie Pizza Slice,Italian Sparkling Water",6.5
+2,237,"Caesar Salad,Fountain Soda",8.0
+2,772,"Cinnamon Sticks,Fresh Squeezed OJ",6.5
+2,129,"Cinnamon Sticks,Fountain Soda",5.0
+2,318,"Caesar Salad,Fountain Soda",8.0
+2,16,"Cinnamon Sticks,Fountain Soda",5.0
+2,617,"Cinnamon Sticks,Fountain Soda",5.0
+2,359,"Cinnamon Sticks,Fountain Soda",5.0
+2,945,"Cinnamon Sticks,Fountain Soda",5.0
+2,739,"Cinnamon Sticks,Fountain Soda",5.0
+2,750,"Cinnamon Sticks,Fountain Soda",5.0
+2,309,"Caesar Salad,Fresh Squeezed OJ",9.5
+2,853,Caesar Salad,6.0
+2,723,"Caesar Salad,Fresh Squeezed OJ",9.5
+2,304,"Cinnamon Sticks,Fountain Soda",5.0
+2,808,Cinnamon Sticks,3.0
+2,576,"Cinnamon Sticks,Fountain Soda",5.0
+2,375,"Cinnamon Sticks,Fountain Soda",5.0
+2,488,"Cinnamon Sticks,Fountain Soda",5.0
+2,880,"Cinnamon Sticks,Fountain Soda",5.0
+2,919,"Cheese Breadsticks,Fresh Squeezed OJ",7.0
+2,89,"Caesar Salad,Italian Sparkling Water",8.5
+2,528,Caesar Salad,6.0
+2,954,"Cinnamon Sticks,Fountain Soda",5.0
+2,405,Cheese Breadsticks,3.5
+2,581,Cinnamon Sticks,3.0
+2,811,Cinnamon Sticks,3.0
+2,393,"Cinnamon Sticks,Fountain Soda",5.0
+2,569,Cheese Breadsticks,3.5
+2,472,"Cinnamon Sticks,Fountain Soda",5.0
+2,721,"Caesar Salad,Fresh Squeezed OJ",9.5
+2,849,"Cinnamon Sticks,Fountain Soda",5.0
+2,748,"Cinnamon Sticks,Fountain Soda",5.0
+2,186,"Cinnamon Sticks,Fountain Soda",5.0
+2,400,"Cheese Breadsticks,Fountain Soda",5.5
+2,448,"Caesar Salad,Fresh Squeezed OJ",9.5
+2,415,Cinnamon Sticks,3.0
+2,608,"Cheese Breadsticks,Fresh Squeezed OJ",7.0
+2,242,"Cinnamon Sticks,Fountain Soda",5.0
+2,842,"Cinnamon Sticks,Fountain Soda",5.0
+2,496,Cinnamon Sticks,3.0
+2,732,"Cinnamon Sticks,Fresh Squeezed OJ",6.5
+2,803,"Cinnamon Sticks,Fresh Squeezed OJ",6.5
+2,900,"Cheese Breadsticks,Fountain Soda",5.5
+2,639,Cinnamon Sticks,3.0
+2,674,"Cinnamon Sticks,Fountain Soda",5.0
+2,645,"Cinnamon Sticks,Fountain Soda",5.0
+2,695,"Cheese Breadsticks,Fresh Squeezed OJ",7.0
+2,574,"Cinnamon Sticks,Fountain Soda",5.0
+2,794,"Cinnamon Sticks,Italian Sparkling Water",5.5
+2,104,Caesar Salad,6.0
+2,69,"Cinnamon Sticks,Fountain Soda",5.0
+2,868,Caesar Salad,6.0
+2,955,"Cheese Breadsticks,Italian Sparkling Water",6.0
+2,633,"Cinnamon Sticks,Fountain Soda",5.0
+2,628,"Cheese Breadsticks,Fountain Soda",5.5
+2,706,"Cinnamon Sticks,Fountain Soda",5.0
+2,201,"Caesar Salad,Fountain Soda",8.0
+2,468,"Cinnamon Sticks,Italian Sparkling Water",5.5
+2,22,"Cinnamon Sticks,Fountain Soda",5.0
+2,324,Veggie Pizza Slice,4.0
+2,15,"Cinnamon Sticks,Fresh Squeezed OJ",6.5
+2,561,"Cheese Breadsticks,Fountain Soda",5.5
+2,326,"Cinnamon Sticks,Fresh Squeezed OJ",6.5
+2,373,"Cheese Breadsticks,Fresh Squeezed OJ",7.0
+2,984,"Cinnamon Sticks,Fountain Soda",5.0
+2,860,"Cinnamon Sticks,Fountain Soda",5.0
+2,348,Cheese Breadsticks,3.5
+2,763,Cinnamon Sticks,3.0
+2,241,"Cinnamon Sticks,Fountain Soda",5.0
+2,248,"Cinnamon Sticks,Fountain Soda",5.0
+2,50,"Cheese Breadsticks,Fresh Squeezed OJ",7.0
+2,771,"Cinnamon Sticks,Fountain Soda",5.0
+2,386,"Cinnamon Sticks,Italian Sparkling Water",5.5
+2,759,Caesar Salad,6.0
+2,543,"Caesar Salad,Italian Sparkling Water",8.5
+2,121,Cheese Breadsticks,3.5
+2,596,"Cheese Breadsticks,Italian Sparkling Water",6.0
+2,712,"Cheese Breadsticks,Fountain Soda",5.5
+2,32,Cheese Breadsticks,3.5
+2,850,"Cheese Breadsticks,Fountain Soda",5.5
+3,940,Pepperoni Pizza Slice,4.5
+3,477,Cinnamon Sticks,3.0
+3,796,"Cinnamon Sticks,Fresh Squeezed OJ",6.5
+3,95,Cinnamon Sticks,3.0
+3,312,Cinnamon Sticks,3.0
+3,572,"Caesar Salad,Fresh Squeezed OJ",9.5
+3,691,"Cinnamon Sticks,Fountain Soda",5.0
+3,376,"Caesar Salad,Italian Sparkling Water",8.5
+3,620,"Cinnamon Sticks,Fountain Soda",5.0
+3,180,"Cheese Breadsticks,Italian Sparkling Water",6.0
+3,401,"Cinnamon Sticks,Fresh Squeezed OJ",6.5
+3,448,"Caesar Salad,Fresh Squeezed OJ",9.5
+3,463,Cinnamon Sticks,3.0
+3,129,"Cinnamon Sticks,Fountain Soda",5.0
+3,772,"Cinnamon Sticks,Fresh Squeezed OJ",6.5
+3,377,"Cinnamon Sticks,Fountain Soda",5.0
+3,864,"Caesar Salad,Italian Sparkling Water",8.5
+3,945,"Cinnamon Sticks,Fountain Soda",5.0
+3,933,Cheese Breadsticks,3.5
+3,951,"Cinnamon Sticks,Fresh Squeezed OJ",6.5
+3,553,"Caesar Salad,Fountain Soda",8.0
+3,65,"Cinnamon Sticks,Fresh Squeezed OJ",6.5
+3,675,"Cinnamon Sticks,Fountain Soda",5.0
+3,737,"Cinnamon Sticks,Fountain Soda",5.0
+3,386,"Cinnamon Sticks,Fresh Squeezed OJ",6.5
+3,190,"Pepperoni Pizza Slice,Fountain Soda",6.5
+3,457,Cheese Breadsticks,3.5
+3,602,Cinnamon Sticks,3.0
+3,567,Cinnamon Sticks,3.0
+3,956,"Cheese Breadsticks,Fountain Soda",5.5
+3,348,Cheese Breadsticks,3.5
+3,539,"Cinnamon Sticks,Fountain Soda",5.0
+3,415,"Cinnamon Sticks,Fountain Soda",5.0
+3,826,Cheese Breadsticks,3.5
+3,201,"Caesar Salad,Fountain Soda",8.0
+3,535,"Cheese Breadsticks,Italian Sparkling Water",6.0
+3,577,Cheese Breadsticks,3.5
+3,489,"Cinnamon Sticks,Fountain Soda",5.0
+3,766,"Cinnamon Sticks,Fountain Soda",5.0
+3,69,"Cinnamon Sticks,Fountain Soda",5.0
+3,263,"Cinnamon Sticks,Fountain Soda",5.0
+3,578,"Cinnamon Sticks,Fountain Soda",5.0
+3,972,Cheese Breadsticks,3.5
+3,803,"Cinnamon Sticks,Fresh Squeezed OJ",6.5
+3,644,Cinnamon Sticks,3.0
+3,330,"Cheese Breadsticks,Fountain Soda",5.5
+3,186,Cinnamon Sticks,3.0
+3,636,"Caesar Salad,Fountain Soda",8.0
+3,304,Cinnamon Sticks,3.0
+3,916,Cheese Breadsticks,3.5
+3,171,Cheese Breadsticks,3.5
+3,358,"Caesar Salad,Italian Sparkling Water",8.5
+3,818,"Cinnamon Sticks,Fountain Soda",5.0
+3,736,"Caesar Salad,Italian Sparkling Water",8.5
+3,528,"Caesar Salad,Italian Sparkling Water",8.5
+3,125,Cinnamon Sticks,3.0
+3,767,"Cinnamon Sticks,Fountain Soda",5.0
+3,439,"Caesar Salad,Italian Sparkling Water",8.5
+3,237,"Caesar Salad,Fountain Soda",8.0
+3,763,"Cinnamon Sticks,Fountain Soda",5.0
+3,723,"Caesar Salad,Fresh Squeezed OJ",9.5
+3,317,"Cinnamon Sticks,Fountain Soda",5.0
+3,649,"Caesar Salad,Italian Sparkling Water",8.5
+3,22,"Cinnamon Sticks,Fountain Soda",5.0
+3,887,"Caesar Salad,Fresh Squeezed OJ",9.5
+3,681,Cinnamon Sticks,3.0
+3,221,Cheese Breadsticks,3.5
+3,758,"Caesar Salad,Italian Sparkling Water",8.5
+3,326,"Cinnamon Sticks,Fresh Squeezed OJ",6.5
+3,745,Cinnamon Sticks,3.0
+3,909,"Caesar Salad,Italian Sparkling Water",8.5
+3,721,"Caesar Salad,Fresh Squeezed OJ",9.5
+3,918,"Caesar Salad,Fountain Soda",8.0
+3,820,"Caesar Salad,Italian Sparkling Water",8.5
+3,434,Cheese Breadsticks,3.5
+3,220,"Cinnamon Sticks,Fountain Soda",5.0
+3,242,"Cinnamon Sticks,Fountain Soda",5.0
+3,28,"Caesar Salad,Italian Sparkling Water",8.5
+3,522,Cheese Breadsticks,3.5
+3,935,"Cinnamon Sticks,Fountain Soda",5.0
+3,576,"Cinnamon Sticks,Fountain Soda",5.0
+3,720,"Cinnamon Sticks,Italian Sparkling Water",5.5
+3,893,"Cinnamon Sticks,Fountain Soda",5.0
+3,411,"Cheese Breadsticks,Fountain Soda",5.5
+3,978,Cinnamon Sticks,3.0
+3,853,"Caesar Salad,Italian Sparkling Water",8.5
+3,862,"Cinnamon Sticks,Fountain Soda",5.0
+3,247,"Cinnamon Sticks,Fountain Soda",5.0
+3,750,"Cinnamon Sticks,Fountain Soda",5.0
+3,660,Veggie Pizza Slice,4.0
+3,674,"Cinnamon Sticks,Fountain Soda",5.0
+3,89,"Caesar Salad,Fresh Squeezed OJ",9.5
+3,815,"Caesar Salad,Italian Sparkling Water",8.5
+3,628,Cheese Breadsticks,3.5
+3,944,"Cheese Breadsticks,Fountain Soda",5.5
+3,408,Cheese Breadsticks,3.5
+4,552,Cinnamon Sticks,3.0
+4,969,Cinnamon Sticks,3.0
+4,503,"Caesar Salad,Italian Sparkling Water",8.5
+4,423,"Cheese Breadsticks,Fresh Squeezed OJ",7.0
+4,463,"Cinnamon Sticks,Fountain Soda",5.0
+4,90,Cheese Breadsticks,3.5
+4,722,Cinnamon Sticks,3.0
+4,9,Cinnamon Sticks,3.0
+4,666,"Cheese Breadsticks,Fountain Soda",5.5
+4,333,"Cinnamon Sticks,Fountain Soda",5.0
+4,576,"Cinnamon Sticks,Fountain Soda",5.0
+4,213,"Pepperoni Pizza Slice,Fountain Soda",6.5
+4,561,Cheese Breadsticks,3.5
+4,596,"Cheese Breadsticks,Italian Sparkling Water",6.0
+4,307,Cinnamon Sticks,3.0
+4,893,"Cinnamon Sticks,Fountain Soda",5.0
+4,95,"Cinnamon Sticks,Fountain Soda",5.0
+4,136,"Cinnamon Sticks,Fountain Soda",5.0
+4,776,Cinnamon Sticks,3.0
+4,675,Cinnamon Sticks,3.0
+4,864,"Caesar Salad,Italian Sparkling Water",8.5
+4,892,"Cinnamon Sticks,Fountain Soda",5.0
+4,472,"Cinnamon Sticks,Fountain Soda",5.0
+4,346,"Cinnamon Sticks,Fountain Soda",5.0
+4,578,"Cinnamon Sticks,Fountain Soda",5.0
+4,849,"Cinnamon Sticks,Fountain Soda",5.0
+4,309,"Caesar Salad,Fresh Squeezed OJ",9.5
+4,572,"Caesar Salad,Fresh Squeezed OJ",9.5
+4,326,"Cinnamon Sticks,Fresh Squeezed OJ",6.5
+4,755,"Cinnamon Sticks,Fountain Soda",5.0
+4,608,"Cheese Breadsticks,Fresh Squeezed OJ",7.0
+4,748,"Cinnamon Sticks,Italian Sparkling Water",5.5
+4,660,Pepperoni Pizza Slice,4.5
+4,406,"Cinnamon Sticks,Fountain Soda",5.0
+4,951,"Cinnamon Sticks,Fresh Squeezed OJ",6.5
+4,742,"Cinnamon Sticks,Fountain Soda",5.0
+4,59,Cheese Breadsticks,3.5
+4,119,"Cinnamon Sticks,Fountain Soda",5.0
+4,304,"Cinnamon Sticks,Fountain Soda",5.0
+4,501,"Cinnamon Sticks,Fountain Soda",5.0
+4,621,Cheese Breadsticks,3.5
+4,659,Cinnamon Sticks,3.0
+4,539,"Cinnamon Sticks,Fountain Soda",5.0
+4,32,Cheese Breadsticks,3.5
+4,247,"Cinnamon Sticks,Fountain Soda",5.0
+4,803,"Cinnamon Sticks,Fresh Squeezed OJ",6.5
+4,839,Cinnamon Sticks,3.0
+4,953,"Caesar Salad,Fountain Soda",8.0
+4,177,"Veggie Pizza Slice,Fresh Squeezed OJ",7.5
+4,645,"Cinnamon Sticks,Fountain Soda",5.0
+4,956,Cheese Breadsticks,3.5
+4,712,Cheese Breadsticks,3.5
+4,274,"Cinnamon Sticks,Fountain Soda",5.0
+4,683,Cinnamon Sticks,3.0
+4,528,Caesar Salad,6.0
+4,167,Cinnamon Sticks,3.0
+4,887,"Caesar Salad,Fresh Squeezed OJ",9.5
+4,204,"Cinnamon Sticks,Fountain Soda",5.0
+4,50,"Cheese Breadsticks,Fresh Squeezed OJ",7.0
+4,567,Cinnamon Sticks,3.0
+4,794,"Cinnamon Sticks,Italian Sparkling Water",5.5
+4,739,"Cinnamon Sticks,Fountain Soda",5.0
+4,787,"Caesar Salad,Fresh Squeezed OJ",9.5
+4,691,"Cinnamon Sticks,Fountain Soda",5.0
+4,41,Cinnamon Sticks,3.0
+4,606,"Cinnamon Sticks,Fountain Soda",5.0
+4,186,Cinnamon Sticks,3.0
+4,489,Cinnamon Sticks,3.0
+4,295,"Cinnamon Sticks,Fountain Soda",5.0
+4,318,"Cinnamon Sticks,Fountain Soda",5.0
+4,448,"Caesar Salad,Fresh Squeezed OJ",9.5
+4,973,"Caesar Salad,Fountain Soda",8.0
+4,222,Cinnamon Sticks,3.0
+4,201,"Caesar Salad,Fountain Soda",8.0
+4,367,"Cheese Breadsticks,Italian Sparkling Water",6.0
+4,191,"Cinnamon Sticks,Fountain Soda",5.0
+4,400,"Cheese Breadsticks,Fountain Soda",5.5
+4,223,"Caesar Salad,Fresh Squeezed OJ",9.5
+4,796,"Cinnamon Sticks,Fresh Squeezed OJ",6.5
+4,926,Caesar Salad,6.0
+4,999,Cheese Breadsticks,3.5
+4,609,"Cheese Breadsticks,Fresh Squeezed OJ",7.0
+4,623,"Caesar Salad,Fountain Soda",8.0
+4,783,"Cheese Breadsticks,Fountain Soda",5.5
+4,853,Caesar Salad,6.0
+4,759,Caesar Salad,6.0
+4,916,Cheese Breadsticks,3.5
+4,553,Caesar Salad,6.0
+4,205,Cheese Breadsticks,3.5
+4,879,"Caesar Salad,Fountain Soda",8.0
+4,412,"Cheese Breadsticks,Fresh Squeezed OJ",7.0
+4,89,"Caesar Salad,Italian Sparkling Water",8.5
+4,822,"Cheese Breadsticks,Fountain Soda",5.5
+4,654,"Cheese Breadsticks,Fountain Soda",5.5
+5,737,"Cinnamon Sticks,Fountain Soda",5.0
+5,766,"Cinnamon Sticks,Fountain Soda",5.0
+5,675,"Cinnamon Sticks,Fountain Soda",5.0
+5,242,"Cinnamon Sticks,Fountain Soda",5.0
+5,271,"Cheese Breadsticks,Fountain Soda",5.5
+5,943,Cinnamon Sticks,3.0
+5,106,"Cinnamon Sticks,Fountain Soda",5.0
+5,325,"Cinnamon Sticks,Fountain Soda",5.0
+5,681,Cinnamon Sticks,3.0
+5,169,Cheese Breadsticks,3.5
+5,842,"Cinnamon Sticks,Fountain Soda",5.0
+5,864,"Caesar Salad,Fountain Soda",8.0
+5,722,Cinnamon Sticks,3.0
+5,820,"Cheese Breadsticks,Italian Sparkling Water",6.0
+5,63,"Cheese Breadsticks,Italian Sparkling Water",6.0
+5,423,"Cheese Breadsticks,Fresh Squeezed OJ",7.0
+5,794,"Cinnamon Sticks,Italian Sparkling Water",5.5
+5,650,"Cheese Breadsticks,Fountain Soda",5.5
+5,827,Caesar Salad,6.0
+5,774,"Cinnamon Sticks,Fountain Soda",5.0
+5,406,"Cinnamon Sticks,Fountain Soda",5.0
+5,237,"Caesar Salad,Fountain Soda",8.0
+5,376,"Cheese Breadsticks,Italian Sparkling Water",6.0
+5,15,"Cinnamon Sticks,Fresh Squeezed OJ",6.5
+5,594,Cinnamon Sticks,3.0
+5,695,"Cheese Breadsticks,Fresh Squeezed OJ",7.0
+5,975,"Cinnamon Sticks,Fountain Soda",5.0
+5,543,"Caesar Salad,Italian Sparkling Water",8.5
+5,180,"Cheese Breadsticks,Italian Sparkling Water",6.0
+5,528,Caesar Salad,6.0
+5,748,"Cinnamon Sticks,Fountain Soda",5.0
+5,358,"Caesar Salad,Italian Sparkling Water",8.5
+5,940,Pepperoni Pizza Slice,4.5
+5,136,"Cinnamon Sticks,Fountain Soda",5.0
+5,165,"Cinnamon Sticks,Fountain Soda",5.0
+5,772,"Cinnamon Sticks,Italian Sparkling Water",5.5
+5,703,Cinnamon Sticks,3.0
+5,420,"Cinnamon Sticks,Fountain Soda",5.0
+5,503,"Caesar Salad,Italian Sparkling Water",8.5
+5,569,"Cinnamon Sticks,Fountain Soda",5.0
+5,213,"Pepperoni Pizza Slice,Fountain Soda",6.5
+5,412,"Cinnamon Sticks,Fresh Squeezed OJ",6.5
+5,490,"Cheese Breadsticks,Fresh Squeezed OJ",7.0
+5,28,"Caesar Salad,Italian Sparkling Water",8.5
+5,683,"Cinnamon Sticks,Fountain Soda",5.0
+5,69,Cinnamon Sticks,3.0
+5,552,Cinnamon Sticks,3.0
+5,50,"Cheese Breadsticks,Fresh Squeezed OJ",7.0
+5,317,"Cinnamon Sticks,Fountain Soda",5.0
+5,440,"Cinnamon Sticks,Fountain Soda",5.0
+5,913,"Cinnamon Sticks,Italian Sparkling Water",5.5
+5,349,"Veggie Pizza Slice,Italian Sparkling Water",6.5
+5,539,"Cinnamon Sticks,Fountain Soda",5.0
+5,979,"Cinnamon Sticks,Fountain Soda",5.0
+5,89,"Caesar Salad,Italian Sparkling Water",8.5
+5,538,Cinnamon Sticks,3.0
+5,941,"Cinnamon Sticks,Fountain Soda",5.0
+5,948,Cheese Breadsticks,3.5
+5,720,"Cinnamon Sticks,Italian Sparkling Water",5.5
+5,488,Cinnamon Sticks,3.0
+5,803,"Cinnamon Sticks,Fresh Squeezed OJ",6.5
+5,103,"Caesar Salad,Italian Sparkling Water",8.5
+5,25,"Cinnamon Sticks,Fountain Soda",5.0
+5,312,"Cinnamon Sticks,Fountain Soda",5.0
+5,936,"Cinnamon Sticks,Fresh Squeezed OJ",6.5
+5,660,Pepperoni Pizza Slice,4.5
+5,776,"Cinnamon Sticks,Fountain Soda",5.0
+5,256,"Cinnamon Sticks,Fountain Soda",5.0
+5,192,Cheese Breadsticks,3.5
+5,739,"Cinnamon Sticks,Fountain Soda",5.0
+5,926,"Caesar Salad,Fresh Squeezed OJ",9.5
+5,393,"Cinnamon Sticks,Fountain Soda",5.0
+5,783,"Cheese Breadsticks,Fountain Soda",5.5
+5,188,"Cinnamon Sticks,Fountain Soda",5.0
+5,576,Cinnamon Sticks,3.0
+5,636,"Caesar Salad,Fountain Soda",8.0
+5,849,"Cinnamon Sticks,Fountain Soda",5.0
+5,415,Cinnamon Sticks,3.0
+5,920,"Cinnamon Sticks,Fountain Soda",5.0
+5,413,"Caesar Salad,Italian Sparkling Water",8.5
+5,142,"Cinnamon Sticks,Fountain Soda",5.0
+5,608,"Cheese Breadsticks,Fresh Squeezed OJ",7.0
+5,879,"Caesar Salad,Fountain Soda",8.0
+5,835,"Caesar Salad,Italian Sparkling Water",8.5
+5,375,"Cheese Breadsticks,Fountain Soda",5.5
+5,441,"Veggie Pizza Slice,Italian Sparkling Water",6.5
+5,572,"Caesar Salad,Fresh Squeezed OJ",9.5
+5,468,Cheese Breadsticks,3.5
