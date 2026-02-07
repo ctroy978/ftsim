@@ -2,7 +2,7 @@
 
 # Simulation parameters
 DROWSINESS_CHANCE = 0.30
-HAS_CAR_PERCENTAGE = 0.20
+HAS_CAR_PERCENTAGE = 0.30
 MONEY_VARIANCE = 0.20  # Gaussian ±20% from base
 
 # Scoring weights (must sum to 1.0)
@@ -29,17 +29,9 @@ FUZZY_THRESHOLD_MEDIUM = 70  # Medium confidence match
 # High calorie threshold
 HIGH_CALORIE_THRESHOLD = 600
 
-# Fast food chance when student has car and junk mood
-FAST_FOOD_CHANCE = 0.50
-
-# School lunch price range
-SCHOOL_LUNCH_MIN_PRICE = 0.0
-SCHOOL_LUNCH_MAX_PRICE = 2.0
-SCHOOL_LUNCH_HEALTH_RATING = 6  # Moderate health rating
-
-# Fast food price multiplier over truck prices
-FAST_FOOD_PRICE_MULTIPLIER_MIN = 1.20
-FAST_FOOD_PRICE_MULTIPLIER_MAX = 1.50
+# School lunch daily menu selection counts
+SCHOOL_LUNCH_DAILY_FOOD_COUNT = 3
+SCHOOL_LUNCH_DAILY_DRINK_COUNT = 2
 
 # Q4_MoneyForLunch + IncomeLevel → Base Money mapping
 # Key: (Q4_MoneyForLunch, IncomeLevel) → base_money
@@ -129,6 +121,10 @@ DRINK_CATEGORIES = {
 
 # Valid sub_types
 VALID_SUB_TYPES = {"sweet", "savory"}
+
+# Non-purchasing students (absent / brought lunch)
+NON_PURCHASING_MEAN = 425
+NON_PURCHASING_STDDEV = 50
 
 # Default values
 DEFAULT_DAYS = 30

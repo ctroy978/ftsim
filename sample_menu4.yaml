@@ -1,0 +1,102 @@
+name: "Green Machine"
+
+items:
+  - name: "Acai Bowl"
+    price: 8.00
+    health_rating: 9
+    type: food
+    category: healthy
+    sub_type: sweet
+    energy_boost: false
+    inventory_per_day: 40
+    calories: 380
+
+  - name: "Grilled Chicken Salad"
+    price: 7.50
+    health_rating: 9
+    type: food
+    category: healthy
+    sub_type: savory
+    energy_boost: false
+    inventory_per_day: 45
+    calories: 350
+
+  - name: "Turkey Avocado Wrap"
+    price: 8.00
+    health_rating: 8
+    type: food
+    category: savory
+    sub_type: savory
+    energy_boost: false
+    inventory_per_day: 40
+    calories: 420
+
+  - name: "Poke Bowl"
+    price: 10.00
+    health_rating: 8
+    type: food
+    category: healthy
+    sub_type: savory
+    energy_boost: false
+    inventory_per_day: 30
+    calories: 450
+
+  - name: "Protein Energy Balls (4)"
+    price: 4.50
+    health_rating: 7
+    type: food
+    category: snack
+    sub_type: sweet
+    energy_boost: true
+    inventory_per_day: 50
+    calories: 280
+
+  - name: "Banana Oat Muffin"
+    price: 3.00
+    health_rating: 6
+    type: food
+    category: sweet
+    sub_type: sweet
+    energy_boost: false
+    inventory_per_day: 55
+    calories: 310
+
+  - name: "Green Power Smoothie"
+    price: 5.00
+    health_rating: 9
+    type: drink
+    category: juice
+    sub_type: sweet
+    energy_boost: true
+    inventory_per_day: 60
+    calories: 220
+
+  - name: "Cold Brew Coffee"
+    price: 4.00
+    health_rating: 5
+    type: drink
+    category: coffee
+    sub_type: sweet
+    energy_boost: true
+    inventory_per_day: 50
+    calories: 50
+
+  - name: "Coconut Water"
+    price: 3.00
+    health_rating: 9
+    type: drink
+    category: water
+    sub_type: sweet
+    energy_boost: false
+    inventory_per_day: 70
+    calories: 45
+
+  - name: "Berry Kombucha"
+    price: 3.50
+    health_rating: 7
+    type: drink
+    category: juice
+    sub_type: sweet
+    energy_boost: false
+    inventory_per_day: 45
+    calories: 60

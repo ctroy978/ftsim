@@ -1,0 +1,102 @@
+name: "Taco Town"
+
+items:
+  - name: "Street Tacos (3)"
+    price: 7.00
+    health_rating: 5
+    type: food
+    category: savory
+    sub_type: savory
+    energy_boost: false
+    inventory_per_day: 70
+    calories: 540
+
+  - name: "Chicken Quesadilla"
+    price: 6.50
+    health_rating: 4
+    type: food
+    category: fried
+    sub_type: savory
+    energy_boost: false
+    inventory_per_day: 55
+    calories: 620
+
+  - name: "Burrito Supreme"
+    price: 8.50
+    health_rating: 5
+    type: food
+    category: savory
+    sub_type: savory
+    energy_boost: false
+    inventory_per_day: 45
+    calories: 750
+
+  - name: "Fish Taco Plate"
+    price: 9.00
+    health_rating: 6
+    type: food
+    category: healthy
+    sub_type: savory
+    energy_boost: false
+    inventory_per_day: 30
+    calories: 480
+
+  - name: "Chips and Guac"
+    price: 4.00
+    health_rating: 5
+    type: food
+    category: snack
+    sub_type: savory
+    energy_boost: false
+    inventory_per_day: 80
+    calories: 360
+
+  - name: "Churros (3)"
+    price: 3.50
+    health_rating: 2
+    type: food
+    category: sweet
+    sub_type: sweet
+    energy_boost: false
+    inventory_per_day: 60
+    calories: 390
+
+  - name: "Horchata"
+    price: 3.00
+    health_rating: 3
+    type: drink
+    category: milk
+    sub_type: sweet
+    energy_boost: false
+    inventory_per_day: 70
+    calories: 200
+
+  - name: "Jarritos Soda"
+    price: 2.50
+    health_rating: 2
+    type: drink
+    category: soda
+    sub_type: sweet
+    energy_boost: false
+    inventory_per_day: 90
+    calories: 160
+
+  - name: "Agua Fresca"
+    price: 3.50
+    health_rating: 6
+    type: drink
+    category: juice
+    sub_type: sweet
+    energy_boost: false
+    inventory_per_day: 50
+    calories: 100
+
+  - name: "Mexican Hot Chocolate"
+    price: 3.00
+    health_rating: 3
+    type: drink
+    category: coffee
+    sub_type: sweet
+    energy_boost: true
+    inventory_per_day: 40
+    calories: 180

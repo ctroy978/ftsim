@@ -3,6 +3,7 @@
 import random
 from typing import List, Dict
 
+from ..config import NON_PURCHASING_MEAN, NON_PURCHASING_STDDEV
 from ..models.student import StudentProfile, StudentDailyState
 from ..models.menu_item import MenuItem
 from ..models.vendors import FoodTruck, SchoolLunch, FastFood
@@ -54,11 +55,20 @@ class SimulationEngine:
         for truck in self.trucks:
             truck.reset_inventory()
 
-        # Generate school lunch price
-        self.school_lunch.generate_daily_price()
+        # Generate school lunch daily menu
+        self.school_lunch.generate_daily_menu()
 
         # Generate daily states for all students
         daily_states = generate_daily_states(self.students)
+
+        # Determine how many students are non-purchasing today (absent / brought lunch)
+        num_non_purchasing = int(round(random.gauss(NON_PURCHASING_MEAN, NON_PURCHASING_STDDEV)))
+        num_non_purchasing = max(0, min(len(daily_states), num_non_purchasing))
+
+        # Randomly exclude them
+        if num_non_purchasing > 0:
+            random.shuffle(daily_states)
+            daily_states = daily_states[num_non_purchasing:]
 
         # Create lookup from student_id to profile
         profile_lookup = {p.student_id: p for p in self.students}
@@ -88,7 +98,7 @@ class SimulationEngine:
             profile = profile_lookup[state.student_id]
 
             # Make decision
-            make_decision(profile, state, self.trucks, self.school_lunch)
+            make_decision(profile, state, self.trucks, self.school_lunch, self.fast_food)
 
             # Record results
             if state.purchased_items and state.purchased_from_truck:
@@ -133,8 +143,8 @@ class SimulationEngine:
             day=day,
             truck_results=truck_results,
             losses_by_reason=losses_by_reason,
-            total_students=len(self.students),
-            school_lunch_price=self.school_lunch.price,
+            total_students=len(daily_states),
+            school_lunch_menu=[item.name for item in self.school_lunch.daily_menu],
             student_states=student_state_dicts,
         )
 
@@ -197,7 +207,7 @@ class SimulationEngine:
         # Determine winner
         winner = max(truck_aggregate.keys(), key=lambda t: truck_aggregate[t].total_revenue)
 
-        total_students_served = len(self.students) * self.num_days
+        total_students_served = sum(r.total_students for r in daily_results)
 
         return CompetitionAggregateResult(
             total_days=self.num_days,

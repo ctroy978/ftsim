@@ -1,15 +1,13 @@
 """Student decision logic for the food truck simulation."""
 
-import random
-from typing import List, Optional, Tuple
+from typing import List, Optional, Union
 from dataclasses import dataclass
 
 from ..models.menu_item import MenuItem
 from ..models.student import StudentProfile, StudentDailyState
-from ..models.vendors import FoodTruck, SchoolLunch
-from ..scoring.scorer import score_item, score_school_lunch
+from ..models.vendors import FoodTruck, SchoolLunch, FastFood
+from ..scoring.scorer import score_item
 from ..config import (
-    FAST_FOOD_CHANCE,
     LOSS_REASON_SCHOOL_LUNCH,
     LOSS_REASON_PRICE,
     LOSS_REASON_STOCKOUT,
@@ -19,33 +17,25 @@ from ..config import (
     PENALTY_NO_DRINK,
 )
 
+# Any vendor type that exposes the duck-typed menu interface
+Vendor = Union[FoodTruck, SchoolLunch, FastFood]
+
 
 @dataclass
 class TruckOption:
-    """Best food/drink option from a specific truck."""
-    truck: FoodTruck
+    """Best food/drink option from a specific vendor."""
+    truck: Vendor
     best_food: Optional[MenuItem]
     best_drink: Optional[MenuItem]
     combined_score: float
 
 
-def _check_fast_food(profile: StudentProfile, state: StudentDailyState) -> bool:
-    """Check if student chooses fast food.
-
-    Returns:
-        True if student chooses fast food
-    """
-    if profile.has_car and state.mood == "junk":
-        return random.random() < FAST_FOOD_CHANCE
-    return False
-
-
 def _find_best_items_for_truck(
-    truck: FoodTruck,
+    truck: Vendor,
     profile: StudentProfile,
     state: StudentDailyState,
 ) -> TruckOption:
-    """Find best food and drink items for student from a specific truck.
+    """Find best food and drink items for student from a specific vendor.
 
     Returns:
         TruckOption with (truck, best_food, best_drink, combined_score)
@@ -117,74 +107,85 @@ def make_decision(
     state: StudentDailyState,
     trucks: List[FoodTruck],
     school_lunch: SchoolLunch,
+    fast_food: FastFood,
 ) -> None:
     """Process a student's lunch decision.
 
+    Scores every vendor's menu through the same scoring system and picks the
+    vendor with the highest combined score.
+
     Modifies state in place to record the decision outcome.
-
-    Args:
-        profile: Student's permanent profile
-        state: Student's daily state (will be modified)
-        trucks: List of food trucks to consider
-        school_lunch: School lunch competitor
     """
-    # Check for fast food first
-    if _check_fast_food(profile, state):
-        state.chose_fast_food = True
-        state.loss_reason = LOSS_REASON_FASTFOOD
-        return
+    # ---- Collect candidate options from all vendors ----
 
-    # Find best truck option across all trucks
-    best_option = _find_best_items(trucks, profile, state)
+    # Food trucks
+    best_truck = _find_best_items(trucks, profile, state)
 
-    # Get school lunch score
-    school_score = score_school_lunch(profile, state, school_lunch.price)
+    # School lunch (always available)
+    school_option = _find_best_items_for_truck(school_lunch, profile, state)
 
-    # Check if any truck has items available
-    all_available = []
+    # Burger joint (only if student has car)
+    burger_option: Optional[TruckOption] = None
+    if profile.has_car:
+        burger_option = _find_best_items_for_truck(fast_food, profile, state)
+
+    # ---- Check if trucks have any stock at all ----
+    all_available: List[MenuItem] = []
     for truck in trucks:
         all_available.extend(truck.get_available_items())
-    if not all_available:
+
+    # ---- Pick the best overall vendor ----
+    candidates: List[TruckOption] = []
+    if best_truck and best_truck.best_food:
+        candidates.append(best_truck)
+    if school_option and school_option.best_food:
+        candidates.append(school_option)
+    if burger_option and burger_option.best_food:
+        candidates.append(burger_option)
+
+    if not candidates:
+        # Nothing available anywhere — default to school lunch loss
         state.chose_school_lunch = True
         state.loss_reason = LOSS_REASON_STOCKOUT
         return
 
-    # Check if any items are affordable
-    affordable_items = [item for item in all_available if item.price <= state.available_money]
-    if not affordable_items:
-        state.chose_school_lunch = True
-        state.loss_reason = LOSS_REASON_PRICE
-        return
+    winner = max(candidates, key=lambda c: c.combined_score)
 
-    # Compare scores
-    if best_option and best_option.combined_score > school_score and best_option.best_food:
-        # Buy from the best truck
-        truck = best_option.truck
-        best_food = best_option.best_food
-        best_drink = best_option.best_drink
-        remaining_money = state.available_money
+    # ---- Act on the winner ----
 
-        # Try to buy food
-        if best_food and best_food.price <= remaining_money:
-            if truck.sell_item(best_food):
-                state.purchased_items.append(best_food)
-                state.total_spent += best_food.price
-                state.purchased_from_truck = truck.name
-                remaining_money -= best_food.price
-
-        # Try to also buy drink if affordable (from same truck)
-        if best_drink and best_drink.price <= remaining_money:
-            if truck.sell_item(best_drink):
-                state.purchased_items.append(best_drink)
-                state.total_spent += best_drink.price
-
-        # Check if purchase was successful
-        if not state.purchased_items:
-            # Stockout occurred during purchase
-            state.chose_school_lunch = True
-            state.loss_reason = LOSS_REASON_STOCKOUT
-            state.purchased_from_truck = None
-    else:
-        # School lunch wins
+    if isinstance(winner.truck, SchoolLunch):
         state.chose_school_lunch = True
         state.loss_reason = LOSS_REASON_SCHOOL_LUNCH
+        return
+
+    if isinstance(winner.truck, FastFood):
+        state.chose_fast_food = True
+        state.loss_reason = LOSS_REASON_FASTFOOD
+        return
+
+    # Winner is a food truck — attempt purchase
+    truck = winner.truck
+    best_food = winner.best_food
+    best_drink = winner.best_drink
+    remaining_money = state.available_money
+
+    # Try to buy food
+    if best_food and best_food.price <= remaining_money:
+        if truck.sell_item(best_food):
+            state.purchased_items.append(best_food)
+            state.total_spent += best_food.price
+            state.purchased_from_truck = truck.name
+            remaining_money -= best_food.price
+
+    # Try to also buy drink if affordable (from same truck)
+    if best_drink and best_drink.price <= remaining_money:
+        if truck.sell_item(best_drink):
+            state.purchased_items.append(best_drink)
+            state.total_spent += best_drink.price
+
+    # Check if purchase was successful
+    if not state.purchased_items:
+        # Stockout occurred during purchase attempt
+        state.chose_school_lunch = True
+        state.loss_reason = LOSS_REASON_STOCKOUT
+        state.purchased_from_truck = None

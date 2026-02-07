@@ -21,7 +21,6 @@ from ..config import (
     SWEET_PREFERENCE_VALUES,
     HIGH_ACTIVITY_LEVELS,
     HIGH_METABOLISM_VALUES,
-    SCHOOL_LUNCH_HEALTH_RATING,
     ITEM_TYPE_DRINK,
 )
 
@@ -272,40 +271,3 @@ def score_item(
     return base_score * bonus_multiplier
 
 
-def score_school_lunch(
-    profile: StudentProfile,
-    state: StudentDailyState,
-    school_lunch_price: float,
-) -> float:
-    """Calculate score for school lunch option.
-
-    Args:
-        profile: Student's permanent profile
-        state: Student's daily state
-        school_lunch_price: Today's school lunch price
-
-    Returns:
-        Score for school lunch
-    """
-    # School lunch is always affordable (it's $0-2)
-    affordability_score = 1.0 if school_lunch_price <= state.available_money else 0.0
-
-    if affordability_score == 0:
-        return 0.0
-
-    # Moderate preference (not exciting but reliable)
-    preference_score = 0.35
-
-    # Mood/health score based on moderate health rating
-    health_score = SCHOOL_LUNCH_HEALTH_RATING / 10.0
-    if state.mood == "healthy":
-        mood_score = health_score
-    else:
-        mood_score = 1.0 - health_score
-
-    # Weighted score (no bonuses for school lunch)
-    return (
-        WEIGHT_PREFERENCE * preference_score
-        + WEIGHT_AFFORDABILITY * affordability_score
-        + WEIGHT_MOOD_HEALTH * mood_score
-    )

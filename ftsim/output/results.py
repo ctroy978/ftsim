@@ -33,7 +33,7 @@ class DailyResult:
     truck_results: Dict[str, TruckDailyResult]  # keyed by truck name
     losses_by_reason: Dict[str, int]  # reason -> count
     total_students: int
-    school_lunch_price: float
+    school_lunch_menu: List[str]
 
     # Optional detailed state for export
     student_states: List[Dict[str, Any]] = field(default_factory=list)
@@ -75,7 +75,7 @@ class DailyResult:
             "total_customers": self.customers,
             "losses_by_reason": self.losses_by_reason,
             "total_students": self.total_students,
-            "school_lunch_price": round(self.school_lunch_price, 2),
+            "school_lunch_menu": self.school_lunch_menu,
             "student_states": self.student_states,
         }
 

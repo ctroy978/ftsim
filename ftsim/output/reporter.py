@@ -13,7 +13,7 @@ def print_daily_summary(result: DailyResult) -> None:
     print(f"\n{'=' * 60}")
     print(f"Day {result.day} Summary")
     print(f"{'=' * 60}")
-    print(f"School Lunch Price: ${result.school_lunch_price:.2f}")
+    print(f"School Lunch Menu: {', '.join(result.school_lunch_menu)}")
 
     # Print per-truck results
     for truck_name, truck_result in result.truck_results.items():
