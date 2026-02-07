@@ -1,5 +1,6 @@
 """Student decision logic for the food truck simulation."""
 
+import random
 from typing import List, Optional, Union
 from dataclasses import dataclass
 
@@ -15,6 +16,10 @@ from ..config import (
     ITEM_TYPE_FOOD,
     ITEM_TYPE_DRINK,
     PENALTY_NO_DRINK,
+    EXTRA_PURCHASE_BASE_PROB,
+    EXTRA_PURCHASE_PROB_STDDEV,
+    EXTRA_PURCHASE_DECAY,
+    EXTRA_PURCHASE_MIN_SCORE_RATIO,
 )
 
 # Any vendor type that exposes the duck-typed menu interface
@@ -102,6 +107,82 @@ def _find_best_items(
     return best_option
 
 
+def _try_buy_extras(
+    truck: FoodTruck,
+    profile: StudentProfile,
+    state: StudentDailyState,
+    main_food: MenuItem,
+    main_food_score: float,
+    remaining_money: float,
+) -> float:
+    """Try to buy additional food items from the same truck after the main purchase.
+
+    Uses Gaussian-driven probability with decay to decide whether the student
+    wants additional items. Extras must be cheaper than the main item, score
+    above a minimum ratio, and respect sub_type compatibility.
+
+    Returns:
+        Updated remaining_money after any extra purchases.
+    """
+    purchased_names = {item.name for item in state.purchased_items}
+    current_prob = EXTRA_PURCHASE_BASE_PROB
+    main_is_sweet = main_food.sub_type == "sweet"
+    min_score = main_food_score * EXTRA_PURCHASE_MIN_SCORE_RATIO
+
+    while True:
+        # Gaussian probability check
+        desire = max(0.0, random.gauss(current_prob, EXTRA_PURCHASE_PROB_STDDEV))
+        if random.random() > desire:
+            break
+
+        # Temporarily set available_money for accurate affordability scoring
+        saved_money = state.available_money
+        state.available_money = remaining_money
+
+        # Find candidates: available food that qualifies as an extra
+        best_extra = None
+        best_extra_score = 0.0
+
+        for item in truck.get_available_food():
+            # Skip main item and already-purchased items
+            if item.name in purchased_names:
+                continue
+            # Must be cheaper than the main item
+            if item.price >= main_food.price:
+                continue
+            # Must be affordable
+            if item.price > remaining_money:
+                continue
+            # Sub_type rule: sweet main -> only sweet extras
+            if main_is_sweet and item.sub_type != "sweet":
+                continue
+
+            score = score_item(item, profile, state)
+            if score >= min_score and score > best_extra_score:
+                best_extra_score = score
+                best_extra = item
+
+        # Restore available_money
+        state.available_money = saved_money
+
+        if best_extra is None:
+            break
+
+        # Attempt purchase
+        if not truck.sell_item(best_extra):
+            break  # Stockout
+
+        state.purchased_items.append(best_extra)
+        state.total_spent += best_extra.price
+        remaining_money -= best_extra.price
+        purchased_names.add(best_extra.name)
+
+        # Decay probability for next iteration
+        current_prob *= EXTRA_PURCHASE_DECAY
+
+    return remaining_money
+
+
 def make_decision(
     profile: StudentProfile,
     state: StudentDailyState,
@@ -182,6 +263,14 @@ def make_decision(
         if truck.sell_item(best_drink):
             state.purchased_items.append(best_drink)
             state.total_spent += best_drink.price
+            remaining_money -= best_drink.price
+
+    # Try to buy extra food items (only if main food was purchased)
+    if state.purchased_items and best_food:
+        main_food_score = score_item(best_food, profile, state)
+        remaining_money = _try_buy_extras(
+            truck, profile, state, best_food, main_food_score, remaining_money
+        )
 
     # Check if purchase was successful
     if not state.purchased_items:

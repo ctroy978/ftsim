@@ -22,6 +22,12 @@ BONUS_CATEGORY_MATCH = 1.35  # +35% when item category matches student preferenc
 # Penalty for incomplete meal (can afford food but not drink)
 PENALTY_NO_DRINK = 0.85  # 15% penalty when student can't afford food + drink combo
 
+# Extra item purchasing parameters
+EXTRA_PURCHASE_BASE_PROB = 0.30      # 30% base chance of wanting an extra
+EXTRA_PURCHASE_PROB_STDDEV = 0.10    # Gaussian stddev for the probability
+EXTRA_PURCHASE_DECAY = 0.40          # Probability multiplier for each successive extra
+EXTRA_PURCHASE_MIN_SCORE_RATIO = 0.50  # Extra must score >= 50% of main item's score
+
 # Fuzzy match thresholds
 FUZZY_THRESHOLD_HIGH = 85  # High confidence match
 FUZZY_THRESHOLD_MEDIUM = 70  # Medium confidence match
